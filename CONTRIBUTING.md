@@ -11,18 +11,15 @@ Thanks for helping improve Agent Town! Contributions are welcome.
 
 ## Development setup
 
-1. Clone [JSRat GameEngine](https://github.com/roddyka/jsrat-gameengine).
-2. Place this repo in `games/agent-town/`.
-3. Run the engine dev server (`npm install`, `npm run dev`).
-4. Test Agent Town in the browser.
-
-For bridge-only changes:
+Requirements: **Node.js 18+**.
 
 ```bash
+git clone https://github.com/roddyka/AgentTown---Ratudan.git
+cd AgentTown---Ratudan
 node agent-server.cjs
 ```
 
-Then check `http://127.0.0.1:47110/api/state`.
+Open `http://127.0.0.1:47110` for the city visualizer, or check `http://127.0.0.1:47110/api/state` for the local agent bridge.
 
 ## Pull Request guidelines
 

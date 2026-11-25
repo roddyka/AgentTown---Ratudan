@@ -37,63 +37,35 @@ Instead of a dashboard full of logs, your agents appear as characters in a city:
 
 The goal is to make agent work visible, fun, and easy to understand at a glance.
 
-### What this repository contains
+### Quick start (standalone)
 
-This repo is the **Agent Town pack / bridge**, not the full JSRat GameEngine.
-
-Included here:
-
-- `assets/` - Agent Town / Ratudan RPG assets used by the visualizer.
-- `levels/` - Agent Town level data (`vale.json` configured for agent mode).
-- `design/` - game/design data.
-- `agent-server.cjs` - legacy/local agent bridge that detects local agents and exposes state/events.
-- `docs/` - screenshots and documentation assets.
-- `skills/` - optional skill definition for AI coding tools.
-
-Not included here:
-
-- The full JSRat GameEngine source.
-- Unrelated games/packs from the engine workspace.
-
-### How to run / see your agents
-
-> Agent Town is currently a game pack + local agent bridge. The full 3D city visualizer runs inside **JSRat GameEngine**.
-
-#### Option A - Full visualizer (recommended)
-
-1. Clone and install [JSRat GameEngine](https://github.com/roddyka/jsrat-gameengine).
-2. Copy or clone this repository into the engine's `games/agent-town/` folder.
-3. Run the engine dev server.
-4. Open Agent Town in the engine.
-
-Typical engine flow:
+Requirements: **Node.js 18+**.
 
 ```bash
-git clone https://github.com/roddyka/jsrat-gameengine.git
-cd jsrat-gameengine
-npm install
-# place this repo at games/agent-town/
-npm run dev
-```
-
-The embedded Agent Town API in the engine serves local agent state and the city reads it.
-
-#### Option B - Agent bridge only (legacy/simple)
-
-If you only want the local agent state API:
-
-```bash
+git clone https://github.com/roddyka/AgentTown---Ratudan.git
+cd AgentTown---Ratudan
 node agent-server.cjs
 ```
 
-Default endpoint: `http://127.0.0.1:47110/api/state`  
-SSE stream: `http://127.0.0.1:47110/stream`
+Then open:
 
-This is useful for debugging detection, but it does **not** render the 3D city by itself.
+- **City visualizer:** http://127.0.0.1:47110
+- **Agent state API:** http://127.0.0.1:47110/api/state
+- **SSE stream:** http://127.0.0.1:47110/stream
+
+No engine install, no build step. The `web/` folder contains the standalone city build and `agent-server.cjs` serves it together with the local agent bridge.
+
+### What this repository contains
+
+- `web/` - standalone 3D city build.
+- `agent-server.cjs` - local server + agent bridge (serves web UI and API).
+- `assets/`, `levels/`, `design/` - Agent Town/Ratudan game data and assets.
+- `docs/` - screenshots and documentation assets.
+- `skills/` - optional skill definition for AI coding tools.
 
 ### What agents can be detected
 
-The current bridge/engine integration can detect local agent sources such as:
+The local bridge can detect agent sources such as:
 
 - **OpenCode** sessions/jobs (local OpenCode DB polling)
 - **Claude** hook events / process presence
@@ -105,7 +77,7 @@ Detection depends on what is installed/running locally and which hooks/integrati
 
 - Agent detection is **local**.
 - The bridge reads local machine/session signals and serves them on localhost.
-- Do not expose the local agent bridge to the public internet.
+- Do **not** expose the local agent bridge to the public internet.
 - This repo does not include cloud telemetry.
 
 ### Contributing
@@ -130,8 +102,6 @@ If you want this repo to be installable as an AI skill:
 npx skills add roddyka/AgentTown---Ratudan
 ```
 
-The skills CLI discovers skills from common locations (`skills/`, `.agents/skills/`, `.claude/skills/`, etc.). Listing/ranking on skills.sh depends on anonymous install telemetry through the `skills` CLI.
-
 Useful references:
 
 - OpenCode Skills: https://opencode.ai/docs/skills/
@@ -154,63 +124,37 @@ Em vez de um painel cheio de logs, seus agentes aparecem como personagens na cid
 
 A ideia é deixar o trabalho dos agentes visível, divertido e fácil de entender.
 
-### O que este repositório contém
+### Como rodar (standalone)
 
-Este repo é o **pack/bridge do Agent Town**, não a JSRat GameEngine completa.
-
-Inclui:
-
-- `assets/` - assets RPG do Ratudan usados pelo visualizador.
-- `levels/` - dados da fase/cidade (`vale.json` em modo agentes).
-- `design/` - dados de design/jogo.
-- `agent-server.cjs` - bridge local legado que detecta agentes e expõe estado/eventos.
-- `docs/` - screenshots e documentação.
-- `skills/` - skill opcional para ferramentas de IA.
-
-Não inclui:
-
-- O código completo da JSRat GameEngine.
-- Outros jogos/packs do workspace da engine.
-
-### Como rodar / ver seus agentes
-
-> Hoje o Agent Town é um pack de jogo + bridge local. A cidade 3D completa roda dentro da **JSRat GameEngine**.
-
-#### Opção A - Visualizador completo (recomendado)
-
-1. Clone e instale a [JSRat GameEngine](https://github.com/roddyka/jsrat-gameengine).
-2. Copie ou clone este repositório para `games/agent-town/` dentro da engine.
-3. Rode o servidor de dev da engine.
-4. Abra o Agent Town.
-
-Fluxo típico:
+Requisito: **Node.js 18+**.
 
 ```bash
-git clone https://github.com/roddyka/jsrat-gameengine.git
-cd jsrat-gameengine
-npm install
-# coloque este repo em games/agent-town/
-npm run dev
-```
-
-#### Opção B - Só a bridge de agentes (legado/simples)
-
-Para expor apenas o estado local dos agentes:
-
-```bash
+git clone https://github.com/roddyka/AgentTown---Ratudan.git
+cd AgentTown---Ratudan
 node agent-server.cjs
 ```
 
-Endpoint padrão: `http://127.0.0.1:47110/api/state`  
-Stream SSE: `http://127.0.0.1:47110/stream`
+Depois abra:
 
-Isso ajuda a depurar detecção, mas **não** renderiza a cidade 3D sozinho.
+- **Cidade 3D:** http://127.0.0.1:47110
+- **API de estado:** http://127.0.0.1:47110/api/state
+- **Stream SSE:** http://127.0.0.1:47110/stream
+
+Sem instalar engine, sem build. A pasta `web/` contém o build standalone da cidade e o `agent-server.cjs` serve a UI e a bridge local.
+
+### O que este repositório contém
+
+- `web/` - build standalone da cidade 3D.
+- `agent-server.cjs` - servidor local + bridge de agentes.
+- `assets/`, `levels/`, `design/` - dados e assets do Agent Town/Ratudan.
+- `docs/` - screenshots e documentação.
+- `skills/` - skill opcional para ferramentas de IA.
 
 ### Privacidade
 
 - A detecção é **local**.
 - A bridge lê sinais/sessões locais e serve em localhost.
-- Não exponha a bridge na internet pública.
+- **Não** exponha a bridge na internet pública.
 - Este repo não inclui telemetria em nuvem.
 
 ### Contribuindo
@@ -231,22 +175,29 @@ En lugar de un panel lleno de logs, tus agentes aparecen como personajes en una 
 - **Waiting**: necesitan tu atención/permiso.
 - **Sleeping**: salen por el portal y vuelven cuando se activan.
 
-### Qué incluye este repositorio
+### Cómo ejecutarlo (standalone)
 
-Este repo es el **pack/bridge de Agent Town**, no el motor JSRat GameEngine completo.
-
-Incluye assets, nivel, diseño, bridge local de agentes, screenshots y una skill opcional.  
-No incluye el código completo del motor ni otros juegos.
-
-### Cómo ejecutarlo
-
-La ciudad 3D completa se ejecuta dentro de **JSRat GameEngine**. Coloca este repo en `games/agent-town/` dentro del motor y ejecuta el entorno de desarrollo.
-
-Para depurar solo la detección local:
+Requisito: **Node.js 18+**.
 
 ```bash
+git clone https://github.com/roddyka/AgentTown---Ratudan.git
+cd AgentTown---Ratudan
 node agent-server.cjs
 ```
+
+Abre:
+
+- **Ciudad 3D:** http://127.0.0.1:47110
+- **API de estado:** http://127.0.0.1:47110/api/state
+- **Stream SSE:** http://127.0.0.1:47110/stream
+
+Sin instalar motor, sin build. La carpeta `web/` contiene el build standalone y `agent-server.cjs` sirve la UI y el bridge local.
+
+### Privacidad
+
+- La detección es **local**.
+- No expongas el bridge a internet pública.
+- Este repo no incluye telemetría en la nube.
 
 ### Contribuir
 

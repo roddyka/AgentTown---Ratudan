@@ -1,6 +1,6 @@
 ---
 name: agent-town
-description: Use when working on Agent Town / Ratudan, a local AI agent visualizer RPG pack for JSRat GameEngine. Covers agent detection, portal sleep/wake, task monsters, HUD, classes, loot, and local bridge setup.
+description: Use when working on Agent Town / Ratudan, a standalone local AI agent visualizer in a Ratudan RPG city. Covers agent detection, portal sleep/wake, task monsters, HUD, classes, loot, and local bridge setup.
 ---
 
 # Agent Town / Ratudan
@@ -9,9 +9,9 @@ Agent Town turns local AI coding agents into characters in a Ratudan RPG city. U
 
 ## What this project is
 
-- A **game pack / visualizer**, not the full engine.
-- Runs inside **JSRat GameEngine**.
-- Reads local agent state from an embedded/legacy bridge (`/__agent/api/state`, `/stream`, `/events`).
+- A **standalone local visualizer** - no external engine install required.
+- `agent-server.cjs` serves the 3D city (`web/`) and the local agent bridge/API.
+- Reads local agent state from (`/api/state`, `/stream`, `/events`, also `/__agent/*`).
 
 ## Key files
 
@@ -39,10 +39,10 @@ When used inside JSRat GameEngine, key engine files are:
 
 ## Setup checklist
 
-1. Place repo in `games/agent-town/` inside JSRat GameEngine.
-2. Run engine dev server.
-3. Confirm agent API responds (`/__agent/api/state` or `http://127.0.0.1:47110/api/state` for legacy bridge).
-4. Open Agent Town and verify agents appear in HUD/city.
+1. Clone the repo and run `node agent-server.cjs`.
+2. Open `http://127.0.0.1:47110`.
+3. Confirm agent API responds (`/api/state`).
+4. Verify local agents appear in the HUD/city.
 
 ## Safety
 
