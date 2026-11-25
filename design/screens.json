@@ -1,0 +1,378 @@
+{
+  "style": {
+    "fontTitle": "Silkscreen",
+    "fontBody": "Pixelify Sans",
+    "ink": "#120c10",
+    "paper": "#efe2c4",
+    "accent": "#d8a93c",
+    "text": "#efe2c4"
+  },
+  "title": {
+    "logoLine1": "Rodents",
+    "logoSmall": "",
+    "logoLine2": "Legends",
+    "image": "rpg_icone_fazendeiro",
+    "showColorSquares": false,
+    "tag": "V {version}",
+    "align": "center",
+    "overlay": "rgba(10,6,10,0.35)",
+    "cameraSpin": 0,
+    "music": "music_rpg_menu",
+    "buttonPlay": "Jogar",
+    "buttonContinue": "Jogar",
+    "buttonLevels": "Fases",
+    "buttonAchievements": "Conquistas",
+    "buttonCommunity": "Online",
+    "communityEnabled": false,
+    "communitySoonInfo": "Em breve: jogar com amigos!",
+    "buttonEditor": "Editor",
+    "editorEnabled": false,
+    "comingSoon": "Em breve",
+    "editorSoonInfo": "Em breve!",
+    "buttonSettings": "Configurações",
+    "layout": {},
+    "buttons": [
+      {
+        "label": "Jogar",
+        "action": "play"
+      },
+      {
+        "label": "Conquistas",
+        "action": "achievements"
+      },
+      {
+        "label": "Configurações",
+        "action": "controls"
+      }
+    ]
+  },
+  "levels": {
+    "style": "list",
+    "title": "Regiões",
+    "locked": "Trancado",
+    "back": "Voltar",
+    "overlay": "rgba(10,6,10,0.8)",
+    "layout": {},
+    "mapHint": "",
+    "mapHintTouch": "",
+    "play": "Jogar",
+    "lockedInfo": "",
+    "best": "Melhor",
+    "bestTime": "Tempo",
+    "need": "",
+    "newLevel": "Novo!"
+  },
+  "controls": {
+    "title": "Configurações",
+    "keyboard": "Teclado",
+    "pad": "Controle",
+    "pressKey": "aperte uma tecla…",
+    "pressPad": "aperte um botão…",
+    "padOn": "Controle conectado:",
+    "padNone": "Nenhum controle — conecte um e aperte qualquer botão",
+    "restore": "Restaurar teclas",
+    "restored": "Teclas e botões voltaram ao padrão",
+    "a_left": "Andar ←",
+    "a_right": "Andar →",
+    "a_forward": "Andar ↑",
+    "a_back": "Andar ↓",
+    "a_jump": "",
+    "a_rotateLeft": "Poção de vida",
+    "a_rotateRight": "Poção de energia",
+    "a_interact": "",
+    "a_green": "Habilidade 1",
+    "a_blue": "Habilidade 2",
+    "a_red": "Habilidade 3",
+    "a_yellow": "Habilidade 4",
+    "a_ascend": "",
+    "a_descend": "",
+    "a_dash": "Correr / esquivar",
+    "a_attack": "Ataque básico",
+    "a_special": "Falar / pegar / usar",
+    "a_pause": "Pausa",
+    "a_mute": "Som liga/desliga",
+    "back": "Voltar",
+    "overlay": "rgba(10,6,10,0.85)",
+    "layout": {},
+    "saveTitle": "Dados salvos",
+    "saveEmpty": "Nada salvo ainda.",
+    "saveLast": "Último save",
+    "saveLevels": "Regiões",
+    "saveStars": "Estrelas",
+    "saveAchievements": "Conquistas",
+    "reset": "Apagar progresso",
+    "resetConfirm": "Tem certeza? Clique de novo para apagar",
+    "resetDone": "Progresso apagado"
+  },
+  "achievements": {
+    "title": "Conquistas",
+    "locked": "Bloqueada",
+    "back": "Voltar",
+    "overlay": "rgba(10,6,10,0.85)",
+    "layout": {}
+  },
+  "pause": {
+    "title": "Pausa",
+    "resume": "Continuar",
+    "retry": "",
+    "settings": "Configurações",
+    "menu": "Salvar e sair",
+    "overlay": "rgba(10,6,10,0.7)",
+    "layout": {}
+  },
+  "gameover": {
+    "title": "Você caiu",
+    "subtitle": "",
+    "image": "rpg_icone_fazendeiro",
+    "imageRotate": 0,
+    "imageGray": true,
+    "titleColor": "#a8202a",
+    "retry": "Renascer",
+    "menu": "Menu inicial",
+    "overlay": "rgba(30,0,0,0.7)",
+    "layout": {}
+  },
+  "complete": {
+    "title": "Vitória!",
+    "titleFinal": "Vitória!",
+    "subtitleFinal": "",
+    "image": "rpg_icone_cavaleiro",
+    "titleColor": "#d8a93c",
+    "next": "Continuar",
+    "retry": "Continuar",
+    "menu": "Menu inicial",
+    "statTime": "Tempo",
+    "statCrystals": "—",
+    "statHits": "—",
+    "statFalls": "—",
+    "overlay": "rgba(10,6,10,0.6)",
+    "layout": {},
+    "statStars": "—",
+    "statPercent": "—"
+  },
+  "hud": {
+    "intro": "",
+    "leverPrompt": "",
+    "showCompass": false,
+    "achievementPopup": "Conquista desbloqueada!",
+    "starToast": "",
+    "rotatePhone": "Gire o celular para jogar deitado",
+    "rotateAnyway": "Jogar assim mesmo"
+  },
+  "elements": {
+    "style": {
+      "font": "Silkscreen",
+      "text": "#efe2c4",
+      "hover": "#ffcf5a",
+      "accent": "#d8a93c",
+      "panel": "#120c10",
+      "panelOpacity": 0.78,
+      "hoverScale": 1.08
+    },
+    "screens": {
+      "menu": {
+        "panel": false,
+        "elements": [
+          {
+            "id": "title",
+            "type": "text",
+            "key": "RODENTS",
+            "x": 50,
+            "y": 13.5,
+            "size": 7.5,
+            "shadow": true,
+            "color": "#d8a93c",
+            "weight": 700
+          },
+          {
+            "id": "title2",
+            "type": "text",
+            "key": "LEGENDS",
+            "x": 50,
+            "y": 22.5,
+            "size": 5,
+            "shadow": true,
+            "color": "#efe2c4",
+            "weight": 700
+          },
+          {
+            "id": "sub",
+            "type": "text",
+            "key": "As Sombras do Fazendeiro",
+            "x": 50,
+            "y": 40,
+            "size": 2.4,
+            "color": "#ff9a6a",
+            "weight": 400,
+            "shadow": true
+          },
+          {
+            "id": "k",
+            "type": "image",
+            "icon": "rpg_icone_cavaleiro",
+            "x": 13,
+            "y": 70,
+            "size": 10
+          },
+          {
+            "id": "m",
+            "type": "image",
+            "icon": "rpg_icone_mago",
+            "x": 24,
+            "y": 76,
+            "size": 10
+          },
+          {
+            "id": "s",
+            "type": "image",
+            "icon": "rpg_icone_feiticeiro",
+            "x": 76,
+            "y": 76,
+            "size": 10
+          },
+          {
+            "id": "a",
+            "type": "image",
+            "icon": "rpg_icone_arqueiro",
+            "x": 87,
+            "y": 70,
+            "size": 10
+          },
+          {
+            "id": "play",
+            "type": "button",
+            "key": "ENTRAR NO VALE",
+            "action": "play",
+            "x": 50,
+            "y": 58.5,
+            "size": 3.6,
+            "shadow": true,
+            "color": "#efe2c4"
+          },
+          {
+            "id": "ach",
+            "type": "button",
+            "key": "Conquistas",
+            "action": "achievements",
+            "x": 50,
+            "y": 67,
+            "size": 2.8,
+            "shadow": true
+          },
+          {
+            "id": "settings",
+            "type": "button",
+            "key": "Configurações",
+            "action": "controls",
+            "x": 50,
+            "y": 74,
+            "size": 2.8,
+            "shadow": true
+          },
+          {
+            "id": "train",
+            "type": "button",
+            "key": "Treino",
+            "action": "level:treino",
+            "x": 50,
+            "y": 81,
+            "size": 2.8,
+            "shadow": true,
+            "color": "#9ad4ff"
+          },
+          {
+            "id": "quit",
+            "type": "button",
+            "key": "Sair",
+            "action": "quit",
+            "x": 50,
+            "y": 88,
+            "size": 2.6,
+            "only": "desktopApp",
+            "shadow": true
+          },
+          {
+            "id": "options",
+            "type": "options",
+            "x": 97,
+            "y": 3,
+            "ax": 1,
+            "ay": 0,
+            "size": 3
+          },
+          {
+            "id": "hint",
+            "type": "text",
+            "key": "Clique para andar e atacar · botão direito: habilidade · 1-4: habilidades · Q/E: poções",
+            "x": 50,
+            "y": 93.5,
+            "size": 1.8,
+            "opacity": 0.75,
+            "weight": 400,
+            "shadow": true
+          }
+        ]
+      },
+      "pause": {
+        "panel": true,
+        "elements": [
+          {
+            "id": "title",
+            "type": "text",
+            "key": "PAUSA",
+            "x": 50,
+            "y": 24,
+            "size": 8,
+            "shadow": true,
+            "color": "#d8a93c"
+          },
+          {
+            "id": "continue",
+            "type": "button",
+            "key": "Continuar",
+            "action": "resume",
+            "x": 50,
+            "y": 44,
+            "size": 5
+          },
+          {
+            "id": "settings",
+            "type": "button",
+            "key": "Configurações",
+            "action": "controls",
+            "x": 50,
+            "y": 55,
+            "size": 4
+          },
+          {
+            "id": "ach",
+            "type": "button",
+            "key": "Conquistas",
+            "action": "achievements",
+            "x": 50,
+            "y": 64,
+            "size": 4
+          },
+          {
+            "id": "menu",
+            "type": "button",
+            "key": "Salvar e sair",
+            "action": "menu",
+            "x": 50,
+            "y": 75,
+            "size": 4
+          },
+          {
+            "id": "options",
+            "type": "options",
+            "x": 97,
+            "y": 3,
+            "ax": 1,
+            "ay": 0,
+            "size": 3
+          }
+        ]
+      }
+    }
+  }
+}

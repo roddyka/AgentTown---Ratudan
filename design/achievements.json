@@ -1,0 +1,180 @@
+{
+  "achievements": [
+    {
+      "id": "PRIMEIRO_SANGUE",
+      "name": "Primeiro arranhão",
+      "description": "Derrote seu primeiro monstro.",
+      "icon": "🗡",
+      "condition": {
+        "type": "counter",
+        "key": "rpg_kills",
+        "count": 1
+      }
+    },
+    {
+      "id": "CEM",
+      "name": "Caçador de gatos",
+      "description": "Derrote 100 monstros.",
+      "icon": "🐾",
+      "condition": {
+        "type": "counter",
+        "key": "rpg_kills",
+        "count": 100
+      }
+    },
+    {
+      "id": "MIL",
+      "name": "Lenda do Vale",
+      "description": "Derrote 1000 monstros.",
+      "icon": "💀",
+      "condition": {
+        "type": "counter",
+        "key": "rpg_kills",
+        "count": 1000
+      }
+    },
+    {
+      "id": "NIVEL_5",
+      "name": "Aprendiz",
+      "description": "Chegue ao nível 5.",
+      "icon": "⭐",
+      "condition": {
+        "type": "counter",
+        "key": "rpg_level",
+        "count": 5
+      }
+    },
+    {
+      "id": "NIVEL_15",
+      "name": "Veterano",
+      "description": "Chegue ao nível 15.",
+      "icon": "🌟",
+      "condition": {
+        "type": "counter",
+        "key": "rpg_level",
+        "count": 15
+      }
+    },
+    {
+      "id": "NIVEL_30",
+      "name": "Herói de Ratudan",
+      "description": "Chegue ao nível 30.",
+      "icon": "👑",
+      "condition": {
+        "type": "counter",
+        "key": "rpg_level",
+        "count": 30
+      }
+    },
+    {
+      "id": "RABO",
+      "name": "Feitiço quebrado",
+      "description": "Derrote Rabo-Torto.",
+      "icon": "🐿",
+      "condition": {
+        "type": "counter",
+        "key": "rpg_boss_rabo_torto",
+        "count": 1
+      }
+    },
+    {
+      "id": "SAPO",
+      "name": "Água limpa",
+      "description": "Derrote o Lorde Sapo.",
+      "icon": "🐸",
+      "condition": {
+        "type": "counter",
+        "key": "rpg_boss_lorde_sapo",
+        "count": 1
+      }
+    },
+    {
+      "id": "GARRA",
+      "name": "Represa livre",
+      "description": "Derrote o Capataz Garra-de-Ferro.",
+      "icon": "🦫",
+      "condition": {
+        "type": "counter",
+        "key": "rpg_boss_capataz_garra",
+        "count": 1
+      }
+    },
+    {
+      "id": "NECRO",
+      "name": "Ossos ao pó",
+      "description": "Derrote o Mestre Bigode-Negro.",
+      "icon": "☠",
+      "condition": {
+        "type": "counter",
+        "key": "rpg_boss_necro_felino",
+        "count": 1
+      }
+    },
+    {
+      "id": "FAZENDEIRO",
+      "name": "O fim do Fazendeiro",
+      "description": "Derrote o Fazendeiro Malaquias.",
+      "icon": "🌾",
+      "condition": {
+        "type": "counter",
+        "key": "rpg_boss_fazendeiro",
+        "count": 1
+      }
+    },
+    {
+      "id": "LENDARIO",
+      "name": "Brilho laranja",
+      "description": "Encontre um item lendário.",
+      "icon": "✨",
+      "condition": {
+        "type": "counter",
+        "key": "rpg_legendary",
+        "count": 1
+      }
+    },
+    {
+      "id": "RICO",
+      "name": "Queijo de ouro",
+      "description": "Junte 5000 de ouro.",
+      "icon": "💰",
+      "condition": {
+        "type": "counter",
+        "key": "rpg_gold",
+        "count": 5000
+      }
+    },
+    {
+      "id": "MISSOES",
+      "name": "Amigo do vale",
+      "description": "Complete 10 missões.",
+      "icon": "📜",
+      "condition": {
+        "type": "counter",
+        "key": "rpg_quests",
+        "count": 10
+      }
+    },
+    {
+      "id": "AMIGO_GATO",
+      "name": "Nem todo gato é mau",
+      "description": "Ganhe a confiança de Bigodes.",
+      "icon": "🐱",
+      "condition": {
+        "type": "counter",
+        "key": "rpg_ally",
+        "count": 1
+      }
+    },
+    {
+      "id": "TODAS_CLASSES",
+      "name": "Versátil",
+      "description": "Crie um herói de cada classe.",
+      "icon": "🎭",
+      "condition": {
+        "type": "counter",
+        "key": "rpg_classes",
+        "count": 4
+      }
+    }
+  ]
+}

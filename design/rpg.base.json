@@ -1,0 +1,2674 @@
+{
+  "version": 1,
+  "title": "Rodents Legends",
+  "classes": {
+    "cavaleiro": {
+      "name": "Cavaleiro",
+      "sheet": "heroi_cavaleiro",
+      "icon": "rpg_icone_cavaleiro",
+      "desc": "Rato de armadura, inspirado no Paladino e no Bárbaro: luta corpo a corpo, aguenta pancada e ganha Fúria batendo.",
+      "role": "Corpo a corpo · resistente",
+      "main": "for",
+      "base": {
+        "for": 12,
+        "des": 6,
+        "vit": 11,
+        "ene": 3
+      },
+      "hp": 70,
+      "hpLvl": 9,
+      "resource": {
+        "name": "Fúria",
+        "color": "#e0583a",
+        "max": 100,
+        "regen": -2,
+        "perHit": 6,
+        "start": 0
+      },
+      "weapons": [
+        "espada",
+        "machado",
+        "maca"
+      ],
+      "start": "espada",
+      "range": 1.3,
+      "skills": [
+        "golpe",
+        "investida",
+        "redemoinho",
+        "grito",
+        "martelo"
+      ]
+    },
+    "mago": {
+      "name": "Mago",
+      "sheet": "heroi_mago",
+      "icon": "rpg_icone_mago",
+      "desc": "Rato branco estudioso, inspirado na Feiticeira e no Mago: fogo, gelo e teleporte. Pouca vida, muito estrago.",
+      "role": "Magias de longe · frágil",
+      "main": "ene",
+      "base": {
+        "for": 4,
+        "des": 7,
+        "vit": 7,
+        "ene": 14
+      },
+      "hp": 48,
+      "hpLvl": 6,
+      "resource": {
+        "name": "Mana",
+        "color": "#3a7be0",
+        "max": 80,
+        "regen": 4,
+        "perHit": 0,
+        "start": 1
+      },
+      "weapons": [
+        "cajado",
+        "varinha",
+        "orbe"
+      ],
+      "start": "cajado",
+      "range": 9,
+      "skills": [
+        "misseis",
+        "bola_fogo",
+        "nova_gelo",
+        "raio_cadeia",
+        "teleporte",
+        "meteoro"
+      ]
+    },
+    "feiticeiro": {
+      "name": "Feiticeiro",
+      "sheet": "heroi_feiticeiro",
+      "icon": "rpg_icone_feiticeiro",
+      "desc": "Rato das sombras, inspirado no Necromante e no Feiticeiro (Witch Doctor): drena vida, lança ossos, chama sapos e amaldiçoa.",
+      "role": "Invocações e maldições",
+      "main": "ene",
+      "base": {
+        "for": 6,
+        "des": 6,
+        "vit": 9,
+        "ene": 12
+      },
+      "hp": 56,
+      "hpLvl": 7,
+      "resource": {
+        "name": "Essência",
+        "color": "#9a4ae0",
+        "max": 90,
+        "regen": 3,
+        "perHit": 2,
+        "start": 1
+      },
+      "weapons": [
+        "varinha",
+        "orbe",
+        "cajado"
+      ],
+      "start": "varinha",
+      "range": 7,
+      "skills": [
+        "toque",
+        "lanca_ossos",
+        "veneno",
+        "sapos",
+        "erguer",
+        "maldicao"
+      ]
+    },
+    "arqueiro": {
+      "name": "Arqueiro",
+      "sheet": "heroi_arqueiro",
+      "icon": "rpg_icone_arqueiro",
+      "desc": "Esquilo da neve de capuz, inspirado na Amazona e no Caçador de Demônios: flechas rápidas, armadilhas e mobilidade.",
+      "role": "Ataques de longe · ágil",
+      "main": "des",
+      "base": {
+        "for": 6,
+        "des": 14,
+        "vit": 8,
+        "ene": 5
+      },
+      "hp": 56,
+      "hpLvl": 7,
+      "resource": {
+        "name": "Foco",
+        "color": "#5fbf4a",
+        "max": 60,
+        "regen": 7,
+        "perHit": 0,
+        "start": 1
+      },
+      "weapons": [
+        "arco"
+      ],
+      "start": "arco",
+      "range": 10,
+      "skills": [
+        "flecha",
+        "multiflecha",
+        "rolamento",
+        "perfurante",
+        "chuva"
+      ]
+    }
+  },
+  "skills": {
+    "golpe": {
+      "name": "Golpe",
+      "icon": "sk_golpe",
+      "kind": "melee",
+      "unlock": 1,
+      "cost": 0,
+      "cd": 0.62,
+      "dmg": [
+        5,
+        9
+      ],
+      "weapon": 1.2,
+      "arc": 100,
+      "range": 1.6,
+      "el": "fisico",
+      "gain": 1,
+      "desc": "Ataque básico em arco na frente. Gera Fúria.",
+      "cls": "cavaleiro"
+    },
+    "investida": {
+      "name": "Investida",
+      "icon": "sk_investida",
+      "kind": "dash",
+      "unlock": 2,
+      "cost": 20,
+      "cd": 4,
+      "dmg": [
+        8,
+        14
+      ],
+      "weapon": 1.2,
+      "range": 7,
+      "radius": 1.6,
+      "stun": 1.0,
+      "el": "fisico",
+      "desc": "Corre até o alvo, derruba e atordoa quem estiver no caminho.",
+      "cls": "cavaleiro"
+    },
+    "redemoinho": {
+      "name": "Redemoinho",
+      "icon": "sk_redemoinho",
+      "kind": "whirl",
+      "unlock": 4,
+      "cost": 30,
+      "cd": 6,
+      "dmg": [
+        4,
+        7
+      ],
+      "weapon": 0.6,
+      "radius": 2.2,
+      "dur": 2.4,
+      "tick": 0.3,
+      "el": "fisico",
+      "desc": "Gira com a arma por alguns segundos acertando tudo em volta (Bárbaro).",
+      "cls": "cavaleiro"
+    },
+    "grito": {
+      "name": "Grito de Guerra",
+      "icon": "sk_grito",
+      "kind": "buff",
+      "unlock": 7,
+      "cost": 25,
+      "cd": 18,
+      "dur": 10,
+      "radius": 4,
+      "stun": 1.2,
+      "buff": {
+        "dmg": 0.35,
+        "armor": 0.5
+      },
+      "desc": "Atordoa os inimigos perto e aumenta seu dano e armadura por 10 s.",
+      "cls": "cavaleiro"
+    },
+    "martelo": {
+      "name": "Martelo Sagrado",
+      "icon": "sk_martelo",
+      "kind": "hammer",
+      "unlock": 12,
+      "cost": 35,
+      "cd": 1.2,
+      "dmg": [
+        12,
+        18
+      ],
+      "weapon": 0,
+      "dur": 2.2,
+      "radius": 0.9,
+      "el": "sagrado",
+      "ene": true,
+      "desc": "Um martelo de luz gira em espiral à sua volta (Paladino). Ótimo contra gatos-esqueleto.",
+      "cls": "cavaleiro"
+    },
+    "misseis": {
+      "name": "Mísseis Mágicos",
+      "icon": "sk_misseis",
+      "kind": "projectile",
+      "unlock": 1,
+      "cost": 0,
+      "cd": 0.5,
+      "dmg": [
+        4,
+        7
+      ],
+      "weapon": 0.3,
+      "speed": 14,
+      "count": 1,
+      "range": 10,
+      "el": "raio",
+      "color": "#7ab4ff",
+      "gain": 2,
+      "desc": "Faísca rápida que nunca gasta mana. Recupera um pouco de mana ao acertar.",
+      "cls": "mago"
+    },
+    "bola_fogo": {
+      "name": "Bola de Fogo",
+      "icon": "sk_bola_fogo",
+      "kind": "projectile",
+      "unlock": 2,
+      "cost": 14,
+      "cd": 0.8,
+      "dmg": [
+        10,
+        16
+      ],
+      "weapon": 0.2,
+      "speed": 10,
+      "count": 1,
+      "range": 11,
+      "explode": 1.8,
+      "burn": 3,
+      "el": "fogo",
+      "color": "#ff7a2a",
+      "desc": "Explode ao acertar e queima quem estiver perto.",
+      "cls": "mago"
+    },
+    "nova_gelo": {
+      "name": "Nova de Gelo",
+      "icon": "sk_nova_gelo",
+      "kind": "nova",
+      "unlock": 4,
+      "cost": 22,
+      "cd": 3,
+      "dmg": [
+        7,
+        11
+      ],
+      "weapon": 0.2,
+      "radius": 4.5,
+      "slow": 0.5,
+      "dur": 3,
+      "el": "gelo",
+      "color": "#9ae0ff",
+      "desc": "Anel de gelo em volta de você: dano e lentidão.",
+      "cls": "mago"
+    },
+    "raio_cadeia": {
+      "name": "Raio em Cadeia",
+      "icon": "sk_raio",
+      "kind": "chain",
+      "unlock": 6,
+      "cost": 18,
+      "cd": 0.9,
+      "dmg": [
+        9,
+        15
+      ],
+      "weapon": 0.2,
+      "range": 10,
+      "radius": 5,
+      "jumps": 3,
+      "el": "raio",
+      "color": "#9ac4ff",
+      "desc": "Um raio que pula de inimigo em inimigo (Feiticeira). Mais ranques = mais pulos.",
+      "cls": "mago"
+    },
+    "teleporte": {
+      "name": "Teleporte",
+      "icon": "sk_teleporte",
+      "kind": "blink",
+      "unlock": 7,
+      "cost": 20,
+      "cd": 2.5,
+      "range": 8,
+      "desc": "Some e aparece onde o mouse aponta (sem atravessar paredes).",
+      "cls": "mago"
+    },
+    "meteoro": {
+      "name": "Meteoro",
+      "icon": "sk_meteoro",
+      "kind": "meteor",
+      "unlock": 12,
+      "cost": 40,
+      "cd": 5,
+      "dmg": [
+        30,
+        44
+      ],
+      "weapon": 0.2,
+      "radius": 2.6,
+      "delay": 1.0,
+      "burn": 6,
+      "el": "fogo",
+      "color": "#ff5a1a",
+      "desc": "Uma pedra em chamas cai do céu e deixa o chão pegando fogo.",
+      "cls": "mago"
+    },
+    "toque": {
+      "name": "Toque Sombrio",
+      "icon": "sk_toque",
+      "kind": "projectile",
+      "unlock": 1,
+      "cost": 0,
+      "cd": 0.6,
+      "dmg": [
+        2,
+        5
+      ],
+      "weapon": 0.5,
+      "speed": 11,
+      "count": 1,
+      "range": 8,
+      "el": "sombra",
+      "color": "#c04aff",
+      "leech": 0.3,
+      "gain": 3,
+      "desc": "Esfera de sombra: 30% do dano volta como vida.",
+      "cls": "feiticeiro"
+    },
+    "lanca_ossos": {
+      "name": "Lança de Ossos",
+      "icon": "sk_lanca_ossos",
+      "kind": "projectile",
+      "unlock": 2,
+      "cost": 16,
+      "cd": 0.9,
+      "dmg": [
+        11,
+        17
+      ],
+      "weapon": 0.2,
+      "speed": 16,
+      "count": 1,
+      "range": 12,
+      "pierce": true,
+      "el": "osso",
+      "color": "#ece4d0",
+      "desc": "Atravessa todos os inimigos em linha (Necromante).",
+      "cls": "feiticeiro"
+    },
+    "veneno": {
+      "name": "Nuvem de Veneno",
+      "icon": "sk_veneno",
+      "kind": "cloud",
+      "unlock": 4,
+      "cost": 24,
+      "cd": 4,
+      "dmg": [
+        4,
+        6
+      ],
+      "radius": 2.4,
+      "dur": 5,
+      "tick": 0.5,
+      "range": 9,
+      "el": "veneno",
+      "color": "#7ae04a",
+      "desc": "Nuvem verde no chão que envenena por 5 s.",
+      "cls": "feiticeiro"
+    },
+    "sapos": {
+      "name": "Invocar Sapos",
+      "icon": "sk_sapos",
+      "kind": "summon",
+      "unlock": 7,
+      "cost": 40,
+      "cd": 10,
+      "mob": "sapo_aliado",
+      "count": 2,
+      "dur": 40,
+      "desc": "Chama sapos amigos que lutam ao seu lado (Witch Doctor). Mais ranques = mais sapos.",
+      "cls": "feiticeiro"
+    },
+    "erguer": {
+      "name": "Erguer Mortos",
+      "icon": "sk_erguer",
+      "kind": "raise",
+      "unlock": 9,
+      "cost": 15,
+      "cd": 0.8,
+      "range": 9,
+      "radius": 4,
+      "desc": "Levanta um inimigo morto como zumbi aliado (Necromante). Chefes não. Mais ranques = mais zumbis e mais fortes.",
+      "cls": "feiticeiro"
+    },
+    "maldicao": {
+      "name": "Maldição",
+      "icon": "sk_maldicao",
+      "kind": "curse",
+      "unlock": 12,
+      "cost": 25,
+      "cd": 8,
+      "radius": 3.5,
+      "dur": 8,
+      "amp": 0.5,
+      "slow": 0.3,
+      "range": 10,
+      "color": "#b04ae0",
+      "desc": "Inimigos na área levam 50% mais dano e ficam lentos.",
+      "cls": "feiticeiro"
+    },
+    "flecha": {
+      "name": "Flecha",
+      "icon": "sk_flecha",
+      "kind": "projectile",
+      "unlock": 1,
+      "cost": 0,
+      "cd": 0.36,
+      "dmg": [
+        2,
+        4
+      ],
+      "weapon": 0.8,
+      "speed": 20,
+      "count": 1,
+      "range": 11,
+      "el": "fisico",
+      "arrow": true,
+      "gain": 2,
+      "desc": "Tiro rápido com o arco. Recupera Foco.",
+      "cls": "arqueiro"
+    },
+    "multiflecha": {
+      "name": "Multiflecha",
+      "icon": "sk_multiflecha",
+      "kind": "projectile",
+      "unlock": 2,
+      "cost": 14,
+      "cd": 1.1,
+      "dmg": [
+        2,
+        4
+      ],
+      "weapon": 0.75,
+      "speed": 18,
+      "count": 5,
+      "spread": 40,
+      "range": 10,
+      "el": "fisico",
+      "arrow": true,
+      "desc": "Leque de 5 flechas (Amazona). Mais ranques = mais flechas.",
+      "cls": "arqueiro"
+    },
+    "rolamento": {
+      "name": "Rolamento",
+      "icon": "sk_rolamento",
+      "kind": "roll",
+      "unlock": 4,
+      "cost": 12,
+      "cd": 3.5,
+      "range": 5,
+      "dmg": [
+        6,
+        10
+      ],
+      "radius": 2,
+      "trap": 2.5,
+      "el": "fogo",
+      "desc": "Rola para trás e deixa uma armadilha que explode (Caçador de Demônios).",
+      "cls": "arqueiro"
+    },
+    "perfurante": {
+      "name": "Flecha Perfurante",
+      "icon": "sk_perfurante",
+      "kind": "projectile",
+      "unlock": 7,
+      "cost": 20,
+      "cd": 1.4,
+      "dmg": [
+        8,
+        12
+      ],
+      "weapon": 1.6,
+      "speed": 26,
+      "count": 1,
+      "range": 14,
+      "pierce": true,
+      "el": "fisico",
+      "arrow": true,
+      "desc": "Atravessa a fila inteira de inimigos com dano alto.",
+      "cls": "arqueiro"
+    },
+    "chuva": {
+      "name": "Chuva de Flechas",
+      "icon": "sk_chuva",
+      "kind": "rain",
+      "unlock": 12,
+      "cost": 35,
+      "cd": 6,
+      "dmg": [
+        6,
+        9
+      ],
+      "weapon": 0.5,
+      "radius": 3,
+      "dur": 3,
+      "tick": 0.25,
+      "range": 11,
+      "el": "fisico",
+      "desc": "Uma chuva de flechas cai na área por 3 s.",
+      "cls": "arqueiro"
+    }
+  },
+  "monsters": {
+    "gato_vira_lata": {
+      "name": "Gato Saqueador",
+      "sheet": "mob_gato_vira_lata",
+      "h": 1.5,
+      "hp": 22,
+      "dmg": [
+        2,
+        4
+      ],
+      "speed": 3.2,
+      "range": 1.2,
+      "cd": 1.1,
+      "ai": "melee",
+      "xp": 9,
+      "flee": 0.25,
+      "chase": 11
+    },
+    "rato_peste": {
+      "name": "Rato da Peste",
+      "sheet": "mob_rato_peste",
+      "h": 1.3,
+      "hp": 14,
+      "dmg": [
+        1,
+        3
+      ],
+      "speed": 3.6,
+      "range": 1.1,
+      "cd": 0.9,
+      "ai": "melee",
+      "xp": 6,
+      "el": "veneno",
+      "flee": 0.3,
+      "chase": 9
+    },
+    "gato_preto": {
+      "name": "Gato Sombrio",
+      "sheet": "mob_gato_preto",
+      "h": 1.5,
+      "hp": 30,
+      "dmg": [
+        3,
+        6
+      ],
+      "speed": 4.2,
+      "range": 1.2,
+      "cd": 0.9,
+      "ai": "melee",
+      "xp": 14,
+      "chase": 13
+    },
+    "esquilo_bandido": {
+      "name": "Esquilo Enfeitiçado",
+      "sheet": "mob_esquilo_bandido",
+      "h": 1.5,
+      "hp": 26,
+      "dmg": [
+        3,
+        5
+      ],
+      "speed": 3.8,
+      "range": 1.2,
+      "cd": 1.0,
+      "ai": "melee",
+      "xp": 12,
+      "flee": 0.3,
+      "chase": 11
+    },
+    "esquilo_atirador": {
+      "name": "Esquilo Atirador",
+      "sheet": "mob_esquilo_atirador",
+      "h": 1.5,
+      "hp": 20,
+      "dmg": [
+        3,
+        5
+      ],
+      "speed": 3.0,
+      "range": 7,
+      "cd": 1.8,
+      "ai": "ranged",
+      "proj": "flecha",
+      "xp": 13,
+      "flee": 0.35,
+      "chase": 10,
+      "aggro": 9
+    },
+    "espantalho": {
+      "name": "Espantalho Vivo",
+      "sheet": "mob_espantalho",
+      "h": 1.8,
+      "hp": 48,
+      "dmg": [
+        5,
+        8
+      ],
+      "speed": 2.4,
+      "range": 1.4,
+      "cd": 1.4,
+      "ai": "brute",
+      "xp": 22,
+      "aggro": 5,
+      "chase": 8
+    },
+    "sapo_venenoso": {
+      "name": "Sapo Envenenado",
+      "sheet": "mob_sapo_venenoso",
+      "h": 1.4,
+      "hp": 34,
+      "dmg": [
+        3,
+        6
+      ],
+      "speed": 2.6,
+      "range": 6.5,
+      "cd": 2.0,
+      "ai": "ranged",
+      "proj": "veneno",
+      "xp": 18,
+      "el": "veneno",
+      "flee": 0.2,
+      "chase": 9
+    },
+    "gato_bruxo": {
+      "name": "Gato Bruxo",
+      "sheet": "mob_gato_bruxo",
+      "h": 1.5,
+      "hp": 30,
+      "dmg": [
+        5,
+        8
+      ],
+      "speed": 2.8,
+      "range": 8,
+      "cd": 2.4,
+      "ai": "caster",
+      "proj": "magia",
+      "xp": 24,
+      "el": "sombra",
+      "flee": 0.2,
+      "chase": 10,
+      "aggro": 9
+    },
+    "castor_bruto": {
+      "name": "Castor Enfeitiçado",
+      "sheet": "mob_castor_bruto",
+      "h": 1.9,
+      "hp": 80,
+      "dmg": [
+        7,
+        12
+      ],
+      "speed": 2.4,
+      "range": 1.5,
+      "cd": 1.6,
+      "ai": "brute",
+      "xp": 34,
+      "aggro": 4.5,
+      "chase": 8
+    },
+    "gato_capataz": {
+      "name": "Gato Capataz",
+      "sheet": "mob_gato_capataz",
+      "h": 1.6,
+      "hp": 60,
+      "dmg": [
+        6,
+        10
+      ],
+      "speed": 3.4,
+      "range": 1.3,
+      "cd": 1.1,
+      "ai": "melee",
+      "xp": 32,
+      "chase": 13
+    },
+    "gato_esqueleto": {
+      "name": "Gato-Esqueleto",
+      "sheet": "mob_gato_esqueleto",
+      "h": 1.5,
+      "hp": 44,
+      "dmg": [
+        6,
+        10
+      ],
+      "speed": 3.0,
+      "range": 1.2,
+      "cd": 1.1,
+      "ai": "melee",
+      "xp": 30,
+      "undead": true,
+      "chase": 15
+    },
+    "gato_esqueleto_arqueiro": {
+      "name": "Gato-Esqueleto Arqueiro",
+      "sheet": "mob_gato_esqueleto_arqueiro",
+      "h": 1.5,
+      "hp": 34,
+      "dmg": [
+        6,
+        9
+      ],
+      "speed": 2.8,
+      "range": 8,
+      "cd": 1.9,
+      "ai": "ranged",
+      "proj": "flecha",
+      "xp": 32,
+      "undead": true,
+      "chase": 13,
+      "aggro": 9
+    },
+    "toupeira": {
+      "name": "Toupeira Mineira",
+      "sheet": "mob_toupeira",
+      "h": 1.4,
+      "hp": 50,
+      "dmg": [
+        6,
+        9
+      ],
+      "speed": 3.0,
+      "range": 1.2,
+      "cd": 1.2,
+      "ai": "melee",
+      "xp": 28,
+      "flee": 0.25,
+      "aggro": 5,
+      "chase": 9
+    },
+    "rabo_torto": {
+      "name": "Rabo-Torto, o Esquilo Enfeitiçado",
+      "sheet": "mob_chefe_bandido",
+      "h": 2.4,
+      "hp": 260,
+      "dmg": [
+        8,
+        13
+      ],
+      "speed": 4.0,
+      "range": 1.6,
+      "cd": 0.9,
+      "ai": "boss",
+      "xp": 220,
+      "boss": true,
+      "skill": "dash"
+    },
+    "lorde_sapo": {
+      "name": "Lorde Sapo",
+      "sheet": "mob_lorde_sapo",
+      "h": 2.8,
+      "hp": 420,
+      "dmg": [
+        9,
+        15
+      ],
+      "speed": 2.6,
+      "range": 7,
+      "cd": 1.6,
+      "ai": "boss",
+      "proj": "veneno",
+      "xp": 380,
+      "boss": true,
+      "skill": "nova",
+      "el": "veneno"
+    },
+    "capataz_garra": {
+      "name": "Capataz Garra-de-Ferro",
+      "sheet": "mob_gato_capataz",
+      "h": 2.6,
+      "hp": 620,
+      "dmg": [
+        13,
+        20
+      ],
+      "speed": 3.6,
+      "range": 1.7,
+      "cd": 1.1,
+      "ai": "boss",
+      "xp": 560,
+      "boss": true,
+      "skill": "summon",
+      "summon": "gato_preto"
+    },
+    "necro_felino": {
+      "name": "Mestre Bigode-Negro, o Necromante",
+      "sheet": "mob_gato_bruxo",
+      "h": 2.6,
+      "hp": 780,
+      "dmg": [
+        14,
+        22
+      ],
+      "speed": 2.8,
+      "range": 8,
+      "cd": 1.4,
+      "ai": "boss",
+      "proj": "magia",
+      "xp": 800,
+      "boss": true,
+      "skill": "summon",
+      "summon": "gato_esqueleto",
+      "el": "sombra"
+    },
+    "fazendeiro": {
+      "name": "Fazendeiro Malaquias",
+      "sheet": "mob_fazendeiro",
+      "h": 3.6,
+      "hp": 1600,
+      "dmg": [
+        18,
+        30
+      ],
+      "speed": 3.0,
+      "range": 2.2,
+      "cd": 1.3,
+      "ai": "boss",
+      "proj": "magia",
+      "xp": 2000,
+      "boss": true,
+      "skill": "all",
+      "summon": "gato_esqueleto",
+      "el": "sombra"
+    },
+    "boneco": {
+      "name": "Boneco de Treino",
+      "sheet": "mob_boneco",
+      "h": 1.6,
+      "hp": 500,
+      "dmg": [
+        0,
+        0
+      ],
+      "speed": 0,
+      "range": 0,
+      "cd": 99,
+      "ai": "passive",
+      "xp": 0,
+      "dummy": true
+    },
+    "boneco_atacante": {
+      "name": "Gato de Treino",
+      "sheet": "mob_boneco_atacante",
+      "h": 1.5,
+      "hp": 300,
+      "dmg": [
+        4,
+        7
+      ],
+      "speed": 0,
+      "range": 1.8,
+      "cd": 1.3,
+      "ai": "melee",
+      "xp": 0,
+      "dummy": true
+    },
+    "rei_peste": {
+      "name": "Rei da Peste",
+      "sheet": "mob_rato_peste",
+      "h": 2.4,
+      "hp": 220,
+      "dmg": [
+        5,
+        9
+      ],
+      "speed": 3.4,
+      "range": 1.5,
+      "cd": 1.0,
+      "ai": "boss",
+      "xp": 180,
+      "boss": true,
+      "skill": "summon",
+      "summon": "rato_peste",
+      "el": "veneno"
+    },
+    "toupeira_rainha": {
+      "name": "Rainha Toupeira",
+      "sheet": "mob_toupeira",
+      "h": 2.6,
+      "hp": 680,
+      "dmg": [
+        12,
+        18
+      ],
+      "speed": 3.0,
+      "range": 1.7,
+      "cd": 1.1,
+      "ai": "boss",
+      "xp": 620,
+      "boss": true,
+      "skill": "dash"
+    },
+    "sacerdote_ossudo": {
+      "name": "Sacerdote Ossudo",
+      "sheet": "mob_gato_esqueleto",
+      "h": 2.7,
+      "hp": 880,
+      "dmg": [
+        14,
+        22
+      ],
+      "speed": 2.8,
+      "range": 8,
+      "cd": 1.4,
+      "ai": "boss",
+      "proj": "magia",
+      "xp": 880,
+      "boss": true,
+      "skill": "all",
+      "summon": "gato_esqueleto",
+      "el": "sombra"
+    },
+    "sapo_aliado": {
+      "name": "Sapo Amigo",
+      "sheet": "aliado_sapo",
+      "h": 1.2,
+      "hp": 40,
+      "dmg": [
+        3,
+        6
+      ],
+      "speed": 4.0,
+      "range": 1.2,
+      "cd": 0.9,
+      "ai": "ally",
+      "xp": 0
+    },
+    "bigodes": {
+      "name": "Bigodes",
+      "sheet": "npc_gato_amigo",
+      "h": 1.5,
+      "hp": 90,
+      "dmg": [
+        4,
+        8
+      ],
+      "speed": 4.4,
+      "range": 1.3,
+      "cd": 0.8,
+      "ai": "ally",
+      "xp": 0
+    }
+  },
+  "zones": [
+    {
+      "id": "vila",
+      "name": "Vila Queijeira",
+      "rect": [
+        -13,
+        -13,
+        13,
+        13
+      ],
+      "level": 1,
+      "mobs": [],
+      "count": 0,
+      "safe": true,
+      "tint": "#2a2420"
+    },
+    {
+      "id": "campos",
+      "name": "Campos Queimados",
+      "rect": [
+        -26,
+        -26,
+        26,
+        28
+      ],
+      "level": 1,
+      "mobs": [
+        [
+          "gato_vira_lata",
+          3
+        ],
+        [
+          "rato_peste",
+          2
+        ]
+      ],
+      "count": 26,
+      "tint": "#2e2620"
+    },
+    {
+      "id": "bosque",
+      "name": "Bosque dos Sussurros",
+      "rect": [
+        -24,
+        -63,
+        24,
+        -27
+      ],
+      "level": 4,
+      "mobs": [
+        [
+          "gato_preto",
+          3
+        ],
+        [
+          "esquilo_bandido",
+          3
+        ],
+        [
+          "esquilo_atirador",
+          2
+        ],
+        [
+          "espantalho",
+          1
+        ]
+      ],
+      "count": 34,
+      "tint": "#18241c"
+    },
+    {
+      "id": "pantano",
+      "name": "Pântano Lodoso",
+      "rect": [
+        27,
+        -40,
+        63,
+        28
+      ],
+      "level": 7,
+      "mobs": [
+        [
+          "sapo_venenoso",
+          4
+        ],
+        [
+          "gato_bruxo",
+          2
+        ],
+        [
+          "rato_peste",
+          2
+        ]
+      ],
+      "count": 34,
+      "tint": "#1e2a1a"
+    },
+    {
+      "id": "represa",
+      "name": "Represa dos Castores",
+      "rect": [
+        -30,
+        34,
+        63,
+        63
+      ],
+      "level": 10,
+      "mobs": [
+        [
+          "castor_bruto",
+          3
+        ],
+        [
+          "gato_capataz",
+          3
+        ],
+        [
+          "gato_preto",
+          2
+        ],
+        [
+          "toupeira",
+          2
+        ]
+      ],
+      "count": 34,
+      "tint": "#1a2230"
+    },
+    {
+      "id": "cemiterio",
+      "name": "Cemitério dos Sete Rabos",
+      "rect": [
+        -63,
+        -26,
+        -27,
+        33
+      ],
+      "level": 13,
+      "mobs": [
+        [
+          "gato_esqueleto",
+          4
+        ],
+        [
+          "gato_esqueleto_arqueiro",
+          3
+        ],
+        [
+          "gato_bruxo",
+          2
+        ]
+      ],
+      "count": 36,
+      "tint": "#1c1a24"
+    },
+    {
+      "id": "pomar",
+      "name": "Pomar dos Esquilos",
+      "rect": [
+        64,
+        -63,
+        126,
+        -14
+      ],
+      "level": 5,
+      "mobs": [
+        [
+          "esquilo_bandido",
+          3
+        ],
+        [
+          "gato_vira_lata",
+          2
+        ],
+        [
+          "esquilo_atirador",
+          2
+        ]
+      ],
+      "count": 24,
+      "tint": "#1e2a1a"
+    },
+    {
+      "id": "moinho",
+      "name": "Moinho do Vale",
+      "rect": [
+        64,
+        -13,
+        126,
+        28
+      ],
+      "level": 6,
+      "mobs": [
+        [
+          "rato_peste",
+          3
+        ],
+        [
+          "espantalho",
+          2
+        ],
+        [
+          "gato_preto",
+          2
+        ]
+      ],
+      "count": 24,
+      "tint": "#2a2618"
+    },
+    {
+      "id": "minas",
+      "name": "Minas da Toupeira",
+      "rect": [
+        64,
+        35,
+        126,
+        63
+      ],
+      "level": 11,
+      "mobs": [
+        [
+          "toupeira",
+          4
+        ],
+        [
+          "gato_capataz",
+          2
+        ],
+        [
+          "castor_bruto",
+          2
+        ]
+      ],
+      "count": 26,
+      "tint": "#1a1818"
+    },
+    {
+      "id": "fazenda",
+      "name": "Fazenda Sombria",
+      "rect": [
+        -63,
+        -63,
+        -25,
+        -27
+      ],
+      "level": 16,
+      "mobs": [
+        [
+          "espantalho",
+          3
+        ],
+        [
+          "gato_esqueleto",
+          3
+        ],
+        [
+          "gato_capataz",
+          2
+        ],
+        [
+          "gato_esqueleto_arqueiro",
+          2
+        ]
+      ],
+      "count": 30,
+      "tint": "#24141a"
+    }
+  ],
+  "bosses": [
+    {
+      "mob": "rabo_torto",
+      "pos": [
+        6,
+        -54
+      ],
+      "level": 6
+    },
+    {
+      "mob": "lorde_sapo",
+      "pos": [
+        52,
+        -24
+      ],
+      "level": 9
+    },
+    {
+      "mob": "capataz_garra",
+      "pos": [
+        40,
+        54
+      ],
+      "level": 12
+    },
+    {
+      "mob": "necro_felino",
+      "pos": [
+        -50,
+        22
+      ],
+      "level": 15
+    },
+    {
+      "mob": "fazendeiro",
+      "pos": [
+        -46,
+        -50
+      ],
+      "level": 18
+    }
+  ],
+  "weapons": {
+    "espada": {
+      "name": "Espada",
+      "slot": "arma",
+      "icon": "it_espada",
+      "dmg": [
+        3,
+        7
+      ],
+      "cls": [
+        "cavaleiro"
+      ]
+    },
+    "machado": {
+      "name": "Machado",
+      "slot": "arma",
+      "icon": "it_machado",
+      "dmg": [
+        4,
+        9
+      ],
+      "cls": [
+        "cavaleiro"
+      ],
+      "speed": -0.1
+    },
+    "maca": {
+      "name": "Maça",
+      "slot": "arma",
+      "icon": "it_maca",
+      "dmg": [
+        5,
+        8
+      ],
+      "cls": [
+        "cavaleiro"
+      ],
+      "undead": 0.5
+    },
+    "cajado": {
+      "name": "Cajado",
+      "slot": "arma",
+      "icon": "it_cajado",
+      "dmg": [
+        2,
+        5
+      ],
+      "cls": [
+        "mago",
+        "feiticeiro"
+      ],
+      "ene": 3
+    },
+    "varinha": {
+      "name": "Varinha",
+      "slot": "arma",
+      "icon": "it_varinha",
+      "dmg": [
+        2,
+        4
+      ],
+      "cls": [
+        "mago",
+        "feiticeiro"
+      ],
+      "mana": 10
+    },
+    "orbe": {
+      "name": "Orbe",
+      "slot": "arma",
+      "icon": "it_orbe",
+      "dmg": [
+        1,
+        4
+      ],
+      "cls": [
+        "mago",
+        "feiticeiro"
+      ],
+      "skill": 0.1
+    },
+    "arco": {
+      "name": "Arco",
+      "slot": "arma",
+      "icon": "it_arco",
+      "dmg": [
+        3,
+        6
+      ],
+      "cls": [
+        "arqueiro"
+      ]
+    }
+  },
+  "armors": {
+    "elmo": {
+      "name": "Elmo",
+      "slot": "cabeca",
+      "icon": "it_elmo",
+      "armor": 4
+    },
+    "capuz": {
+      "name": "Capuz",
+      "slot": "cabeca",
+      "icon": "it_capuz",
+      "armor": 2,
+      "des": 1
+    },
+    "armadura": {
+      "name": "Armadura",
+      "slot": "corpo",
+      "icon": "it_armadura",
+      "armor": 9
+    },
+    "manto": {
+      "name": "Manto",
+      "slot": "corpo",
+      "icon": "it_manto",
+      "armor": 4,
+      "ene": 2
+    },
+    "luvas": {
+      "name": "Luvas",
+      "slot": "maos",
+      "icon": "it_luvas",
+      "armor": 2
+    },
+    "botas": {
+      "name": "Botas",
+      "slot": "pes",
+      "icon": "it_botas",
+      "armor": 2,
+      "ms": 0.03
+    },
+    "anel": {
+      "name": "Anel",
+      "slot": "anel",
+      "icon": "it_anel",
+      "armor": 0
+    },
+    "amuleto": {
+      "name": "Amuleto",
+      "slot": "amuleto",
+      "icon": "it_amuleto",
+      "armor": 0
+    }
+  },
+  "affixes": [
+    {
+      "id": "dmg",
+      "stat": "dmgPct",
+      "min": 0.08,
+      "max": 0.35,
+      "name": "do Corte",
+      "fmt": "+{v}% de dano",
+      "pct": true,
+      "slots": [
+        "arma",
+        "anel",
+        "amuleto",
+        "maos"
+      ]
+    },
+    {
+      "id": "for",
+      "stat": "for",
+      "min": 1,
+      "max": 8,
+      "name": "do Urso",
+      "fmt": "+{v} Força"
+    },
+    {
+      "id": "des",
+      "stat": "des",
+      "min": 1,
+      "max": 8,
+      "name": "do Gato",
+      "fmt": "+{v} Destreza"
+    },
+    {
+      "id": "vit",
+      "stat": "vit",
+      "min": 1,
+      "max": 8,
+      "name": "da Baleia",
+      "fmt": "+{v} Vitalidade"
+    },
+    {
+      "id": "ene",
+      "stat": "ene",
+      "min": 1,
+      "max": 8,
+      "name": "da Coruja",
+      "fmt": "+{v} Energia"
+    },
+    {
+      "id": "hp",
+      "stat": "hp",
+      "min": 6,
+      "max": 40,
+      "name": "da Vida",
+      "fmt": "+{v} de vida"
+    },
+    {
+      "id": "res",
+      "stat": "res",
+      "min": 5,
+      "max": 25,
+      "name": "da Sabedoria",
+      "fmt": "+{v} de recurso máximo"
+    },
+    {
+      "id": "armor",
+      "stat": "armor",
+      "min": 3,
+      "max": 22,
+      "name": "da Muralha",
+      "fmt": "+{v} de armadura",
+      "slots": [
+        "cabeca",
+        "corpo",
+        "maos",
+        "pes"
+      ]
+    },
+    {
+      "id": "crit",
+      "stat": "crit",
+      "min": 0.02,
+      "max": 0.1,
+      "name": "da Precisão",
+      "fmt": "+{v}% de chance crítica",
+      "pct": true
+    },
+    {
+      "id": "speed",
+      "stat": "ias",
+      "min": 0.05,
+      "max": 0.25,
+      "name": "da Pressa",
+      "fmt": "+{v}% de velocidade de ataque",
+      "pct": true,
+      "slots": [
+        "arma",
+        "maos",
+        "anel"
+      ]
+    },
+    {
+      "id": "leech",
+      "stat": "leech",
+      "min": 0.02,
+      "max": 0.07,
+      "name": "do Vampiro",
+      "fmt": "{v}% do dano vira vida",
+      "pct": true,
+      "slots": [
+        "arma",
+        "anel",
+        "amuleto"
+      ]
+    },
+    {
+      "id": "ms",
+      "stat": "ms",
+      "min": 0.05,
+      "max": 0.2,
+      "name": "do Vento",
+      "fmt": "+{v}% de velocidade de corrida",
+      "pct": true,
+      "slots": [
+        "pes"
+      ]
+    },
+    {
+      "id": "regen",
+      "stat": "regen",
+      "min": 0.5,
+      "max": 3,
+      "name": "da Cura",
+      "fmt": "+{v} de vida por segundo"
+    },
+    {
+      "id": "gold",
+      "stat": "gold",
+      "min": 0.1,
+      "max": 0.6,
+      "name": "da Fortuna",
+      "fmt": "+{v}% de ouro achado",
+      "pct": true,
+      "slots": [
+        "anel",
+        "amuleto",
+        "cabeca"
+      ]
+    },
+    {
+      "id": "skill",
+      "stat": "skill",
+      "min": 1,
+      "max": 1,
+      "name": "do Mestre",
+      "fmt": "+{v} em todas as habilidades",
+      "slots": [
+        "amuleto",
+        "arma"
+      ],
+      "minLvl": 8
+    }
+  ],
+  "uniques": [
+    {
+      "id": "queijo_eterno",
+      "name": "Lâmina do Queijo Eterno",
+      "base": "espada",
+      "lvl": 6,
+      "stats": {
+        "dmgPct": 0.6,
+        "for": 6,
+        "leech": 0.05
+      },
+      "lore": "Forjada no primeiro queijo da Vila."
+    },
+    {
+      "id": "cajado_anciao",
+      "name": "Cajado do Rato Ancião",
+      "base": "cajado",
+      "lvl": 6,
+      "stats": {
+        "dmgPct": 0.5,
+        "ene": 10,
+        "res": 30
+      },
+      "lore": "Ainda cheira a biblioteca."
+    },
+    {
+      "id": "arco_vento",
+      "name": "Arco do Vento Norte",
+      "base": "arco",
+      "lvl": 6,
+      "stats": {
+        "dmgPct": 0.55,
+        "des": 8,
+        "ias": 0.2
+      },
+      "lore": "As flechas assobiam."
+    },
+    {
+      "id": "varinha_sapo",
+      "name": "Varinha do Brejo",
+      "base": "varinha",
+      "lvl": 6,
+      "stats": {
+        "dmgPct": 0.5,
+        "ene": 8,
+        "skill": 1
+      },
+      "lore": "Um sapo ainda mora nela."
+    },
+    {
+      "id": "capuz_noite",
+      "name": "Capuz da Noite sem Lua",
+      "base": "capuz",
+      "lvl": 8,
+      "stats": {
+        "armor": 20,
+        "crit": 0.08,
+        "ms": 0.1
+      },
+      "lore": "Nem os gatos te enxergam."
+    },
+    {
+      "id": "armadura_ratudan",
+      "name": "Couraça de Ratudan",
+      "base": "armadura",
+      "lvl": 10,
+      "stats": {
+        "armor": 45,
+        "vit": 10,
+        "hp": 50
+      },
+      "lore": "Da guarda do Rei."
+    },
+    {
+      "id": "anel_bigode",
+      "name": "Anel do Bigode Torto",
+      "base": "anel",
+      "lvl": 8,
+      "stats": {
+        "gold": 0.8,
+        "crit": 0.06,
+        "des": 5
+      },
+      "lore": "Roubado de um gato bem rico."
+    },
+    {
+      "id": "amuleto_castor",
+      "name": "Dente do Castor-Rei",
+      "base": "amuleto",
+      "lvl": 12,
+      "stats": {
+        "skill": 1,
+        "vit": 8,
+        "regen": 3
+      },
+      "lore": "Rói até pedra."
+    },
+    {
+      "id": "botas_espantalho",
+      "name": "Botas do Espantalho",
+      "base": "botas",
+      "lvl": 14,
+      "stats": {
+        "ms": 0.25,
+        "armor": 18,
+        "hp": 30
+      },
+      "lore": "Recheadas de palha mágica."
+    }
+  ],
+  "consumables": {
+    "pocao_vida": {
+      "name": "Poção de Vida",
+      "icon": "it_pocao_vida",
+      "price": 25,
+      "desc": "Recupera 40% da vida aos poucos. Atalho: Q."
+    },
+    "pocao_mana": {
+      "name": "Poção de Energia",
+      "icon": "it_pocao_mana",
+      "price": 25,
+      "desc": "Recupera 50% do recurso. Atalho: E."
+    },
+    "portal": {
+      "name": "Pergaminho de Portal",
+      "icon": "it_pergaminho",
+      "price": 40,
+      "desc": "Abre um portal de volta para a vila. Atalho: T."
+    },
+    "queijo": {
+      "name": "Pão com Queijo",
+      "icon": "it_bread",
+      "price": 10,
+      "heal": 0.3,
+      "time": 6,
+      "desc": "Comida: recupera vida devagar."
+    },
+    "maca": {
+      "name": "Maçã",
+      "icon": "it_apple",
+      "price": 6,
+      "heal": 0.15,
+      "time": 4,
+      "desc": "Do Pomar dos Esquilos. Recupera um pouco de vida."
+    },
+    "banana": {
+      "name": "Banana",
+      "icon": "it_banana",
+      "price": 8,
+      "heal": 0.2,
+      "mana": 0.1,
+      "time": 4,
+      "desc": "Recupera vida e um pouco do recurso."
+    },
+    "sementes": {
+      "name": "Sementes",
+      "icon": "it_seeds",
+      "price": 6,
+      "mana": 0.25,
+      "desc": "Petisco de roedor: recupera o recurso."
+    },
+    "macarrao": {
+      "name": "Macarrão da Vovó",
+      "icon": "it_fusilli",
+      "price": 25,
+      "heal": 0.5,
+      "mana": 0.2,
+      "time": 8,
+      "desc": "Prato caprichado: muita vida e recurso."
+    }
+  },
+  "questItems": {
+    "minerio": {
+      "name": "Minério de Ferro",
+      "icon": "it_minerio",
+      "desc": "Pedra com veios de ferro das Minas da Toupeira. O ferreiro precisa."
+    },
+    "cogumelo_lunar": {
+      "name": "Cogumelo Lunar",
+      "icon": "it_cogumelo",
+      "desc": "Brilha no escuro. A Vovó Ratilde precisa de 5."
+    },
+    "martelo_avo": {
+      "name": "Martelo do Avô Castorino",
+      "icon": "it_martelo",
+      "desc": "O martelo de família do ferreiro."
+    },
+    "pena_corvo": {
+      "name": "Pena de Espantalho",
+      "icon": "it_pena",
+      "desc": "Prova de que você venceu os espantalhos."
+    },
+    "livro_fazendeiro": {
+      "name": "Página do Livro Proibido",
+      "icon": "it_pergaminho",
+      "desc": "Uma página do livro de magia do Fazendeiro."
+    }
+  },
+  "npcs": {
+    "anciao": {
+      "name": "Rei Queijo III",
+      "sheet": "npc_rei",
+      "role": "quest",
+      "lines": [
+        "Herói! Ainda bem que você voltou.",
+        "O Fazendeiro Malaquias queimou nossa vila numa só noite.",
+        "Junte-se aos sobreviventes e vamos reconstruir Queijeira."
+      ]
+    },
+    "vovo": {
+      "name": "Vovó Ratilde",
+      "sheet": "npc_vovo",
+      "role": "healer",
+      "lines": [
+        "Venha cá, meu bem, deixa a vovó cuidar desses arranhões.",
+        "Chá de camomila e um pedaço de queijo curam quase tudo."
+      ]
+    },
+    "ferreiro": {
+      "name": "Castorino, o Ferreiro",
+      "sheet": "npc_ferreiro",
+      "role": "smith",
+      "lines": [
+        "Sou castor, mas não sou como aqueles enfeitiçados da represa.",
+        "Armas e armaduras: a forja ainda funciona, por milagre!"
+      ]
+    },
+    "mercadora": {
+      "name": "Dona Avelã",
+      "sheet": "npc_mercadora",
+      "role": "shop",
+      "lines": [
+        "Poções fresquinhas! Pergaminhos de portal!",
+        "Salvei meu carrinho do fogo. Vamos negociar?"
+      ]
+    },
+    "guarda": {
+      "name": "Sargento Ratão",
+      "sheet": "npc_guarda",
+      "role": "quest",
+      "lines": [
+        "Mantenha a espada afiada.",
+        "Os gatos atacam à noite. E de dia. E na hora do almoço."
+      ]
+    },
+    "bigodes": {
+      "name": "Bigodes, o Gato Desertor",
+      "sheet": "npc_gato_amigo",
+      "role": "quest",
+      "lines": [
+        "Calma! Nem todo gato é mau.",
+        "Eu fugi da fazenda. O Malaquias trata os gatos como ferramentas."
+      ]
+    },
+    "princesa": {
+      "name": "Princesa Gouda",
+      "sheet": "npc_princesa",
+      "role": "stash",
+      "lines": [
+        "Guardo os tesouros da família no baú real.",
+        "Pode deixar suas coisas comigo, ninguém mexe."
+      ]
+    },
+    "pescador": {
+      "name": "Seu Coaxim, o Pescador",
+      "sheet": "npc_pescador",
+      "role": "quest",
+      "lines": [
+        "Croac! Nem todo sapo virou monstro.",
+        "O veneno do Fazendeiro desceu pelo rio e deixou meus primos malucos."
+      ]
+    },
+    "dentuco": {
+      "name": "Chefe Dentuço",
+      "sheet": "npc_castor_chefe",
+      "role": "quest",
+      "lines": [
+        "Os gatos capatazes nos fazem roer madeira dia e noite.",
+        "Liberte a represa e os castores estarão do seu lado."
+      ]
+    },
+    "batedora": {
+      "name": "Pipa, a Batedora",
+      "sheet": "npc_batedora",
+      "role": "quest",
+      "lines": [
+        "Shh! O bosque tem ouvidos.",
+        "Os espantalhos andam sozinhos quando a lua sobe."
+      ]
+    },
+    "mineiro": {
+      "name": "Zé Toupeira",
+      "sheet": "npc_mineiro",
+      "role": "quest",
+      "lines": [
+        "Cavei um túnel até o cemitério. Me arrependi.",
+        "Lá embaixo os ossos de gato se mexem sozinhos."
+      ]
+    },
+    "pomareira": {
+      "name": "Dona Castanha",
+      "sheet": "npc_pomareira",
+      "role": "quest",
+      "lines": [
+        "Bem-vindo ao Pomar dos Esquilos!",
+        "Os gatos derrubam as frutas antes de amadurecer. Que desperdício!",
+        "Pode colher o que estiver maduro, só não pise nas mudas."
+      ]
+    },
+    "moleiro": {
+      "name": "Seu Farelo, o Moleiro",
+      "sheet": "npc_moleiro",
+      "role": "baker",
+      "lines": [
+        "O moinho ainda gira, graças ao vento do vale.",
+        "Sem sementes não tem farinha, e sem farinha não tem pão.",
+        "Fome? Tenho pão, queijo e o macarrão da Vovó."
+      ]
+    },
+    "bardo": {
+      "name": "Menestrel Ricota",
+      "sheet": "npc_bardo",
+      "role": "lore",
+      "lines": [
+        "♪ Malaquias, Malaquias, de gatos fez seu exército… ♪",
+        "Dizem que ele achou um livro costurado dentro de um espantalho.",
+        "Desde então nenhum gato da fazenda morre de verdade."
+      ]
+    }
+  },
+  "quests": [
+    {
+      "id": "q1",
+      "act": 1,
+      "giver": "anciao",
+      "name": "Cinzas da Vila",
+      "goal": {
+        "type": "kill",
+        "target": "gato_vira_lata",
+        "n": 8
+      },
+      "desc": "Os gatos saqueadores ainda reviram as cinzas de Queijeira. Expulse 8 deles dos Campos Queimados.",
+      "offer": [
+        "Os gatos do Fazendeiro ainda reviram nossas casas queimadas.",
+        "Expulse oito deles dos campos e mostre que Queijeira não morreu!"
+      ],
+      "progress": [
+        "Ainda há gatos nos campos. Coragem!"
+      ],
+      "done": [
+        "Ha! Fugiram com o rabo entre as pernas.",
+        "Tome, era do meu avô. Agora é seu."
+      ],
+      "reward": {
+        "xp": 60,
+        "gold": 60,
+        "item": "magic"
+      }
+    },
+    {
+      "id": "q2",
+      "act": 1,
+      "giver": "guarda",
+      "name": "A Batedora Sumida",
+      "requires": "q1",
+      "goal": {
+        "type": "talk",
+        "target": "batedora"
+      },
+      "desc": "Pipa foi espiar o Bosque dos Sussurros e não voltou. Siga a estrada para o norte e encontre-a.",
+      "offer": [
+        "Mandei a Pipa espiar o bosque ao norte. Faz dois dias.",
+        "Siga a estrada e traga notícias dela."
+      ],
+      "progress": [
+        "Nenhuma notícia da Pipa ainda?"
+      ],
+      "done": [
+        "Ela está viva? Que alívio!"
+      ],
+      "turnin": "batedora",
+      "reward": {
+        "xp": 80,
+        "gold": 40,
+        "potions": 2
+      }
+    },
+    {
+      "id": "q3",
+      "act": 1,
+      "giver": "batedora",
+      "name": "O Esquilo Enfeitiçado",
+      "requires": "q2",
+      "goal": {
+        "type": "boss",
+        "target": "rabo_torto"
+      },
+      "desc": "Rabo-Torto, o líder dos esquilos, foi enfeitiçado pelo Fazendeiro. Derrote-o no fundo do bosque.",
+      "offer": [
+        "O Rabo-Torto era meu amigo. Agora tem olhos vermelhos e manda nos gatos sombrios.",
+        "Derrote-o no fundo do bosque. Talvez o feitiço quebre."
+      ],
+      "progress": [
+        "Ele fica perto das árvores mais velhas, ao norte."
+      ],
+      "done": [
+        "O feitiço quebrou… ele nem lembra de nada.",
+        "Os esquilos agora estão do nosso lado. Leve isto."
+      ],
+      "reward": {
+        "xp": 260,
+        "gold": 150,
+        "item": "rare"
+      }
+    },
+    {
+      "id": "q4",
+      "act": 1,
+      "giver": "vovo",
+      "name": "Cogumelos Lunares",
+      "goal": {
+        "type": "collect",
+        "target": "cogumelo_lunar",
+        "n": 5,
+        "from": [
+          "gato_preto",
+          "esquilo_bandido",
+          "espantalho",
+          "sapo_venenoso"
+        ]
+      },
+      "desc": "A Vovó Ratilde precisa de 5 Cogumelos Lunares para fazer remédio para os feridos. Monstros do bosque e do pântano às vezes carregam um.",
+      "offer": [
+        "Os feridos precisam de remédio, e o meu acabou.",
+        "Traga 5 Cogumelos Lunares. Os bichos do bosque costumam carregar."
+      ],
+      "progress": [
+        "Achou os cogumelos, meu bem?"
+      ],
+      "done": [
+        "Que lindos! Vão curar todo mundo.",
+        "Fique com estas poções, você vai precisar."
+      ],
+      "reward": {
+        "xp": 150,
+        "gold": 80,
+        "potions": 5
+      }
+    },
+    {
+      "id": "q5",
+      "act": 2,
+      "giver": "anciao",
+      "name": "Veneno no Rio",
+      "requires": "q3",
+      "goal": {
+        "type": "talk",
+        "target": "pescador"
+      },
+      "desc": "Algo envenenou a água que vem do leste. Procure o pescador Seu Coaxim no Pântano Lodoso.",
+      "offer": [
+        "A água que vem do leste está verde e fedida.",
+        "Há um sapo pescador que conhece o pântano. Encontre-o."
+      ],
+      "progress": [
+        "O pântano fica a leste, siga a estrada."
+      ],
+      "done": [
+        "Croac! Um herói de verdade!"
+      ],
+      "turnin": "pescador",
+      "reward": {
+        "xp": 120,
+        "gold": 60
+      }
+    },
+    {
+      "id": "q6",
+      "act": 2,
+      "giver": "pescador",
+      "name": "O Lorde do Brejo",
+      "requires": "q5",
+      "goal": {
+        "type": "boss",
+        "target": "lorde_sapo"
+      },
+      "desc": "O Fazendeiro despejou veneno no brejo e transformou o Lorde Sapo num monstro. Vença-o no norte do pântano.",
+      "offer": [
+        "O Fazendeiro jogou barris de veneno no brejo.",
+        "O Lorde Sapo bebeu tudo e enlouqueceu. Por favor… pare ele."
+      ],
+      "progress": [
+        "Ele mora no norte do pântano, perto das poças mais fundas."
+      ],
+      "done": [
+        "A água já está clareando! Os sapos estão acordando do pesadelo.",
+        "Os sapos agora são seus amigos."
+      ],
+      "reward": {
+        "xp": 420,
+        "gold": 260,
+        "item": "rare"
+      }
+    },
+    {
+      "id": "q7",
+      "act": 2,
+      "giver": "bigodes",
+      "name": "O Gato Desertor",
+      "requires": "q1",
+      "goal": {
+        "type": "kill",
+        "target": "gato_preto",
+        "n": 12
+      },
+      "desc": "Bigodes quer provar que é aliado. Derrote 12 Gatos Sombrios e ele vai lutar ao seu lado.",
+      "offer": [
+        "Ninguém confia num gato. Eu entendo.",
+        "Derrote 12 Gatos Sombrios, os mais leais ao Malaquias, e eu luto ao seu lado."
+      ],
+      "progress": [
+        "Os Gatos Sombrios ficam no bosque."
+      ],
+      "done": [
+        "Pronto. Agora sou o seu gato.",
+        "Vou com você. Pode me chamar quando precisar."
+      ],
+      "reward": {
+        "xp": 220,
+        "gold": 100,
+        "ally": "bigodes"
+      }
+    },
+    {
+      "id": "q8",
+      "act": 3,
+      "giver": "anciao",
+      "name": "A Represa Escravizada",
+      "requires": "q6",
+      "goal": {
+        "type": "talk",
+        "target": "dentuco"
+      },
+      "desc": "Os castores do sul estão presos na represa. Atravesse a ponte e fale com o Chefe Dentuço.",
+      "offer": [
+        "Os castores do sul sempre foram nossos amigos.",
+        "Agora roem madeira para o Fazendeiro. Atravesse a ponte e fale com o chefe deles."
+      ],
+      "progress": [
+        "A ponte fica no fim da estrada do sul."
+      ],
+      "done": [
+        "Você veio! Ainda há esperança."
+      ],
+      "turnin": "dentuco",
+      "reward": {
+        "xp": 200,
+        "gold": 80
+      }
+    },
+    {
+      "id": "q9",
+      "act": 3,
+      "giver": "dentuco",
+      "name": "Garra-de-Ferro",
+      "requires": "q8",
+      "goal": {
+        "type": "boss",
+        "target": "capataz_garra"
+      },
+      "desc": "O Capataz Garra-de-Ferro comanda os gatos da represa. Derrube-o e os castores ficam livres.",
+      "offer": [
+        "O Capataz Garra-de-Ferro tem o feitiço que nos prende.",
+        "Ele fica no leste da represa, gritando ordens."
+      ],
+      "progress": [
+        "Cuidado: ele chama reforços."
+      ],
+      "done": [
+        "Estamos livres! Os castores lutarão com você.",
+        "E olha o que encontramos no esconderijo dele."
+      ],
+      "reward": {
+        "xp": 620,
+        "gold": 380,
+        "item": "unique"
+      }
+    },
+    {
+      "id": "q10",
+      "act": 3,
+      "giver": "ferreiro",
+      "name": "O Martelo do Avô",
+      "requires": "q8",
+      "goal": {
+        "type": "collect",
+        "target": "martelo_avo",
+        "n": 1,
+        "from": [
+          "castor_bruto",
+          "capataz_garra"
+        ]
+      },
+      "desc": "O martelo de família de Castorino ficou na represa. Algum castor enfeitiçado ou o capataz está com ele.",
+      "offer": [
+        "O martelo do meu avô ficou na represa quando fugi.",
+        "Se trouxer de volta, forjo algo especial pra você."
+      ],
+      "progress": [
+        "Sem o martelo, minha forja fica triste."
+      ],
+      "done": [
+        "O martelo do vovô! Olha só esse brilho.",
+        "Como prometido: uma peça especial."
+      ],
+      "reward": {
+        "xp": 300,
+        "gold": 120,
+        "item": "rare"
+      }
+    },
+    {
+      "id": "q11",
+      "act": 4,
+      "giver": "mineiro",
+      "name": "Ossos que Andam",
+      "requires": "q9",
+      "goal": {
+        "type": "kill",
+        "target": "gato_esqueleto",
+        "n": 15
+      },
+      "desc": "O cemitério a oeste está cheio de gatos-esqueleto. Destrua 15 para abrir caminho.",
+      "offer": [
+        "O cemitério virou fábrica de gato-esqueleto.",
+        "Quebre 15 deles e eu te mostro o caminho do Necromante."
+      ],
+      "progress": [
+        "Martelo e fogo funcionam bem em ossos!"
+      ],
+      "done": [
+        "Ouvi daqui o barulho de osso quebrando. Lindo!"
+      ],
+      "reward": {
+        "xp": 520,
+        "gold": 220,
+        "potions": 3
+      }
+    },
+    {
+      "id": "q12",
+      "act": 4,
+      "giver": "mineiro",
+      "name": "O Necromante Felino",
+      "requires": "q11",
+      "goal": {
+        "type": "boss",
+        "target": "necro_felino"
+      },
+      "desc": "Mestre Bigode-Negro, aprendiz do Fazendeiro, levanta os gatos mortos. Ele guarda a chave do portão da Fazenda.",
+      "offer": [
+        "Quem levanta os gatos é o Mestre Bigode-Negro, o aprendiz do Fazendeiro.",
+        "Ele carrega a chave do portão da Fazenda Sombria. Fica no sul do cemitério."
+      ],
+      "progress": [
+        "Ele fica no sul do cemitério, entre as lápides."
+      ],
+      "done": [
+        "A chave! O portão da Fazenda vai abrir.",
+        "Agora só falta ele… o Fazendeiro."
+      ],
+      "reward": {
+        "xp": 900,
+        "gold": 450,
+        "item": "unique",
+        "opens": "portao_fazenda"
+      }
+    },
+    {
+      "id": "q14",
+      "act": 2,
+      "giver": "pomareira",
+      "name": "Frutas para o Inverno",
+      "goal": {
+        "type": "bring",
+        "target": "maca",
+        "n": 6
+      },
+      "desc": "Dona Castanha precisa de 6 maçãs das macieiras do pomar para o estoque de inverno.",
+      "offer": [
+        "Os gatos estragaram metade da colheita.",
+        "Colha 6 maçãs nas macieiras e me traga, por favor."
+      ],
+      "progress": [
+        "As macieiras ficam por todo o pomar. Clique nelas para colher."
+      ],
+      "done": [
+        "Que maçãs bonitas! O inverno vai ser doce.",
+        "Leve umas poções, são de casca de maçã."
+      ],
+      "reward": {
+        "xp": 140,
+        "gold": 80,
+        "potions": 3
+      }
+    },
+    {
+      "id": "q15",
+      "act": 2,
+      "giver": "moleiro",
+      "name": "Sementes do Moinho",
+      "goal": {
+        "type": "bring",
+        "target": "sementes",
+        "n": 5
+      },
+      "desc": "O moleiro Seu Farelo precisa de 5 porções de sementes dos sacos espalhados pelos campos de trigo.",
+      "offer": [
+        "Os ratos da peste rasgaram meus sacos de sementes pelo campo.",
+        "Junte 5 porções e o moinho volta a girar."
+      ],
+      "progress": [
+        "Os sacos ficam no meio do trigo."
+      ],
+      "done": [
+        "O moinho já está cantando!",
+        "Tome, uma coisinha que achei no fundo do celeiro."
+      ],
+      "reward": {
+        "xp": 180,
+        "gold": 100,
+        "item": "magic"
+      }
+    },
+    {
+      "id": "q16",
+      "act": 3,
+      "giver": "ferreiro",
+      "name": "Minério para a Forja",
+      "goal": {
+        "type": "bring",
+        "target": "minerio",
+        "n": 4
+      },
+      "desc": "Castorino precisa de 4 minérios de ferro das Minas da Toupeira, ao sudeste, depois do rio.",
+      "offer": [
+        "Minha forja está sem ferro.",
+        "As Minas da Toupeira ficam a sudeste, depois da ponte. Traga 4 minérios."
+      ],
+      "progress": [
+        "Procure as pedras com veios laranja dentro das minas."
+      ],
+      "done": [
+        "Ferro do bom! Vou forjar algo à sua altura."
+      ],
+      "reward": {
+        "xp": 320,
+        "gold": 150,
+        "item": "rare"
+      }
+    },
+    {
+      "id": "q17",
+      "act": 3,
+      "giver": "mineiro",
+      "name": "Túneis Infestados",
+      "goal": {
+        "type": "kill",
+        "target": "toupeira",
+        "n": 10
+      },
+      "desc": "As toupeiras das minas foram enfeitiçadas pelo Fazendeiro. Derrote 10 delas.",
+      "offer": [
+        "Minhas primas das minas ficaram com olhos vermelhos.",
+        "Derrote 10 delas; quando acordarem do feitiço, vão agradecer."
+      ],
+      "progress": [
+        "As minas ficam a sudeste, depois do rio."
+      ],
+      "done": [
+        "Já ouço elas cavando de novo, felizes!"
+      ],
+      "reward": {
+        "xp": 380,
+        "gold": 220,
+        "potions": 3
+      }
+    },
+    {
+      "id": "mq_toca",
+      "act": 1,
+      "giver": "",
+      "dungeon": "toca",
+      "name": "Limpe a Toca da Peste",
+      "goal": {
+        "type": "boss",
+        "target": "rei_peste"
+      },
+      "desc": "Uma toca cheia de ratos doentes embaixo dos Campos Queimados. Derrote o Rei da Peste no fundo dela.",
+      "offer": [],
+      "progress": [],
+      "done": [],
+      "reward": {
+        "xp": 160,
+        "gold": 120,
+        "item": "magic"
+      }
+    },
+    {
+      "id": "mq_tuneis",
+      "act": 3,
+      "giver": "",
+      "dungeon": "tuneis",
+      "name": "O Coração da Mina",
+      "goal": {
+        "type": "boss",
+        "target": "toupeira_rainha"
+      },
+      "desc": "Nos túneis mais fundos, a Rainha Toupeira enfeitiçada comanda a escavação. Derrote-a.",
+      "offer": [],
+      "progress": [],
+      "done": [],
+      "reward": {
+        "xp": 520,
+        "gold": 300,
+        "item": "rare"
+      }
+    },
+    {
+      "id": "mq_cripta",
+      "act": 4,
+      "giver": "",
+      "dungeon": "cripta",
+      "name": "O Sacerdote da Cripta",
+      "goal": {
+        "type": "boss",
+        "target": "sacerdote_ossudo"
+      },
+      "desc": "Embaixo do cemitério, um sacerdote de ossos reza para o livro do Fazendeiro. Cale-o.",
+      "offer": [],
+      "progress": [],
+      "done": [],
+      "reward": {
+        "xp": 760,
+        "gold": 420,
+        "item": "rare"
+      }
+    },
+    {
+      "id": "q13",
+      "act": 5,
+      "giver": "anciao",
+      "name": "O Fazendeiro Malaquias",
+      "requires": "q12",
+      "goal": {
+        "type": "boss",
+        "target": "fazendeiro"
+      },
+      "desc": "O portão da Fazenda Sombria está aberto. Entre no celeiro e acabe com o Fazendeiro Malaquias e o livro proibido.",
+      "offer": [
+        "O portão está aberto. Tudo começou naquela fazenda.",
+        "Acabe com o Malaquias e queime aquele livro. Por Queijeira!"
+      ],
+      "progress": [
+        "A fazenda fica no noroeste, depois do cemitério."
+      ],
+      "done": [
+        "Acabou… acabou mesmo!",
+        "Queijeira vai renascer, e todos vão contar a sua lenda."
+      ],
+      "reward": {
+        "xp": 2000,
+        "gold": 1200,
+        "item": "unique",
+        "ending": true
+      }
+    }
+  ],
+  "story": {
+    "intro": [
+      {
+        "title": "Vila Queijeira",
+        "text": "Por gerações, ratos, esquilos, sapos e castores viveram em paz no Vale de Ratudan. A Vila Queijeira tinha o melhor queijo do reino."
+      },
+      {
+        "title": "O livro no espantalho",
+        "text": "Até que o Fazendeiro Malaquias, cansado dos roedores na plantação, achou um livro proibido costurado dentro de um velho espantalho."
+      },
+      {
+        "title": "A noite dos gatos",
+        "text": "Com magias do livro ele juntou um exército de gatos. Numa só noite, Queijeira virou cinzas. Os gatos que caem em batalha… ele levanta como esqueletos."
+      },
+      {
+        "title": "Você",
+        "text": "Você voltou de viagem e encontrou a vila destruída. Os sobreviventes estão em volta da fogueira, na praça. Fale com o Rei Queijo III."
+      }
+    ],
+    "ending": [
+      {
+        "title": "O livro queima",
+        "text": "O Fazendeiro Malaquias caiu. O livro proibido virou cinzas, e os gatos-esqueleto viraram pó com ele."
+      },
+      {
+        "title": "Queijeira renasce",
+        "text": "Sapos, castores, esquilos e até alguns gatos ajudaram a reconstruir a vila. Bigodes virou o primeiro gato cidadão de Queijeira."
+      },
+      {
+        "title": "Continua…",
+        "text": "Mas o livro tinha uma página faltando. Dizem que ela foi parar numa cidade distante… Jogue de novo na dificuldade Pesadelo."
+      }
+    ]
+  },
+  "dungeons": [
+    {
+      "id": "toca",
+      "name": "Toca da Peste",
+      "level": "masmorra_toca",
+      "from": "vale",
+      "entrance": [
+        -18,
+        20
+      ],
+      "mlevel": 3,
+      "mobs": [
+        [
+          "rato_peste",
+          3
+        ],
+        [
+          "gato_vira_lata",
+          2
+        ]
+      ],
+      "count": 22,
+      "boss": "rei_peste",
+      "quest": "mq_toca"
+    },
+    {
+      "id": "tuneis",
+      "name": "Túneis da Toupeira",
+      "level": "masmorra_tuneis",
+      "from": "vale",
+      "entrance": [
+        112,
+        57
+      ],
+      "mlevel": 12,
+      "mobs": [
+        [
+          "toupeira",
+          3
+        ],
+        [
+          "castor_bruto",
+          1
+        ],
+        [
+          "rato_peste",
+          1
+        ]
+      ],
+      "count": 28,
+      "boss": "toupeira_rainha",
+      "quest": "mq_tuneis"
+    },
+    {
+      "id": "cripta",
+      "name": "Cripta dos Bigodes",
+      "level": "masmorra_cripta",
+      "from": "vale",
+      "entrance": [
+        -56,
+        12
+      ],
+      "mlevel": 15,
+      "mobs": [
+        [
+          "gato_esqueleto",
+          3
+        ],
+        [
+          "gato_esqueleto_arqueiro",
+          2
+        ],
+        [
+          "gato_bruxo",
+          1
+        ]
+      ],
+      "count": 30,
+      "boss": "sacerdote_ossudo",
+      "quest": "mq_cripta"
+    }
+  ],
+  "difficulties": [
+    {
+      "id": "normal",
+      "name": "Normal",
+      "hp": 1,
+      "dmg": 1,
+      "xp": 1,
+      "lvl": 0,
+      "gold": 1
+    },
+    {
+      "id": "pesadelo",
+      "name": "Pesadelo",
+      "hp": 2.4,
+      "dmg": 1.8,
+      "xp": 1.8,
+      "lvl": 14,
+      "gold": 1.6
+    },
+    {
+      "id": "inferno",
+      "name": "Inferno",
+      "hp": 4.5,
+      "dmg": 2.8,
+      "xp": 2.8,
+      "lvl": 28,
+      "gold": 2.4
+    }
+  ],
+  "rules": {
+    "maxLevel": 40,
+    "statPerLevel": 5,
+    "skillPerLevel": 1,
+    "maxRank": 10,
+    "invCols": 8,
+    "invRows": 5,
+    "stashCols": 8,
+    "stashRows": 6,
+    "deathGoldLoss": 0.1,
+    "potionMax": 10,
+    "respawnTime": 75,
+    "potionHeal": 0.4,
+    "potionMana": 0.5
+  }
+}

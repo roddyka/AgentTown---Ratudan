@@ -1,0 +1,8 @@
+{
+  "id": "agent-town",
+  "name": "Agent Town - Ratudan",
+  "description": "Visualizador de agentes da máquina em uma cidade Ratudan: agentes ociosos esperam quests e vão caçar monstros quando recebem tarefas.",
+  "version": "0.1.0",
+  "icon": "🏘",
+  "component": "rpg"
+}

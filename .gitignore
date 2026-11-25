@@ -1,0 +1,33 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Scratch / local debug
+dev-game.*.log
+*.bak
+append_css.py
+check_*.cjs
+find_*.py
+keys.py
+list_fx.py
+patch_*.py
+size.py
+fx_list.txt
+portals.txt
+tmp_*
+__pycache__/
+
+# Node / build
+node_modules/
+dist/
+.vite/
+
+# Reference packages / local bundles
+pao/
+*.tgz
+
+# Local secrets/env
+.env
+.env.*
+!.env.example

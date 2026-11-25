@@ -1,0 +1,3822 @@
+{
+  "languages": {
+    "pt": "Português",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "zh": "中文"
+  },
+  "default": "pt",
+  "strings": {
+    "+{a} pontos de atributo · +{b} de habilidade": {
+      "en": "+{a} attribute points · +{b} skill",
+      "es": "+{a} puntos de atributo · +{b} de habilidad",
+      "fr": "+{a} points d’attribut · +{b} de compétence",
+      "zh": "+{a} 属性点 · +{b} 技能点"
+    },
+    "+{v} Destreza": {
+      "en": "+{v} Dexterity",
+      "es": "+{v} Destreza",
+      "fr": "+{v} Dextérité",
+      "zh": "+{v} 敏捷"
+    },
+    "+{v} Energia": {
+      "en": "+{v} Energy",
+      "es": "+{v} Energía",
+      "fr": "+{v} Énergie",
+      "zh": "+{v} 能量"
+    },
+    "+{v} Força": {
+      "en": "+{v} Strength",
+      "es": "+{v} Fuerza",
+      "fr": "+{v} Force",
+      "zh": "+{v} 力量"
+    },
+    "+{v} Vitalidade": {
+      "en": "+{v} Vitality",
+      "es": "+{v} Vitalidad",
+      "fr": "+{v} Vitalité",
+      "zh": "+{v} 体力"
+    },
+    "+{v} de armadura": {
+      "en": "+{v} armor",
+      "es": "+{v} de armadura",
+      "fr": "+{v} d’armure",
+      "zh": "+{v} 护甲"
+    },
+    "+{v} de recurso máximo": {
+      "en": "+{v} max resource",
+      "es": "+{v} de recurso máximo",
+      "fr": "+{v} de ressource max.",
+      "zh": "+{v} 资源上限"
+    },
+    "+{v} de vida": {
+      "en": "+{v} life",
+      "es": "+{v} de vida",
+      "fr": "+{v} de vie",
+      "zh": "+{v} 生命"
+    },
+    "+{v} de vida por segundo": {
+      "en": "+{v} life per second",
+      "es": "+{v} de vida por segundo",
+      "fr": "+{v} de vie par seconde",
+      "zh": "每秒 +{v} 生命"
+    },
+    "+{v} em todas as habilidades": {
+      "en": "+{v} to all skills",
+      "es": "+{v} a todas las habilidades",
+      "fr": "+{v} à toutes les compétences",
+      "zh": "所有技能 +{v}"
+    },
+    "+{v}% de chance crítica": {
+      "en": "+{v}% critical chance",
+      "es": "+{v}% de probabilidad crítica",
+      "fr": "+{v}% de chance critique",
+      "zh": "+{v}% 暴击率"
+    },
+    "+{v}% de dano": {
+      "en": "+{v}% damage",
+      "es": "+{v}% de daño",
+      "fr": "+{v}% de dégâts",
+      "zh": "+{v}% 伤害"
+    },
+    "+{v}% de ouro achado": {
+      "en": "+{v}% gold find",
+      "es": "+{v}% de oro encontrado",
+      "fr": "+{v}% d’or trouvé",
+      "zh": "+{v}% 金币掉落"
+    },
+    "+{v}% de velocidade de ataque": {
+      "en": "+{v}% attack speed",
+      "es": "+{v}% de velocidad de ataque",
+      "fr": "+{v}% de vitesse d’attaque",
+      "zh": "+{v}% 攻击速度"
+    },
+    "+{v}% de velocidade de corrida": {
+      "en": "+{v}% run speed",
+      "es": "+{v}% de velocidad de carrera",
+      "fr": "+{v}% de vitesse de course",
+      "zh": "+{v}% 移动速度"
+    },
+    "{v}% do dano vira vida": {
+      "en": "{v}% of damage becomes life",
+      "es": "{v}% del daño se vuelve vida",
+      "fr": "{v}% des dégâts deviennent de la vie",
+      "zh": "{v}% 伤害转化为生命"
+    },
+    "da Baleia": {
+      "en": "of the Whale",
+      "es": "de la Ballena",
+      "fr": "de la Baleine",
+      "zh": "之鲸"
+    },
+    "da Coruja": {
+      "en": "of the Owl",
+      "es": "del Búho",
+      "fr": "de la Chouette",
+      "zh": "之枭"
+    },
+    "da Cura": {
+      "en": "of Healing",
+      "es": "de la Curación",
+      "fr": "de Guérison",
+      "zh": "之愈"
+    },
+    "da Fortuna": {
+      "en": "of Fortune",
+      "es": "de la Fortuna",
+      "fr": "de Fortune",
+      "zh": "之财"
+    },
+    "da Muralha": {
+      "en": "of the Wall",
+      "es": "de la Muralla",
+      "fr": "du Rempart",
+      "zh": "之壁"
+    },
+    "da Precisão": {
+      "en": "of Precision",
+      "es": "de la Precisión",
+      "fr": "de Précision",
+      "zh": "之准"
+    },
+    "da Pressa": {
+      "en": "of Haste",
+      "es": "de la Prisa",
+      "fr": "de Hâte",
+      "zh": "之速"
+    },
+    "da Sabedoria": {
+      "en": "of Wisdom",
+      "es": "de la Sabiduría",
+      "fr": "de Sagesse",
+      "zh": "之智"
+    },
+    "da Vida": {
+      "en": "of Life",
+      "es": "de la Vida",
+      "fr": "de Vie",
+      "zh": "之命"
+    },
+    "do Corte": {
+      "en": "of Cutting",
+      "es": "del Corte",
+      "fr": "du Tranchant",
+      "zh": "之锋"
+    },
+    "do Gato": {
+      "en": "of the Cat",
+      "es": "del Gato",
+      "fr": "du Chat",
+      "zh": "之猫"
+    },
+    "do Mestre": {
+      "en": "of the Master",
+      "es": "del Maestro",
+      "fr": "du Maître",
+      "zh": "之大师"
+    },
+    "do Urso": {
+      "en": "of the Bear",
+      "es": "del Oso",
+      "fr": "de l’Ours",
+      "zh": "之熊"
+    },
+    "do Vampiro": {
+      "en": "of the Vampire",
+      "es": "del Vampiro",
+      "fr": "du Vampire",
+      "zh": "之吸血"
+    },
+    "do Vento": {
+      "en": "of the Wind",
+      "es": "del Viento",
+      "fr": "du Vent",
+      "zh": "之风"
+    },
+    "Garra": {
+      "en": "Claw",
+      "es": "Garra",
+      "fr": "Griffe",
+      "zh": "利爪"
+    },
+    "Presa": {
+      "en": "Fang",
+      "es": "Colmillo",
+      "fr": "Croc",
+      "zh": "獠牙"
+    },
+    "Sombra": {
+      "en": "Shadow",
+      "es": "Sombra",
+      "fr": "Ombre",
+      "zh": "暗影"
+    },
+    "Brasa": {
+      "en": "Ember",
+      "es": "Brasa",
+      "fr": "Braise",
+      "zh": "余烬"
+    },
+    "Trovão": {
+      "en": "Thunder",
+      "es": "Trueno",
+      "fr": "Tonnerre",
+      "zh": "雷霆"
+    },
+    "Espinho": {
+      "en": "Thorn",
+      "es": "Espina",
+      "fr": "Épine",
+      "zh": "荆棘"
+    },
+    "Lua": {
+      "en": "Moon",
+      "es": "Luna",
+      "fr": "Lune",
+      "zh": "月影"
+    },
+    "Raiz": {
+      "en": "Root",
+      "es": "Raíz",
+      "fr": "Racine",
+      "zh": "根须"
+    },
+    "Cinza": {
+      "en": "Ash",
+      "es": "Ceniza",
+      "fr": "Cendre",
+      "zh": "灰烬"
+    },
+    "Bigode": {
+      "en": "Whisker",
+      "es": "Bigote",
+      "fr": "Moustache",
+      "zh": "胡须"
+    },
+    "Faminta": {
+      "en": "Hungry",
+      "es": "Hambrienta",
+      "fr": "Affamée",
+      "zh": "饥渴"
+    },
+    "Sangrenta": {
+      "en": "Bloody",
+      "es": "Sangrienta",
+      "fr": "Sanglante",
+      "zh": "血腥"
+    },
+    "do Celeiro": {
+      "en": "of the Barn",
+      "es": "del Granero",
+      "fr": "de la Grange",
+      "zh": "谷仓"
+    },
+    "Silenciosa": {
+      "en": "Silent",
+      "es": "Silenciosa",
+      "fr": "Silencieuse",
+      "zh": "无声"
+    },
+    "Eterna": {
+      "en": "Eternal",
+      "es": "Eterna",
+      "fr": "Éternelle",
+      "zh": "永恒"
+    },
+    "do Brejo": {
+      "en": "of the Bog",
+      "es": "del Pantano",
+      "fr": "du Marais",
+      "zh": "沼泽"
+    },
+    "Roedora": {
+      "en": "Gnawing",
+      "es": "Roedora",
+      "fr": "Rongeuse",
+      "zh": "啃噬"
+    },
+    "Torta": {
+      "en": "Crooked",
+      "es": "Torcida",
+      "fr": "Tordue",
+      "zh": "扭曲"
+    },
+    "Uivante": {
+      "en": "Howling",
+      "es": "Aullante",
+      "fr": "Hurlante",
+      "zh": "嚎叫"
+    },
+    "de Queijo": {
+      "en": "of Cheese",
+      "es": "de Queso",
+      "fr": "de Fromage",
+      "zh": "奶酪"
+    },
+    "Comum": {
+      "en": "Common",
+      "es": "Común",
+      "fr": "Commun",
+      "zh": "普通"
+    },
+    "Mágico": {
+      "en": "Magic",
+      "es": "Mágico",
+      "fr": "Magique",
+      "zh": "魔法"
+    },
+    "Raro": {
+      "en": "Rare",
+      "es": "Raro",
+      "fr": "Rare",
+      "zh": "稀有"
+    },
+    "Lendário": {
+      "en": "Legendary",
+      "es": "Legendario",
+      "fr": "Légendaire",
+      "zh": "传奇"
+    },
+    "Arma": {
+      "en": "Weapon",
+      "es": "Arma",
+      "fr": "Arme",
+      "zh": "武器"
+    },
+    "Cabeça": {
+      "en": "Head",
+      "es": "Cabeza",
+      "fr": "Tête",
+      "zh": "头部"
+    },
+    "Corpo": {
+      "en": "Body",
+      "es": "Cuerpo",
+      "fr": "Corps",
+      "zh": "身体"
+    },
+    "Mãos": {
+      "en": "Hands",
+      "es": "Manos",
+      "fr": "Mains",
+      "zh": "手部"
+    },
+    "Pés": {
+      "en": "Feet",
+      "es": "Pies",
+      "fr": "Pieds",
+      "zh": "脚部"
+    },
+    "Anel": {
+      "en": "Ring",
+      "es": "Anillo",
+      "fr": "Anneau",
+      "zh": "戒指"
+    },
+    "Amuleto": {
+      "en": "Amulet",
+      "es": "Amuleto",
+      "fr": "Amulette",
+      "zh": "护身符"
+    },
+    "Força": {
+      "en": "Strength",
+      "es": "Fuerza",
+      "fr": "Force",
+      "zh": "力量"
+    },
+    "Destreza": {
+      "en": "Dexterity",
+      "es": "Destreza",
+      "fr": "Dextérité",
+      "zh": "敏捷"
+    },
+    "Vitalidade": {
+      "en": "Vitality",
+      "es": "Vitalidad",
+      "fr": "Vitalité",
+      "zh": "体力"
+    },
+    "Energia": {
+      "en": "Energy",
+      "es": "Energía",
+      "fr": "Énergie",
+      "zh": "能量"
+    },
+    "Dano corpo a corpo (Cavaleiro)": {
+      "en": "Melee damage (Knight)",
+      "es": "Daño cuerpo a cuerpo (Caballero)",
+      "fr": "Dégâts au corps à corps (Chevalier)",
+      "zh": "近战伤害（骑士）"
+    },
+    "Dano com arco, armadura e crítico": {
+      "en": "Bow damage, armor and crits",
+      "es": "Daño con arco, armadura y crítico",
+      "fr": "Dégâts à l’arc, armure et critique",
+      "zh": "弓箭伤害、护甲与暴击"
+    },
+    "Recurso e dano das magias": {
+      "en": "Resource and spell damage",
+      "es": "Recurso y daño de hechizos",
+      "fr": "Ressource et dégâts des sorts",
+      "zh": "资源与法术伤害"
+    },
+    "Espada": {
+      "en": "Sword",
+      "es": "Espada",
+      "fr": "Épée",
+      "zh": "剑"
+    },
+    "Machado": {
+      "en": "Axe",
+      "es": "Hacha",
+      "fr": "Hache",
+      "zh": "斧"
+    },
+    "Maça": {
+      "en": "Mace",
+      "es": "Maza",
+      "fr": "Masse",
+      "zh": "锤"
+    },
+    "Cajado": {
+      "en": "Staff",
+      "es": "Bastón",
+      "fr": "Bâton",
+      "zh": "法杖"
+    },
+    "Varinha": {
+      "en": "Wand",
+      "es": "Varita",
+      "fr": "Baguette",
+      "zh": "魔杖"
+    },
+    "Orbe": {
+      "en": "Orb",
+      "es": "Orbe",
+      "fr": "Orbe",
+      "zh": "法球"
+    },
+    "Arco": {
+      "en": "Bow",
+      "es": "Arco",
+      "fr": "Arc",
+      "zh": "弓"
+    },
+    "Elmo": {
+      "en": "Helm",
+      "es": "Yelmo",
+      "fr": "Heaume",
+      "zh": "头盔"
+    },
+    "Capuz": {
+      "en": "Hood",
+      "es": "Capucha",
+      "fr": "Capuche",
+      "zh": "兜帽"
+    },
+    "Armadura": {
+      "en": "Armor",
+      "es": "Armadura",
+      "fr": "Armure",
+      "zh": "护甲"
+    },
+    "Manto": {
+      "en": "Robe",
+      "es": "Manto",
+      "fr": "Robe",
+      "zh": "法袍"
+    },
+    "Luvas": {
+      "en": "Gloves",
+      "es": "Guantes",
+      "fr": "Gants",
+      "zh": "手套"
+    },
+    "Botas": {
+      "en": "Boots",
+      "es": "Botas",
+      "fr": "Bottes",
+      "zh": "靴子"
+    },
+    "Armadura: {n}": {
+      "en": "Armor: {n}",
+      "es": "Armadura: {n}",
+      "fr": "Armure : {n}",
+      "zh": "护甲：{n}"
+    },
+    "Dano: {a}–{b}": {
+      "en": "Damage: {a}–{b}",
+      "es": "Daño: {a}–{b}",
+      "fr": "Dégâts : {a}–{b}",
+      "zh": "伤害：{a}–{b}"
+    },
+    "Classe: {c}": {
+      "en": "Class: {c}",
+      "es": "Clase: {c}",
+      "fr": "Classe : {c}",
+      "zh": "职业：{c}"
+    },
+    "Nível necessário: {n}": {
+      "en": "Required level: {n}",
+      "es": "Nivel necesario: {n}",
+      "fr": "Niveau requis : {n}",
+      "zh": "需要等级：{n}"
+    },
+    "Lâmina do Queijo Eterno": {
+      "en": "Blade of Eternal Cheese",
+      "es": "Hoja del Queso Eterno",
+      "fr": "Lame du Fromage Éternel",
+      "zh": "永恒奶酪之刃"
+    },
+    "Forjada no primeiro queijo da Vila.": {
+      "en": "Forged in the Village’s first cheese.",
+      "es": "Forjada en el primer queso de la Villa.",
+      "fr": "Forgée dans le premier fromage du Village.",
+      "zh": "锻造于村里的第一块奶酪。"
+    },
+    "Cajado do Rato Ancião": {
+      "en": "Staff of the Elder Rat",
+      "es": "Bastón de la Rata Anciana",
+      "fr": "Bâton du Vieux Rat",
+      "zh": "长老鼠之杖"
+    },
+    "Ainda cheira a biblioteca.": {
+      "en": "Still smells like a library.",
+      "es": "Todavía huele a biblioteca.",
+      "fr": "Ça sent encore la bibliothèque.",
+      "zh": "还带着图书馆的味道。"
+    },
+    "Arco do Vento Norte": {
+      "en": "Bow of the North Wind",
+      "es": "Arco del Viento Norte",
+      "fr": "Arc du Vent du Nord",
+      "zh": "北风之弓"
+    },
+    "As flechas assobiam.": {
+      "en": "The arrows whistle.",
+      "es": "Las flechas silban.",
+      "fr": "Les flèches sifflent.",
+      "zh": "箭矢会呼啸。"
+    },
+    "Varinha do Brejo": {
+      "en": "Bog Wand",
+      "es": "Varita del Pantano",
+      "fr": "Baguette du Marais",
+      "zh": "沼泽魔杖"
+    },
+    "Um sapo ainda mora nela.": {
+      "en": "A frog still lives in it.",
+      "es": "Una rana aún vive en ella.",
+      "fr": "Une grenouille y vit encore.",
+      "zh": "里面还住着一只青蛙。"
+    },
+    "Capuz da Noite sem Lua": {
+      "en": "Hood of the Moonless Night",
+      "es": "Capucha de la Noche sin Luna",
+      "fr": "Capuche de la Nuit sans Lune",
+      "zh": "无月之夜兜帽"
+    },
+    "Nem os gatos te enxergam.": {
+      "en": "Not even cats can see you.",
+      "es": "Ni los gatos te ven.",
+      "fr": "Même les chats ne te voient pas.",
+      "zh": "连猫都看不见你。"
+    },
+    "Couraça de Ratudan": {
+      "en": "Cuirass of Ratudan",
+      "es": "Coraza de Ratudan",
+      "fr": "Cuirasse de Ratudan",
+      "zh": "拉图丹胸甲"
+    },
+    "Da guarda do Rei.": {
+      "en": "From the King’s guard.",
+      "es": "De la guardia del Rey.",
+      "fr": "De la garde du Roi.",
+      "zh": "来自国王卫队。"
+    },
+    "Anel do Bigode Torto": {
+      "en": "Ring of the Crooked Whisker",
+      "es": "Anillo del Bigote Torcido",
+      "fr": "Anneau de la Moustache Tordue",
+      "zh": "歪胡须之戒"
+    },
+    "Roubado de um gato bem rico.": {
+      "en": "Stolen from a very rich cat.",
+      "es": "Robado a un gato muy rico.",
+      "fr": "Volé à un chat très riche.",
+      "zh": "从一只很有钱的猫那里偷来的。"
+    },
+    "Dente do Castor-Rei": {
+      "en": "Beaver King’s Tooth",
+      "es": "Diente del Castor Rey",
+      "fr": "Dent du Roi Castor",
+      "zh": "河狸王之牙"
+    },
+    "Rói até pedra.": {
+      "en": "Gnaws through stone.",
+      "es": "Roe hasta piedra.",
+      "fr": "Ronge même la pierre.",
+      "zh": "连石头都能啃。"
+    },
+    "Botas do Espantalho": {
+      "en": "Scarecrow Boots",
+      "es": "Botas del Espantapájaros",
+      "fr": "Bottes de l’Épouvantail",
+      "zh": "稻草人之靴"
+    },
+    "Recheadas de palha mágica.": {
+      "en": "Stuffed with magic straw.",
+      "es": "Rellenas de paja mágica.",
+      "fr": "Rembourrées de paille magique.",
+      "zh": "塞满了魔法稻草。"
+    },
+    "Poção de Vida": {
+      "en": "Health Potion",
+      "es": "Poción de Vida",
+      "fr": "Potion de Vie",
+      "zh": "生命药水"
+    },
+    "Poção de Energia": {
+      "en": "Energy Potion",
+      "es": "Poción de Energía",
+      "fr": "Potion d’Énergie",
+      "zh": "能量药水"
+    },
+    "Poção de vida": {
+      "en": "Health potion",
+      "es": "Poción de vida",
+      "fr": "Potion de vie",
+      "zh": "生命药水"
+    },
+    "Poção de energia": {
+      "en": "Energy potion",
+      "es": "Poción de energía",
+      "fr": "Potion d’énergie",
+      "zh": "能量药水"
+    },
+    "Pergaminho de Portal": {
+      "en": "Town Portal Scroll",
+      "es": "Pergamino de Portal",
+      "fr": "Parchemin de Portail",
+      "zh": "传送卷轴"
+    },
+    "Pão com Queijo": {
+      "en": "Bread and Cheese",
+      "es": "Pan con Queso",
+      "fr": "Pain au Fromage",
+      "zh": "奶酪面包"
+    },
+    "Recupera 40% da vida aos poucos. Atalho: Q.": {
+      "en": "Restores 40% life over time. Hotkey: Q.",
+      "es": "Recupera 40% de la vida poco a poco. Atajo: Q.",
+      "fr": "Rend 40% de la vie peu à peu. Raccourci : Q.",
+      "zh": "缓慢恢复 40% 生命。快捷键：Q。"
+    },
+    "Recupera 50% do recurso. Atalho: E.": {
+      "en": "Restores 50% resource. Hotkey: E.",
+      "es": "Recupera 50% del recurso. Atajo: E.",
+      "fr": "Rend 50% de la ressource. Raccourci : E.",
+      "zh": "恢复 50% 资源。快捷键：E。"
+    },
+    "Abre um portal de volta para a vila. Atalho: T.": {
+      "en": "Opens a portal back to the village. Hotkey: T.",
+      "es": "Abre un portal de vuelta a la villa. Atajo: T.",
+      "fr": "Ouvre un portail vers le village. Raccourci : T.",
+      "zh": "打开返回村庄的传送门。快捷键：T。"
+    },
+    "Comida: recupera vida devagar.": {
+      "en": "Food: slowly restores life.",
+      "es": "Comida: recupera vida despacio.",
+      "fr": "Nourriture : rend de la vie lentement.",
+      "zh": "食物：缓慢恢复生命。"
+    },
+    "Cogumelo Lunar": {
+      "en": "Moon Mushroom",
+      "es": "Seta Lunar",
+      "fr": "Champignon Lunaire",
+      "zh": "月光蘑菇"
+    },
+    "Brilha no escuro. A Vovó Ratilde precisa de 5.": {
+      "en": "Glows in the dark. Granny Ratilde needs 5.",
+      "es": "Brilla en la oscuridad. La Abuela Ratilde necesita 5.",
+      "fr": "Brille dans le noir. Mamie Ratilde en veut 5.",
+      "zh": "在黑暗中发光。拉蒂尔德奶奶需要 5 个。"
+    },
+    "Martelo do Avô Castorino": {
+      "en": "Grandpa Castorino’s Hammer",
+      "es": "Martillo del Abuelo Castorino",
+      "fr": "Marteau de Papy Castorino",
+      "zh": "卡斯托里诺爷爷的锤子"
+    },
+    "O martelo de família do ferreiro.": {
+      "en": "The smith’s family hammer.",
+      "es": "El martillo familiar del herrero.",
+      "fr": "Le marteau de famille du forgeron.",
+      "zh": "铁匠的传家锤。"
+    },
+    "Pena de Espantalho": {
+      "en": "Scarecrow Feather",
+      "es": "Pluma de Espantapájaros",
+      "fr": "Plume d’Épouvantail",
+      "zh": "稻草人羽毛"
+    },
+    "Prova de que você venceu os espantalhos.": {
+      "en": "Proof you beat the scarecrows.",
+      "es": "Prueba de que venciste a los espantapájaros.",
+      "fr": "Preuve que tu as vaincu les épouvantails.",
+      "zh": "你击败稻草人的证明。"
+    },
+    "Página do Livro Proibido": {
+      "en": "Page of the Forbidden Book",
+      "es": "Página del Libro Prohibido",
+      "fr": "Page du Livre Interdit",
+      "zh": "禁书残页"
+    },
+    "Uma página do livro de magia do Fazendeiro.": {
+      "en": "A page from the Farmer’s spellbook.",
+      "es": "Una página del libro de magia del Granjero.",
+      "fr": "Une page du grimoire du Fermier.",
+      "zh": "农夫魔法书中的一页。"
+    },
+    "Cavaleiro": {
+      "en": "Knight",
+      "es": "Caballero",
+      "fr": "Chevalier",
+      "zh": "骑士"
+    },
+    "Mago": {
+      "en": "Mage",
+      "es": "Mago",
+      "fr": "Mage",
+      "zh": "法师"
+    },
+    "Feiticeiro": {
+      "en": "Sorcerer",
+      "es": "Hechicero",
+      "fr": "Sorcier",
+      "zh": "巫师"
+    },
+    "Arqueiro": {
+      "en": "Archer",
+      "es": "Arquero",
+      "fr": "Archer",
+      "zh": "弓箭手"
+    },
+    "Corpo a corpo · resistente": {
+      "en": "Melee · tough",
+      "es": "Cuerpo a cuerpo · resistente",
+      "fr": "Corps à corps · robuste",
+      "zh": "近战 · 耐打"
+    },
+    "Magias de longe · frágil": {
+      "en": "Ranged spells · fragile",
+      "es": "Hechizos a distancia · frágil",
+      "fr": "Sorts à distance · fragile",
+      "zh": "远程法术 · 脆弱"
+    },
+    "Invocações e maldições": {
+      "en": "Summons and curses",
+      "es": "Invocaciones y maldiciones",
+      "fr": "Invocations et malédictions",
+      "zh": "召唤与诅咒"
+    },
+    "Ataques de longe · ágil": {
+      "en": "Ranged attacks · agile",
+      "es": "Ataques a distancia · ágil",
+      "fr": "Attaques à distance · agile",
+      "zh": "远程攻击 · 灵巧"
+    },
+    "Rato de armadura, inspirado no Paladino e no Bárbaro: luta corpo a corpo, aguenta pancada e ganha Fúria batendo.": {
+      "en": "Armored rat inspired by the Paladin and the Barbarian: fights up close, takes a beating and builds Fury by hitting.",
+      "es": "Rata con armadura inspirada en el Paladín y el Bárbaro: lucha cuerpo a cuerpo, aguanta golpes y gana Furia al pegar.",
+      "fr": "Rat en armure inspiré du Paladin et du Barbare : combat au corps à corps, encaisse et gagne de la Fureur en frappant.",
+      "zh": "受圣骑士和野蛮人启发的装甲鼠：近身作战，耐打，攻击时积攒怒气。"
+    },
+    "Rato branco estudioso, inspirado na Feiticeira e no Mago: fogo, gelo e teleporte. Pouca vida, muito estrago.": {
+      "en": "Studious white rat inspired by the Sorceress and the Wizard: fire, ice and teleport. Little life, lots of damage.",
+      "es": "Rata blanca estudiosa inspirada en la Hechicera y el Mago: fuego, hielo y teletransporte. Poca vida, mucho daño.",
+      "fr": "Rat blanc studieux inspiré de l’Ensorceleuse et du Magicien : feu, glace et téléportation. Peu de vie, beaucoup de dégâts.",
+      "zh": "受女巫和法师启发的好学白鼠：火焰、冰霜与传送。生命少，伤害高。"
+    },
+    "Rato das sombras, inspirado no Necromante e no Feiticeiro (Witch Doctor): drena vida, lança ossos, chama sapos e amaldiçoa.": {
+      "en": "Shadow rat inspired by the Necromancer and the Witch Doctor: drains life, throws bones, summons frogs and curses.",
+      "es": "Rata de las sombras inspirada en el Nigromante y el Médico Brujo: drena vida, lanza huesos, invoca ranas y maldice.",
+      "fr": "Rat des ombres inspiré du Nécromancien et du Féticheur : draine la vie, lance des os, invoque des grenouilles et maudit.",
+      "zh": "受死灵法师和巫医启发的暗影鼠：吸取生命、投掷骨矛、召唤青蛙并施加诅咒。"
+    },
+    "Esquilo da neve de capuz, inspirado na Amazona e no Caçador de Demônios: flechas rápidas, armadilhas e mobilidade.": {
+      "en": "Hooded snow squirrel inspired by the Amazon and the Demon Hunter: fast arrows, traps and mobility.",
+      "es": "Ardilla de las nieves con capucha inspirada en la Amazona y el Cazador de Demonios: flechas rápidas, trampas y movilidad.",
+      "fr": "Écureuil des neiges encapuchonné inspiré de l’Amazone et du Chasseur de démons : flèches rapides, pièges et mobilité.",
+      "zh": "受亚马逊和猎魔人启发的戴兜帽雪松鼠：快箭、陷阱与机动。"
+    },
+    "Fúria": {
+      "en": "Fury",
+      "es": "Furia",
+      "fr": "Fureur",
+      "zh": "怒气"
+    },
+    "Mana": {
+      "en": "Mana",
+      "es": "Maná",
+      "fr": "Mana",
+      "zh": "法力"
+    },
+    "Essência": {
+      "en": "Essence",
+      "es": "Esencia",
+      "fr": "Essence",
+      "zh": "精华"
+    },
+    "Foco": {
+      "en": "Focus",
+      "es": "Enfoque",
+      "fr": "Concentration",
+      "zh": "专注"
+    },
+    "Recurso": {
+      "en": "Resource",
+      "es": "Recurso",
+      "fr": "Ressource",
+      "zh": "资源"
+    },
+    "Golpe": {
+      "en": "Strike",
+      "es": "Golpe",
+      "fr": "Coup",
+      "zh": "重击"
+    },
+    "Ataque básico em arco na frente. Gera Fúria.": {
+      "en": "Basic arc attack in front. Builds Fury.",
+      "es": "Ataque básico en arco al frente. Genera Furia.",
+      "fr": "Attaque de base en arc devant soi. Génère de la Fureur.",
+      "zh": "向前方弧形的基础攻击。积攒怒气。"
+    },
+    "Investida": {
+      "en": "Charge",
+      "es": "Embestida",
+      "fr": "Charge",
+      "zh": "冲锋"
+    },
+    "Corre até o alvo, derruba e atordoa quem estiver no caminho.": {
+      "en": "Rushes to the target, knocking down and stunning anyone in the way.",
+      "es": "Corre hasta el objetivo, derriba y aturde a quien esté en el camino.",
+      "fr": "Fonce sur la cible, renverse et étourdit ceux sur le chemin.",
+      "zh": "冲向目标，撞倒并击晕路上的敌人。"
+    },
+    "Redemoinho": {
+      "en": "Whirlwind",
+      "es": "Torbellino",
+      "fr": "Tourbillon",
+      "zh": "旋风斩"
+    },
+    "Gira com a arma por alguns segundos acertando tudo em volta (Bárbaro).": {
+      "en": "Spins with your weapon for a few seconds, hitting everything around (Barbarian).",
+      "es": "Gira con el arma unos segundos golpeando todo alrededor (Bárbaro).",
+      "fr": "Tourne avec ton arme quelques secondes en frappant tout autour (Barbare).",
+      "zh": "持武器旋转数秒，击中周围一切（野蛮人）。"
+    },
+    "Grito de Guerra": {
+      "en": "War Cry",
+      "es": "Grito de Guerra",
+      "fr": "Cri de Guerre",
+      "zh": "战吼"
+    },
+    "Atordoa os inimigos perto e aumenta seu dano e armadura por 10 s.": {
+      "en": "Stuns nearby enemies and boosts your damage and armor for 10 s.",
+      "es": "Aturde a los enemigos cercanos y aumenta tu daño y armadura por 10 s.",
+      "fr": "Étourdit les ennemis proches et augmente tes dégâts et ton armure pendant 10 s.",
+      "zh": "击晕附近敌人，并在 10 秒内提高伤害和护甲。"
+    },
+    "Martelo Sagrado": {
+      "en": "Blessed Hammer",
+      "es": "Martillo Sagrado",
+      "fr": "Marteau Béni",
+      "zh": "祝福之锤"
+    },
+    "Um martelo de luz gira em espiral à sua volta (Paladino). Ótimo contra gatos-esqueleto.": {
+      "en": "A hammer of light spirals around you (Paladin). Great against skeleton cats.",
+      "es": "Un martillo de luz gira en espiral a tu alrededor (Paladín). Ideal contra gatos esqueleto.",
+      "fr": "Un marteau de lumière tourne en spirale autour de toi (Paladin). Idéal contre les chats squelettes.",
+      "zh": "光之锤在你身边螺旋飞行（圣骑士）。对骷髅猫特别有效。"
+    },
+    "Mísseis Mágicos": {
+      "en": "Magic Missiles",
+      "es": "Misiles Mágicos",
+      "fr": "Projectiles Magiques",
+      "zh": "魔法飞弹"
+    },
+    "Faísca rápida que nunca gasta mana. Recupera um pouco de mana ao acertar.": {
+      "en": "Fast spark that never costs mana. Restores a little mana on hit.",
+      "es": "Chispa rápida que nunca gasta maná. Recupera algo de maná al acertar.",
+      "fr": "Étincelle rapide qui ne coûte jamais de mana. Rend un peu de mana en touchant.",
+      "zh": "从不消耗法力的快速火花。命中时恢复少量法力。"
+    },
+    "Bola de Fogo": {
+      "en": "Fireball",
+      "es": "Bola de Fuego",
+      "fr": "Boule de Feu",
+      "zh": "火球术"
+    },
+    "Explode ao acertar e queima quem estiver perto.": {
+      "en": "Explodes on hit and burns anyone nearby.",
+      "es": "Explota al impactar y quema a quien esté cerca.",
+      "fr": "Explose à l’impact et brûle ceux qui sont proches.",
+      "zh": "命中时爆炸并灼烧附近的敌人。"
+    },
+    "Nova de Gelo": {
+      "en": "Frost Nova",
+      "es": "Nova de Hielo",
+      "fr": "Nova de Givre",
+      "zh": "冰霜新星"
+    },
+    "Anel de gelo em volta de você: dano e lentidão.": {
+      "en": "Ring of ice around you: damage and slow.",
+      "es": "Anillo de hielo a tu alrededor: daño y lentitud.",
+      "fr": "Anneau de glace autour de toi : dégâts et ralentissement.",
+      "zh": "你周围的冰环：造成伤害并减速。"
+    },
+    "Teleporte": {
+      "en": "Teleport",
+      "es": "Teletransporte",
+      "fr": "Téléportation",
+      "zh": "传送"
+    },
+    "Some e aparece onde o mouse aponta (sem atravessar paredes).": {
+      "en": "Vanish and reappear where the mouse points (not through walls).",
+      "es": "Desaparece y aparece donde apunta el ratón (sin atravesar paredes).",
+      "fr": "Disparais et réapparais là où pointe la souris (sans traverser les murs).",
+      "zh": "消失并出现在鼠标所指位置（不能穿墙）。"
+    },
+    "Meteoro": {
+      "en": "Meteor",
+      "es": "Meteoro",
+      "fr": "Météore",
+      "zh": "陨石术"
+    },
+    "Uma pedra em chamas cai do céu e deixa o chão pegando fogo.": {
+      "en": "A flaming rock falls from the sky and sets the ground on fire.",
+      "es": "Una roca en llamas cae del cielo y deja el suelo ardiendo.",
+      "fr": "Une pierre en feu tombe du ciel et embrase le sol.",
+      "zh": "燃烧的巨石从天而降，使地面燃起大火。"
+    },
+    "Toque Sombrio": {
+      "en": "Shadow Touch",
+      "es": "Toque Sombrío",
+      "fr": "Toucher Sombre",
+      "zh": "暗影之触"
+    },
+    "Esfera de sombra: 30% do dano volta como vida.": {
+      "en": "Shadow orb: 30% of damage returns as life.",
+      "es": "Esfera de sombra: 30% del daño vuelve como vida.",
+      "fr": "Sphère d’ombre : 30% des dégâts reviennent en vie.",
+      "zh": "暗影球：30% 的伤害转化为生命。"
+    },
+    "Lança de Ossos": {
+      "en": "Bone Spear",
+      "es": "Lanza de Hueso",
+      "fr": "Lance d’Os",
+      "zh": "骨矛"
+    },
+    "Atravessa todos os inimigos em linha (Necromante).": {
+      "en": "Pierces every enemy in a line (Necromancer).",
+      "es": "Atraviesa a todos los enemigos en línea (Nigromante).",
+      "fr": "Transperce tous les ennemis en ligne (Nécromancien).",
+      "zh": "贯穿一条直线上的所有敌人（死灵法师）。"
+    },
+    "Nuvem de Veneno": {
+      "en": "Poison Cloud",
+      "es": "Nube de Veneno",
+      "fr": "Nuage de Poison",
+      "zh": "毒云"
+    },
+    "Nuvem verde no chão que envenena por 5 s.": {
+      "en": "Green cloud on the ground that poisons for 5 s.",
+      "es": "Nube verde en el suelo que envenena por 5 s.",
+      "fr": "Nuage vert au sol qui empoisonne pendant 5 s.",
+      "zh": "地面上的绿色毒云，持续中毒 5 秒。"
+    },
+    "Invocar Sapos": {
+      "en": "Summon Frogs",
+      "es": "Invocar Ranas",
+      "fr": "Invoquer des Grenouilles",
+      "zh": "召唤青蛙"
+    },
+    "Chama sapos amigos que lutam ao seu lado (Witch Doctor). Mais ranques = mais sapos.": {
+      "en": "Calls friendly frogs that fight beside you (Witch Doctor). More ranks = more frogs.",
+      "es": "Llama ranas amigas que luchan a tu lado (Médico Brujo). Más rangos = más ranas.",
+      "fr": "Appelle des grenouilles amies qui combattent avec toi (Féticheur). Plus de rangs = plus de grenouilles.",
+      "zh": "召唤友方青蛙并肩作战（巫医）。等级越高，青蛙越多。"
+    },
+    "Maldição": {
+      "en": "Curse",
+      "es": "Maldición",
+      "fr": "Malédiction",
+      "zh": "诅咒"
+    },
+    "Inimigos na área levam 50% mais dano e ficam lentos.": {
+      "en": "Enemies in the area take 50% more damage and are slowed.",
+      "es": "Los enemigos en el área reciben 50% más daño y se ralentizan.",
+      "fr": "Les ennemis de la zone subissent 50% de dégâts en plus et sont ralentis.",
+      "zh": "区域内敌人受到的伤害提高 50% 并被减速。"
+    },
+    "Flecha": {
+      "en": "Arrow",
+      "es": "Flecha",
+      "fr": "Flèche",
+      "zh": "箭矢"
+    },
+    "Tiro rápido com o arco. Recupera Foco.": {
+      "en": "Quick bow shot. Restores Focus.",
+      "es": "Disparo rápido con el arco. Recupera Enfoque.",
+      "fr": "Tir rapide à l’arc. Rend de la Concentration.",
+      "zh": "快速弓箭射击。恢复专注。"
+    },
+    "Multiflecha": {
+      "en": "Multishot",
+      "es": "Multiflecha",
+      "fr": "Multi-flèche",
+      "zh": "多重射击"
+    },
+    "Leque de 5 flechas (Amazona). Mais ranques = mais flechas.": {
+      "en": "Fan of 5 arrows (Amazon). More ranks = more arrows.",
+      "es": "Abanico de 5 flechas (Amazona). Más rangos = más flechas.",
+      "fr": "Éventail de 5 flèches (Amazone). Plus de rangs = plus de flèches.",
+      "zh": "扇形射出 5 支箭（亚马逊）。等级越高，箭越多。"
+    },
+    "Rolamento": {
+      "en": "Roll",
+      "es": "Voltereta",
+      "fr": "Roulade",
+      "zh": "翻滚"
+    },
+    "Rola para trás e deixa uma armadilha que explode (Caçador de Demônios).": {
+      "en": "Roll backwards and leave an exploding trap (Demon Hunter).",
+      "es": "Rueda hacia atrás y deja una trampa explosiva (Cazador de Demonios).",
+      "fr": "Roule en arrière et laisse un piège explosif (Chasseur de démons).",
+      "zh": "向后翻滚并留下会爆炸的陷阱（猎魔人）。"
+    },
+    "Flecha Perfurante": {
+      "en": "Piercing Arrow",
+      "es": "Flecha Perforante",
+      "fr": "Flèche Perçante",
+      "zh": "穿透箭"
+    },
+    "Atravessa a fila inteira de inimigos com dano alto.": {
+      "en": "Pierces the whole line of enemies with high damage.",
+      "es": "Atraviesa toda la fila de enemigos con mucho daño.",
+      "fr": "Transperce toute la file d’ennemis avec de gros dégâts.",
+      "zh": "以高伤害贯穿整排敌人。"
+    },
+    "Chuva de Flechas": {
+      "en": "Rain of Arrows",
+      "es": "Lluvia de Flechas",
+      "fr": "Pluie de Flèches",
+      "zh": "箭雨"
+    },
+    "Uma chuva de flechas cai na área por 3 s.": {
+      "en": "A rain of arrows falls on the area for 3 s.",
+      "es": "Una lluvia de flechas cae en el área por 3 s.",
+      "fr": "Une pluie de flèches tombe sur la zone pendant 3 s.",
+      "zh": "箭雨在区域内持续落下 3 秒。"
+    },
+    "Gato Saqueador": {
+      "en": "Looter Cat",
+      "es": "Gato Saqueador",
+      "fr": "Chat Pillard",
+      "zh": "劫掠猫"
+    },
+    "Rato da Peste": {
+      "en": "Plague Rat",
+      "es": "Rata de la Peste",
+      "fr": "Rat de la Peste",
+      "zh": "瘟疫鼠"
+    },
+    "Gato Sombrio": {
+      "en": "Shadow Cat",
+      "es": "Gato Sombrío",
+      "fr": "Chat Sombre",
+      "zh": "暗影猫"
+    },
+    "Esquilo Enfeitiçado": {
+      "en": "Bewitched Squirrel",
+      "es": "Ardilla Hechizada",
+      "fr": "Écureuil Ensorcelé",
+      "zh": "被诅咒的松鼠"
+    },
+    "Esquilo Atirador": {
+      "en": "Squirrel Shooter",
+      "es": "Ardilla Tiradora",
+      "fr": "Écureuil Tireur",
+      "zh": "松鼠射手"
+    },
+    "Espantalho Vivo": {
+      "en": "Living Scarecrow",
+      "es": "Espantapájaros Vivo",
+      "fr": "Épouvantail Vivant",
+      "zh": "活稻草人"
+    },
+    "Sapo Envenenado": {
+      "en": "Poisoned Frog",
+      "es": "Rana Envenenada",
+      "fr": "Grenouille Empoisonnée",
+      "zh": "中毒的青蛙"
+    },
+    "Gato Bruxo": {
+      "en": "Witch Cat",
+      "es": "Gato Brujo",
+      "fr": "Chat Sorcier",
+      "zh": "巫师猫"
+    },
+    "Castor Enfeitiçado": {
+      "en": "Bewitched Beaver",
+      "es": "Castor Hechizado",
+      "fr": "Castor Ensorcelé",
+      "zh": "被诅咒的河狸"
+    },
+    "Gato Capataz": {
+      "en": "Overseer Cat",
+      "es": "Gato Capataz",
+      "fr": "Chat Contremaître",
+      "zh": "监工猫"
+    },
+    "Gato-Esqueleto": {
+      "en": "Skeleton Cat",
+      "es": "Gato Esqueleto",
+      "fr": "Chat Squelette",
+      "zh": "骷髅猫"
+    },
+    "Gato-Esqueleto Arqueiro": {
+      "en": "Skeleton Cat Archer",
+      "es": "Gato Esqueleto Arquero",
+      "fr": "Chat Squelette Archer",
+      "zh": "骷髅猫弓手"
+    },
+    "Toupeira Mineira": {
+      "en": "Miner Mole",
+      "es": "Topo Minero",
+      "fr": "Taupe Mineuse",
+      "zh": "矿工鼹鼠"
+    },
+    "Rabo-Torto, o Esquilo Enfeitiçado": {
+      "en": "Crooktail, the Bewitched Squirrel",
+      "es": "Cola Torcida, la Ardilla Hechizada",
+      "fr": "Queue-Tordue, l’Écureuil Ensorcelé",
+      "zh": "歪尾巴，被诅咒的松鼠"
+    },
+    "Lorde Sapo": {
+      "en": "Frog Lord",
+      "es": "Señor Rana",
+      "fr": "Seigneur Grenouille",
+      "zh": "青蛙领主"
+    },
+    "Capataz Garra-de-Ferro": {
+      "en": "Overseer Ironclaw",
+      "es": "Capataz Garra de Hierro",
+      "fr": "Contremaître Griffe-de-Fer",
+      "zh": "铁爪监工"
+    },
+    "Garra-de-Ferro": {
+      "en": "Ironclaw",
+      "es": "Garra de Hierro",
+      "fr": "Griffe-de-Fer",
+      "zh": "铁爪"
+    },
+    "Mestre Bigode-Negro, o Necromante": {
+      "en": "Master Blackwhisker, the Necromancer",
+      "es": "Maestro Bigote Negro, el Nigromante",
+      "fr": "Maître Moustache-Noire, le Nécromancien",
+      "zh": "死灵法师黑胡须大师"
+    },
+    "Fazendeiro Malaquias": {
+      "en": "Farmer Malachi",
+      "es": "Granjero Malaquías",
+      "fr": "Fermier Malachie",
+      "zh": "农夫马拉基"
+    },
+    "Sapo Amigo": {
+      "en": "Friendly Frog",
+      "es": "Rana Amiga",
+      "fr": "Grenouille Amie",
+      "zh": "友善青蛙"
+    },
+    "Bigodes": {
+      "en": "Whiskers",
+      "es": "Bigotes",
+      "fr": "Moustaches",
+      "zh": "胡须"
+    },
+    "Campeão": {
+      "en": "Champion",
+      "es": "Campeón",
+      "fr": "Champion",
+      "zh": "精英"
+    },
+    "{n} derrotado!": {
+      "en": "{n} defeated!",
+      "es": "¡{n} derrotado!",
+      "fr": "{n} vaincu !",
+      "zh": "{n} 已被击败！"
+    },
+    "Levantem-se, meus gatinhos!": {
+      "en": "Rise, my kitties!",
+      "es": "¡Levántense, mis gatitos!",
+      "fr": "Relevez-vous, mes minous !",
+      "zh": "起来吧，我的小猫们！"
+    },
+    "Miau-ha-ha-ha!": {
+      "en": "Meow-ha-ha-ha!",
+      "es": "¡Miau-ja-ja-ja!",
+      "fr": "Miaou-ha-ha-ha !",
+      "zh": "喵哈哈哈！"
+    },
+    "A fazenda nunca cai!": {
+      "en": "The farm never falls!",
+      "es": "¡La granja nunca cae!",
+      "fr": "La ferme ne tombe jamais !",
+      "zh": "农场永不陷落！"
+    },
+    "Vale de Ratudan": {
+      "en": "Ratudan Valley",
+      "es": "Valle de Ratudan",
+      "fr": "Vallée de Ratudan",
+      "zh": "拉图丹山谷"
+    },
+    "Vila Queijeira": {
+      "en": "Cheesevale Village",
+      "es": "Villa Quesera",
+      "fr": "Village Fromagère",
+      "zh": "奶酪村"
+    },
+    "Campos Queimados": {
+      "en": "Burnt Fields",
+      "es": "Campos Quemados",
+      "fr": "Champs Brûlés",
+      "zh": "焦土田野"
+    },
+    "Bosque dos Sussurros": {
+      "en": "Whispering Woods",
+      "es": "Bosque de los Susurros",
+      "fr": "Bois des Murmures",
+      "zh": "低语森林"
+    },
+    "Pântano Lodoso": {
+      "en": "Muddy Swamp",
+      "es": "Pantano Fangoso",
+      "fr": "Marais Boueux",
+      "zh": "泥泞沼泽"
+    },
+    "Represa dos Castores": {
+      "en": "Beaver Dam",
+      "es": "Presa de los Castores",
+      "fr": "Barrage des Castors",
+      "zh": "河狸水坝"
+    },
+    "Cemitério dos Sete Rabos": {
+      "en": "Seven Tails Graveyard",
+      "es": "Cementerio de las Siete Colas",
+      "fr": "Cimetière des Sept Queues",
+      "zh": "七尾墓地"
+    },
+    "Fazenda Sombria": {
+      "en": "Dark Farm",
+      "es": "Granja Sombría",
+      "fr": "Ferme Sombre",
+      "zh": "阴暗农场"
+    },
+    "Lugar seguro": {
+      "en": "Safe place",
+      "es": "Lugar seguro",
+      "fr": "Lieu sûr",
+      "zh": "安全区"
+    },
+    "Nível {n}": {
+      "en": "Level {n}",
+      "es": "Nivel {n}",
+      "fr": "Niveau {n}",
+      "zh": "{n} 级"
+    },
+    "Nível {n}!": {
+      "en": "Level {n}!",
+      "es": "¡Nivel {n}!",
+      "fr": "Niveau {n} !",
+      "zh": "升到 {n} 级！"
+    },
+    "Ponto de viagem": {
+      "en": "Waypoint",
+      "es": "Punto de viaje",
+      "fr": "Point de passage",
+      "zh": "传送点"
+    },
+    "Ponto de viagem descoberto": {
+      "en": "Waypoint discovered",
+      "es": "Punto de viaje descubierto",
+      "fr": "Point de passage découvert",
+      "zh": "发现传送点"
+    },
+    "Pontos de viagem": {
+      "en": "Waypoints",
+      "es": "Puntos de viaje",
+      "fr": "Points de passage",
+      "zh": "传送点"
+    },
+    "Ache novos pontos explorando o vale": {
+      "en": "Find new waypoints by exploring the valley",
+      "es": "Encuentra nuevos puntos explorando el valle",
+      "fr": "Trouve de nouveaux points en explorant la vallée",
+      "zh": "探索山谷以发现新的传送点"
+    },
+    "Tab ou Esc fecha": {
+      "en": "Tab or Esc closes",
+      "es": "Tab o Esc cierra",
+      "fr": "Tab ou Échap ferme",
+      "zh": "Tab 或 Esc 关闭"
+    },
+    "Normal": {
+      "en": "Normal",
+      "es": "Normal",
+      "fr": "Normal",
+      "zh": "普通"
+    },
+    "Pesadelo": {
+      "en": "Nightmare",
+      "es": "Pesadilla",
+      "fr": "Cauchemar",
+      "zh": "噩梦"
+    },
+    "Inferno": {
+      "en": "Hell",
+      "es": "Infierno",
+      "fr": "Enfer",
+      "zh": "地狱"
+    },
+    "Rei Queijo III": {
+      "en": "King Cheese III",
+      "es": "Rey Queso III",
+      "fr": "Roi Fromage III",
+      "zh": "奶酪三世国王"
+    },
+    "Herói! Ainda bem que você voltou.": {
+      "en": "Hero! Thank goodness you’re back.",
+      "es": "¡Héroe! Menos mal que volviste.",
+      "fr": "Héros ! Heureusement que tu es revenu.",
+      "zh": "英雄！幸好你回来了。"
+    },
+    "O Fazendeiro Malaquias queimou nossa vila numa só noite.": {
+      "en": "Farmer Malachi burned our village in a single night.",
+      "es": "El Granjero Malaquías quemó nuestra villa en una sola noche.",
+      "fr": "Le Fermier Malachie a brûlé notre village en une seule nuit.",
+      "zh": "农夫马拉基一夜之间烧毁了我们的村庄。"
+    },
+    "Junte-se aos sobreviventes e vamos reconstruir Queijeira.": {
+      "en": "Join the survivors and let’s rebuild Cheesevale.",
+      "es": "Únete a los supervivientes y reconstruyamos Quesera.",
+      "fr": "Rejoins les survivants et reconstruisons Fromagère.",
+      "zh": "加入幸存者，一起重建奶酪村吧。"
+    },
+    "Vovó Ratilde": {
+      "en": "Granny Ratilde",
+      "es": "Abuela Ratilde",
+      "fr": "Mamie Ratilde",
+      "zh": "拉蒂尔德奶奶"
+    },
+    "Venha cá, meu bem, deixa a vovó cuidar desses arranhões.": {
+      "en": "Come here, dear, let granny tend those scratches.",
+      "es": "Ven aquí, cariño, deja que la abuela cure esos rasguños.",
+      "fr": "Viens par ici, mon chou, laisse mamie soigner ces égratignures.",
+      "zh": "过来，亲爱的，让奶奶处理一下这些抓伤。"
+    },
+    "Chá de camomila e um pedaço de queijo curam quase tudo.": {
+      "en": "Chamomile tea and a piece of cheese cure almost anything.",
+      "es": "Té de manzanilla y un trozo de queso curan casi todo.",
+      "fr": "Une camomille et un bout de fromage guérissent presque tout.",
+      "zh": "一杯洋甘菊茶和一块奶酪几乎能治好一切。"
+    },
+    "Castorino, o Ferreiro": {
+      "en": "Castorino the Smith",
+      "es": "Castorino, el Herrero",
+      "fr": "Castorino le Forgeron",
+      "zh": "铁匠卡斯托里诺"
+    },
+    "Sou castor, mas não sou como aqueles enfeitiçados da represa.": {
+      "en": "I’m a beaver, but not like those bewitched ones at the dam.",
+      "es": "Soy castor, pero no como esos hechizados de la presa.",
+      "fr": "Je suis un castor, mais pas comme ces ensorcelés du barrage.",
+      "zh": "我是河狸，但和水坝那些被诅咒的不一样。"
+    },
+    "Armas e armaduras: a forja ainda funciona, por milagre!": {
+      "en": "Weapons and armor: the forge still works, by some miracle!",
+      "es": "Armas y armaduras: ¡la forja aún funciona, de milagro!",
+      "fr": "Armes et armures : la forge marche encore, par miracle !",
+      "zh": "武器和护甲：铁炉居然还能用，真是奇迹！"
+    },
+    "Dona Avelã": {
+      "en": "Madame Hazel",
+      "es": "Doña Avellana",
+      "fr": "Madame Noisette",
+      "zh": "榛子太太"
+    },
+    "Poções fresquinhas! Pergaminhos de portal!": {
+      "en": "Fresh potions! Portal scrolls!",
+      "es": "¡Pociones frescas! ¡Pergaminos de portal!",
+      "fr": "Potions toutes fraîches ! Parchemins de portail !",
+      "zh": "新鲜药水！传送卷轴！"
+    },
+    "Salvei meu carrinho do fogo. Vamos negociar?": {
+      "en": "I saved my cart from the fire. Shall we trade?",
+      "es": "Salvé mi carrito del fuego. ¿Negociamos?",
+      "fr": "J’ai sauvé ma charrette du feu. On marchande ?",
+      "zh": "我从火里抢出了我的小推车。做笔生意吗？"
+    },
+    "Sargento Ratão": {
+      "en": "Sergeant Rattigan",
+      "es": "Sargento Ratón",
+      "fr": "Sergent Raton",
+      "zh": "鼠大军士"
+    },
+    "Mantenha a espada afiada.": {
+      "en": "Keep your sword sharp.",
+      "es": "Mantén la espada afilada.",
+      "fr": "Garde ton épée affûtée.",
+      "zh": "保持你的剑锋利。"
+    },
+    "Os gatos atacam à noite. E de dia. E na hora do almoço.": {
+      "en": "The cats attack at night. And by day. And at lunchtime.",
+      "es": "Los gatos atacan de noche. Y de día. Y a la hora del almuerzo.",
+      "fr": "Les chats attaquent la nuit. Et le jour. Et à l’heure du déjeuner.",
+      "zh": "猫会在夜里进攻。白天也会。午饭时间也会。"
+    },
+    "Bigodes, o Gato Desertor": {
+      "en": "Whiskers, the Deserter Cat",
+      "es": "Bigotes, el Gato Desertor",
+      "fr": "Moustaches, le Chat Déserteur",
+      "zh": "逃兵猫胡须"
+    },
+    "Calma! Nem todo gato é mau.": {
+      "en": "Easy! Not every cat is evil.",
+      "es": "¡Calma! No todos los gatos son malos.",
+      "fr": "Du calme ! Tous les chats ne sont pas méchants.",
+      "zh": "别紧张！不是所有的猫都是坏的。"
+    },
+    "Eu fugi da fazenda. O Malaquias trata os gatos como ferramentas.": {
+      "en": "I ran away from the farm. Malachi treats cats like tools.",
+      "es": "Escapé de la granja. Malaquías trata a los gatos como herramientas.",
+      "fr": "J’ai fui la ferme. Malachie traite les chats comme des outils.",
+      "zh": "我从农场逃了出来。马拉基把猫当工具使唤。"
+    },
+    "Princesa Gouda": {
+      "en": "Princess Gouda",
+      "es": "Princesa Gouda",
+      "fr": "Princesse Gouda",
+      "zh": "高达公主"
+    },
+    "Guardo os tesouros da família no baú real.": {
+      "en": "I keep the family treasures in the royal chest.",
+      "es": "Guardo los tesoros de la familia en el baúl real.",
+      "fr": "Je garde les trésors de la famille dans le coffre royal.",
+      "zh": "我把家族宝物存放在皇家宝箱里。"
+    },
+    "Pode deixar suas coisas comigo, ninguém mexe.": {
+      "en": "You can leave your things with me, nobody will touch them.",
+      "es": "Puedes dejar tus cosas conmigo, nadie las toca.",
+      "fr": "Tu peux me laisser tes affaires, personne n’y touchera.",
+      "zh": "东西可以放我这儿，没人会碰。"
+    },
+    "Seu Coaxim, o Pescador": {
+      "en": "Old Croaky, the Fisherman",
+      "es": "Don Croac, el Pescador",
+      "fr": "Père Croassou, le Pêcheur",
+      "zh": "渔夫呱呱老爹"
+    },
+    "Croac! Nem todo sapo virou monstro.": {
+      "en": "Croak! Not every frog turned into a monster.",
+      "es": "¡Croac! No todas las ranas se volvieron monstruos.",
+      "fr": "Croâ ! Toutes les grenouilles ne sont pas devenues des monstres.",
+      "zh": "呱！不是所有青蛙都变成了怪物。"
+    },
+    "O veneno do Fazendeiro desceu pelo rio e deixou meus primos malucos.": {
+      "en": "The Farmer’s poison came down the river and drove my cousins mad.",
+      "es": "El veneno del Granjero bajó por el río y volvió locos a mis primos.",
+      "fr": "Le poison du Fermier a descendu la rivière et rendu mes cousins fous.",
+      "zh": "农夫的毒顺着河流下来，把我的表亲们弄疯了。"
+    },
+    "Chefe Dentuço": {
+      "en": "Chief Buckteeth",
+      "es": "Jefe Dientón",
+      "fr": "Chef Grandes-Dents",
+      "zh": "大板牙首领"
+    },
+    "Os gatos capatazes nos fazem roer madeira dia e noite.": {
+      "en": "The overseer cats make us gnaw wood day and night.",
+      "es": "Los gatos capataces nos hacen roer madera día y noche.",
+      "fr": "Les chats contremaîtres nous font ronger du bois jour et nuit.",
+      "zh": "监工猫逼我们日夜啃木头。"
+    },
+    "Liberte a represa e os castores estarão do seu lado.": {
+      "en": "Free the dam and the beavers will be on your side.",
+      "es": "Libera la presa y los castores estarán de tu lado.",
+      "fr": "Libère le barrage et les castors seront de ton côté.",
+      "zh": "解放水坝，河狸们就会站在你这边。"
+    },
+    "Pipa, a Batedora": {
+      "en": "Kite, the Scout",
+      "es": "Cometa, la Exploradora",
+      "fr": "Cerf-Volant, l’Éclaireuse",
+      "zh": "侦察兵风筝"
+    },
+    "Shh! O bosque tem ouvidos.": {
+      "en": "Shh! The woods have ears.",
+      "es": "¡Shh! El bosque tiene oídos.",
+      "fr": "Chut ! Le bois a des oreilles.",
+      "zh": "嘘！森林有耳朵。"
+    },
+    "Os espantalhos andam sozinhos quando a lua sobe.": {
+      "en": "The scarecrows walk on their own when the moon rises.",
+      "es": "Los espantapájaros caminan solos cuando sale la luna.",
+      "fr": "Les épouvantails marchent seuls quand la lune se lève.",
+      "zh": "月亮升起时，稻草人会自己走动。"
+    },
+    "Zé Toupeira": {
+      "en": "Joe Mole",
+      "es": "Pepe Topo",
+      "fr": "Jojo la Taupe",
+      "zh": "鼹鼠阿乔"
+    },
+    "Cavei um túnel até o cemitério. Me arrependi.": {
+      "en": "I dug a tunnel to the graveyard. I regret it.",
+      "es": "Cavé un túnel hasta el cementerio. Me arrepentí.",
+      "fr": "J’ai creusé un tunnel jusqu’au cimetière. Je le regrette.",
+      "zh": "我挖了条通往墓地的隧道。后悔了。"
+    },
+    "Lá embaixo os ossos de gato se mexem sozinhos.": {
+      "en": "Down there the cat bones move by themselves.",
+      "es": "Allí abajo los huesos de gato se mueven solos.",
+      "fr": "Là-dessous, les os de chat bougent tout seuls.",
+      "zh": "下面的猫骨头会自己动。"
+    },
+    "Menestrel Ricota": {
+      "en": "Ricotta the Minstrel",
+      "es": "Juglar Ricota",
+      "fr": "Ménestrel Ricotta",
+      "zh": "吟游诗人里科塔"
+    },
+    "♪ Malaquias, Malaquias, de gatos fez seu exército… ♪": {
+      "en": "♪ Malachi, Malachi, made an army out of cats… ♪",
+      "es": "♪ Malaquías, Malaquías, de gatos hizo su ejército… ♪",
+      "fr": "♪ Malachie, Malachie, des chats fit son armée… ♪",
+      "zh": "♪ 马拉基，马拉基，用猫组成了军队…… ♪"
+    },
+    "Dizem que ele achou um livro costurado dentro de um espantalho.": {
+      "en": "They say he found a book sewn inside a scarecrow.",
+      "es": "Dicen que encontró un libro cosido dentro de un espantapájaros.",
+      "fr": "On dit qu’il a trouvé un livre cousu dans un épouvantail.",
+      "zh": "据说他在一个稻草人里发现了一本缝在里面的书。"
+    },
+    "Desde então nenhum gato da fazenda morre de verdade.": {
+      "en": "Since then, no farm cat ever truly dies.",
+      "es": "Desde entonces ningún gato de la granja muere de verdad.",
+      "fr": "Depuis, aucun chat de la ferme ne meurt vraiment.",
+      "zh": "从那以后，农场里的猫再也不会真正死去。"
+    },
+    "Pronto, novinho em folha!": {
+      "en": "There you go, good as new!",
+      "es": "¡Listo, como nuevo!",
+      "fr": "Voilà, comme neuf !",
+      "zh": "好了，焕然一新！"
+    },
+    "Cinzas da Vila": {
+      "en": "Ashes of the Village",
+      "es": "Cenizas de la Villa",
+      "fr": "Cendres du Village",
+      "zh": "村庄的灰烬"
+    },
+    "Os gatos saqueadores ainda reviram as cinzas de Queijeira. Expulse 8 deles dos Campos Queimados.": {
+      "en": "Looter cats still rummage through Cheesevale’s ashes. Drive 8 of them out of the Burnt Fields.",
+      "es": "Los gatos saqueadores aún revuelven las cenizas de Quesera. Expulsa a 8 de los Campos Quemados.",
+      "fr": "Les chats pillards fouillent encore les cendres de Fromagère. Chasse-en 8 des Champs Brûlés.",
+      "zh": "劫掠猫仍在奶酪村的灰烬中翻找。把其中 8 只赶出焦土田野。"
+    },
+    "Os gatos do Fazendeiro ainda reviram nossas casas queimadas.": {
+      "en": "The Farmer’s cats still dig through our burnt houses.",
+      "es": "Los gatos del Granjero aún revuelven nuestras casas quemadas.",
+      "fr": "Les chats du Fermier fouillent encore nos maisons brûlées.",
+      "zh": "农夫的猫还在我们烧毁的房子里翻找。"
+    },
+    "Expulse oito deles dos campos e mostre que Queijeira não morreu!": {
+      "en": "Drive eight of them out of the fields and show that Cheesevale isn’t dead!",
+      "es": "¡Expulsa a ocho de los campos y demuestra que Quesera no ha muerto!",
+      "fr": "Chasse-en huit des champs et montre que Fromagère n’est pas morte !",
+      "zh": "把其中八只赶出田野，让它们知道奶酪村还没灭亡！"
+    },
+    "Ainda há gatos nos campos. Coragem!": {
+      "en": "There are still cats in the fields. Courage!",
+      "es": "Aún hay gatos en los campos. ¡Ánimo!",
+      "fr": "Il reste des chats dans les champs. Courage !",
+      "zh": "田野里还有猫。勇敢点！"
+    },
+    "Ha! Fugiram com o rabo entre as pernas.": {
+      "en": "Ha! They ran off with their tails between their legs.",
+      "es": "¡Ja! Huyeron con el rabo entre las piernas.",
+      "fr": "Ha ! Ils ont fui la queue entre les jambes.",
+      "zh": "哈！它们夹着尾巴逃跑了。"
+    },
+    "Tome, era do meu avô. Agora é seu.": {
+      "en": "Here, this was my grandfather’s. Now it’s yours.",
+      "es": "Toma, era de mi abuelo. Ahora es tuyo.",
+      "fr": "Tiens, c’était à mon grand-père. C’est à toi maintenant.",
+      "zh": "拿着，这是我爷爷的。现在归你了。"
+    },
+    "A Batedora Sumida": {
+      "en": "The Missing Scout",
+      "es": "La Exploradora Desaparecida",
+      "fr": "L’Éclaireuse Disparue",
+      "zh": "失踪的侦察兵"
+    },
+    "Pipa foi espiar o Bosque dos Sussurros e não voltou. Siga a estrada para o norte e encontre-a.": {
+      "en": "Kite went to spy on the Whispering Woods and never came back. Follow the road north and find her.",
+      "es": "Cometa fue a espiar el Bosque de los Susurros y no volvió. Sigue el camino al norte y encuéntrala.",
+      "fr": "Cerf-Volant est allée espionner le Bois des Murmures et n’est pas revenue. Suis la route vers le nord et retrouve-la.",
+      "zh": "风筝去低语森林侦察后再没回来。沿着向北的路去找她。"
+    },
+    "Mandei a Pipa espiar o bosque ao norte. Faz dois dias.": {
+      "en": "I sent Kite to scout the woods to the north. That was two days ago.",
+      "es": "Mandé a Cometa a espiar el bosque del norte. Hace dos días.",
+      "fr": "J’ai envoyé Cerf-Volant espionner le bois au nord. Il y a deux jours.",
+      "zh": "我派风筝去北边的森林侦察，已经两天了。"
+    },
+    "Siga a estrada e traga notícias dela.": {
+      "en": "Follow the road and bring news of her.",
+      "es": "Sigue el camino y trae noticias de ella.",
+      "fr": "Suis la route et rapporte de ses nouvelles.",
+      "zh": "沿着路走，带回她的消息。"
+    },
+    "Nenhuma notícia da Pipa ainda?": {
+      "en": "No news of Kite yet?",
+      "es": "¿Aún no hay noticias de Cometa?",
+      "fr": "Toujours pas de nouvelles de Cerf-Volant ?",
+      "zh": "还没有风筝的消息吗？"
+    },
+    "Ela está viva? Que alívio!": {
+      "en": "She’s alive? What a relief!",
+      "es": "¿Está viva? ¡Qué alivio!",
+      "fr": "Elle est vivante ? Quel soulagement !",
+      "zh": "她还活着？太好了！"
+    },
+    "O Esquilo Enfeitiçado": {
+      "en": "The Bewitched Squirrel",
+      "es": "La Ardilla Hechizada",
+      "fr": "L’Écureuil Ensorcelé",
+      "zh": "被诅咒的松鼠"
+    },
+    "Rabo-Torto, o líder dos esquilos, foi enfeitiçado pelo Fazendeiro. Derrote-o no fundo do bosque.": {
+      "en": "Crooktail, leader of the squirrels, was bewitched by the Farmer. Defeat him deep in the woods.",
+      "es": "Cola Torcida, líder de las ardillas, fue hechizada por el Granjero. Derrótala en lo profundo del bosque.",
+      "fr": "Queue-Tordue, chef des écureuils, a été ensorcelé par le Fermier. Bats-le au fond du bois.",
+      "zh": "松鼠首领歪尾巴被农夫诅咒了。在森林深处击败他。"
+    },
+    "O Rabo-Torto era meu amigo. Agora tem olhos vermelhos e manda nos gatos sombrios.": {
+      "en": "Crooktail was my friend. Now he has red eyes and commands the shadow cats.",
+      "es": "Cola Torcida era mi amiga. Ahora tiene ojos rojos y manda a los gatos sombríos.",
+      "fr": "Queue-Tordue était mon ami. Maintenant il a les yeux rouges et commande les chats sombres.",
+      "zh": "歪尾巴曾是我的朋友。现在他双眼通红，指挥着暗影猫。"
+    },
+    "Derrote-o no fundo do bosque. Talvez o feitiço quebre.": {
+      "en": "Defeat him deep in the woods. Maybe the spell will break.",
+      "es": "Derrótala en lo profundo del bosque. Tal vez el hechizo se rompa.",
+      "fr": "Bats-le au fond du bois. Le sort se brisera peut-être.",
+      "zh": "在森林深处击败他，也许咒语会解除。"
+    },
+    "Ele fica perto das árvores mais velhas, ao norte.": {
+      "en": "He stays near the oldest trees, to the north.",
+      "es": "Se queda cerca de los árboles más viejos, al norte.",
+      "fr": "Il reste près des plus vieux arbres, au nord.",
+      "zh": "他待在北边最古老的树旁。"
+    },
+    "O feitiço quebrou… ele nem lembra de nada.": {
+      "en": "The spell broke… he doesn’t remember a thing.",
+      "es": "El hechizo se rompió… no recuerda nada.",
+      "fr": "Le sort est brisé… il ne se souvient de rien.",
+      "zh": "咒语解除了……他什么都不记得了。"
+    },
+    "Os esquilos agora estão do nosso lado. Leve isto.": {
+      "en": "The squirrels are on our side now. Take this.",
+      "es": "Las ardillas ahora están de nuestro lado. Toma esto.",
+      "fr": "Les écureuils sont de notre côté maintenant. Prends ceci.",
+      "zh": "松鼠们现在站在我们这边了。拿着这个。"
+    },
+    "Cogumelos Lunares": {
+      "en": "Moon Mushrooms",
+      "es": "Setas Lunares",
+      "fr": "Champignons Lunaires",
+      "zh": "月光蘑菇"
+    },
+    "A Vovó Ratilde precisa de 5 Cogumelos Lunares para fazer remédio para os feridos. Monstros do bosque e do pântano às vezes carregam um.": {
+      "en": "Granny Ratilde needs 5 Moon Mushrooms to make medicine for the wounded. Monsters in the woods and swamp sometimes carry one.",
+      "es": "La Abuela Ratilde necesita 5 Setas Lunares para hacer remedio para los heridos. Los monstruos del bosque y del pantano a veces llevan una.",
+      "fr": "Mamie Ratilde a besoin de 5 Champignons Lunaires pour soigner les blessés. Les monstres du bois et du marais en portent parfois un.",
+      "zh": "拉蒂尔德奶奶需要 5 个月光蘑菇为伤员做药。森林和沼泽的怪物有时会带着。"
+    },
+    "Os feridos precisam de remédio, e o meu acabou.": {
+      "en": "The wounded need medicine, and mine ran out.",
+      "es": "Los heridos necesitan remedio, y el mío se acabó.",
+      "fr": "Les blessés ont besoin de remèdes, et je n’en ai plus.",
+      "zh": "伤员需要药，可我的药用完了。"
+    },
+    "Traga 5 Cogumelos Lunares. Os bichos do bosque costumam carregar.": {
+      "en": "Bring 5 Moon Mushrooms. The woodland critters usually carry them.",
+      "es": "Trae 5 Setas Lunares. Los bichos del bosque suelen llevarlas.",
+      "fr": "Rapporte 5 Champignons Lunaires. Les bêtes du bois en portent souvent.",
+      "zh": "带 5 个月光蘑菇来。森林里的小怪常带着。"
+    },
+    "Achou os cogumelos, meu bem?": {
+      "en": "Found the mushrooms, dear?",
+      "es": "¿Encontraste las setas, cariño?",
+      "fr": "Tu as trouvé les champignons, mon chou ?",
+      "zh": "找到蘑菇了吗，亲爱的？"
+    },
+    "Que lindos! Vão curar todo mundo.": {
+      "en": "How lovely! They’ll heal everyone.",
+      "es": "¡Qué bonitas! Curarán a todos.",
+      "fr": "Qu’ils sont beaux ! Ils vont soigner tout le monde.",
+      "zh": "真漂亮！能治好所有人了。"
+    },
+    "Fique com estas poções, você vai precisar.": {
+      "en": "Keep these potions, you’ll need them.",
+      "es": "Quédate con estas pociones, las necesitarás.",
+      "fr": "Garde ces potions, tu en auras besoin.",
+      "zh": "拿着这些药水，你会用得上。"
+    },
+    "Veneno no Rio": {
+      "en": "Poison in the River",
+      "es": "Veneno en el Río",
+      "fr": "Poison dans la Rivière",
+      "zh": "河中之毒"
+    },
+    "Algo envenenou a água que vem do leste. Procure o pescador Seu Coaxim no Pântano Lodoso.": {
+      "en": "Something poisoned the water coming from the east. Find Old Croaky the fisherman in the Muddy Swamp.",
+      "es": "Algo envenenó el agua que viene del este. Busca al pescador Don Croac en el Pantano Fangoso.",
+      "fr": "Quelque chose a empoisonné l’eau venue de l’est. Trouve Père Croassou le pêcheur dans le Marais Boueux.",
+      "zh": "有东西污染了东边流来的水。去泥泞沼泽找渔夫呱呱老爹。"
+    },
+    "A água que vem do leste está verde e fedida.": {
+      "en": "The water from the east is green and smelly.",
+      "es": "El agua que viene del este está verde y apestosa.",
+      "fr": "L’eau qui vient de l’est est verte et puante.",
+      "zh": "东边流来的水又绿又臭。"
+    },
+    "Há um sapo pescador que conhece o pântano. Encontre-o.": {
+      "en": "There’s a fisherman frog who knows the swamp. Find him.",
+      "es": "Hay una rana pescadora que conoce el pantano. Encuéntrala.",
+      "fr": "Il y a une grenouille pêcheuse qui connaît le marais. Trouve-la.",
+      "zh": "有只熟悉沼泽的渔夫青蛙。去找他。"
+    },
+    "O pântano fica a leste, siga a estrada.": {
+      "en": "The swamp is to the east, follow the road.",
+      "es": "El pantano está al este, sigue el camino.",
+      "fr": "Le marais est à l’est, suis la route.",
+      "zh": "沼泽在东边，沿着路走。"
+    },
+    "Croac! Um herói de verdade!": {
+      "en": "Croak! A real hero!",
+      "es": "¡Croac! ¡Un héroe de verdad!",
+      "fr": "Croâ ! Un vrai héros !",
+      "zh": "呱！真正的英雄！"
+    },
+    "O Lorde do Brejo": {
+      "en": "The Lord of the Bog",
+      "es": "El Señor del Pantano",
+      "fr": "Le Seigneur du Marais",
+      "zh": "沼泽领主"
+    },
+    "O Fazendeiro despejou veneno no brejo e transformou o Lorde Sapo num monstro. Vença-o no norte do pântano.": {
+      "en": "The Farmer dumped poison in the bog and turned the Frog Lord into a monster. Defeat him in the north of the swamp.",
+      "es": "El Granjero vertió veneno en el pantano y convirtió al Señor Rana en un monstruo. Vencelo al norte del pantano.",
+      "fr": "Le Fermier a déversé du poison dans le marais et changé le Seigneur Grenouille en monstre. Bats-le au nord du marais.",
+      "zh": "农夫往沼泽里倒了毒，把青蛙领主变成了怪物。在沼泽北部击败他。"
+    },
+    "O Fazendeiro jogou barris de veneno no brejo.": {
+      "en": "The Farmer threw barrels of poison into the bog.",
+      "es": "El Granjero tiró barriles de veneno al pantano.",
+      "fr": "Le Fermier a jeté des barils de poison dans le marais.",
+      "zh": "农夫把一桶桶毒药扔进了沼泽。"
+    },
+    "O Lorde Sapo bebeu tudo e enlouqueceu. Por favor… pare ele.": {
+      "en": "The Frog Lord drank it all and went mad. Please… stop him.",
+      "es": "El Señor Rana se lo bebió todo y enloqueció. Por favor… detenlo.",
+      "fr": "Le Seigneur Grenouille a tout bu et est devenu fou. S’il te plaît… arrête-le.",
+      "zh": "青蛙领主全喝了，然后疯了。求你……阻止他。"
+    },
+    "Ele mora no norte do pântano, perto das poças mais fundas.": {
+      "en": "He lives in the north of the swamp, near the deepest pools.",
+      "es": "Vive al norte del pantano, cerca de los charcos más hondos.",
+      "fr": "Il vit au nord du marais, près des mares les plus profondes.",
+      "zh": "他住在沼泽北部，最深的水塘附近。"
+    },
+    "A água já está clareando! Os sapos estão acordando do pesadelo.": {
+      "en": "The water is already clearing! The frogs are waking from the nightmare.",
+      "es": "¡El agua ya se aclara! Las ranas despiertan de la pesadilla.",
+      "fr": "L’eau s’éclaircit déjà ! Les grenouilles se réveillent du cauchemar.",
+      "zh": "水已经变清了！青蛙们正从噩梦中醒来。"
+    },
+    "Os sapos agora são seus amigos.": {
+      "en": "The frogs are your friends now.",
+      "es": "Las ranas ahora son tus amigas.",
+      "fr": "Les grenouilles sont tes amies maintenant.",
+      "zh": "青蛙们现在是你的朋友了。"
+    },
+    "O Gato Desertor": {
+      "en": "The Deserter Cat",
+      "es": "El Gato Desertor",
+      "fr": "Le Chat Déserteur",
+      "zh": "逃兵猫"
+    },
+    "Bigodes quer provar que é aliado. Derrote 12 Gatos Sombrios e ele vai lutar ao seu lado.": {
+      "en": "Whiskers wants to prove he’s an ally. Defeat 12 Shadow Cats and he’ll fight by your side.",
+      "es": "Bigotes quiere demostrar que es aliado. Derrota a 12 Gatos Sombríos y luchará a tu lado.",
+      "fr": "Moustaches veut prouver qu’il est un allié. Bats 12 Chats Sombres et il combattra à tes côtés.",
+      "zh": "胡须想证明自己是盟友。击败 12 只暗影猫，他就会与你并肩作战。"
+    },
+    "Ninguém confia num gato. Eu entendo.": {
+      "en": "Nobody trusts a cat. I understand.",
+      "es": "Nadie confía en un gato. Lo entiendo.",
+      "fr": "Personne ne fait confiance à un chat. Je comprends.",
+      "zh": "没人信任猫。我理解。"
+    },
+    "Derrote 12 Gatos Sombrios, os mais leais ao Malaquias, e eu luto ao seu lado.": {
+      "en": "Defeat 12 Shadow Cats, Malachi’s most loyal, and I’ll fight by your side.",
+      "es": "Derrota a 12 Gatos Sombríos, los más leales a Malaquías, y lucharé a tu lado.",
+      "fr": "Bats 12 Chats Sombres, les plus fidèles à Malachie, et je combattrai à tes côtés.",
+      "zh": "击败 12 只对马拉基最忠心的暗影猫，我就和你并肩作战。"
+    },
+    "Os Gatos Sombrios ficam no bosque.": {
+      "en": "The Shadow Cats stay in the woods.",
+      "es": "Los Gatos Sombríos están en el bosque.",
+      "fr": "Les Chats Sombres sont dans le bois.",
+      "zh": "暗影猫在森林里。"
+    },
+    "Pronto. Agora sou o seu gato.": {
+      "en": "Done. Now I’m your cat.",
+      "es": "Listo. Ahora soy tu gato.",
+      "fr": "Voilà. Maintenant je suis ton chat.",
+      "zh": "好了。现在我是你的猫了。"
+    },
+    "Vou com você. Pode me chamar quando precisar.": {
+      "en": "I’ll come with you. Call me whenever you need.",
+      "es": "Voy contigo. Llámame cuando me necesites.",
+      "fr": "Je viens avec toi. Appelle-moi quand tu veux.",
+      "zh": "我跟你走。需要时随时叫我。"
+    },
+    "A Represa Escravizada": {
+      "en": "The Enslaved Dam",
+      "es": "La Presa Esclavizada",
+      "fr": "Le Barrage Asservi",
+      "zh": "被奴役的水坝"
+    },
+    "Os castores do sul estão presos na represa. Atravesse a ponte e fale com o Chefe Dentuço.": {
+      "en": "The southern beavers are trapped at the dam. Cross the bridge and talk to Chief Buckteeth.",
+      "es": "Los castores del sur están atrapados en la presa. Cruza el puente y habla con el Jefe Dientón.",
+      "fr": "Les castors du sud sont prisonniers du barrage. Traverse le pont et parle au Chef Grandes-Dents.",
+      "zh": "南方的河狸被困在水坝。过桥去找大板牙首领。"
+    },
+    "Os castores do sul sempre foram nossos amigos.": {
+      "en": "The southern beavers have always been our friends.",
+      "es": "Los castores del sur siempre fueron nuestros amigos.",
+      "fr": "Les castors du sud ont toujours été nos amis.",
+      "zh": "南方的河狸一直是我们的朋友。"
+    },
+    "Agora roem madeira para o Fazendeiro. Atravesse a ponte e fale com o chefe deles.": {
+      "en": "Now they gnaw wood for the Farmer. Cross the bridge and talk to their chief.",
+      "es": "Ahora roen madera para el Granjero. Cruza el puente y habla con su jefe.",
+      "fr": "Maintenant ils rongent du bois pour le Fermier. Traverse le pont et parle à leur chef.",
+      "zh": "现在他们在为农夫啃木头。过桥去找他们的首领。"
+    },
+    "A ponte fica no fim da estrada do sul.": {
+      "en": "The bridge is at the end of the south road.",
+      "es": "El puente está al final del camino del sur.",
+      "fr": "Le pont est au bout de la route du sud.",
+      "zh": "桥在南边道路的尽头。"
+    },
+    "Você veio! Ainda há esperança.": {
+      "en": "You came! There’s still hope.",
+      "es": "¡Viniste! Aún hay esperanza.",
+      "fr": "Tu es venu ! Il reste de l’espoir.",
+      "zh": "你来了！还有希望。"
+    },
+    "O Capataz Garra-de-Ferro comanda os gatos da represa. Derrube-o e os castores ficam livres.": {
+      "en": "Overseer Ironclaw commands the cats at the dam. Bring him down and the beavers go free.",
+      "es": "El Capataz Garra de Hierro manda a los gatos de la presa. Derríbalo y los castores quedarán libres.",
+      "fr": "Le Contremaître Griffe-de-Fer commande les chats du barrage. Abats-le et les castors seront libres.",
+      "zh": "铁爪监工统领水坝的猫。打倒他，河狸们就自由了。"
+    },
+    "O Capataz Garra-de-Ferro tem o feitiço que nos prende.": {
+      "en": "Overseer Ironclaw holds the spell that binds us.",
+      "es": "El Capataz Garra de Hierro tiene el hechizo que nos ata.",
+      "fr": "Le Contremaître Griffe-de-Fer détient le sort qui nous enchaîne.",
+      "zh": "铁爪监工掌握着束缚我们的咒语。"
+    },
+    "Ele fica no leste da represa, gritando ordens.": {
+      "en": "He stays east of the dam, shouting orders.",
+      "es": "Está al este de la presa, gritando órdenes.",
+      "fr": "Il est à l’est du barrage, à hurler des ordres.",
+      "zh": "他在水坝东边大声发号施令。"
+    },
+    "Cuidado: ele chama reforços.": {
+      "en": "Careful: he calls reinforcements.",
+      "es": "Cuidado: llama refuerzos.",
+      "fr": "Attention : il appelle des renforts.",
+      "zh": "小心：他会叫援兵。"
+    },
+    "Estamos livres! Os castores lutarão com você.": {
+      "en": "We’re free! The beavers will fight with you.",
+      "es": "¡Somos libres! Los castores lucharán contigo.",
+      "fr": "Nous sommes libres ! Les castors combattront avec toi.",
+      "zh": "我们自由了！河狸们会和你一起战斗。"
+    },
+    "E olha o que encontramos no esconderijo dele.": {
+      "en": "And look what we found in his hideout.",
+      "es": "Y mira lo que encontramos en su escondite.",
+      "fr": "Et regarde ce qu’on a trouvé dans sa cachette.",
+      "zh": "看看我们在他的藏身处找到了什么。"
+    },
+    "O Martelo do Avô": {
+      "en": "Grandpa’s Hammer",
+      "es": "El Martillo del Abuelo",
+      "fr": "Le Marteau de Papy",
+      "zh": "爷爷的锤子"
+    },
+    "O martelo de família de Castorino ficou na represa. Algum castor enfeitiçado ou o capataz está com ele.": {
+      "en": "Castorino’s family hammer was left at the dam. A bewitched beaver or the overseer has it.",
+      "es": "El martillo familiar de Castorino quedó en la presa. Algún castor hechizado o el capataz lo tiene.",
+      "fr": "Le marteau de famille de Castorino est resté au barrage. Un castor ensorcelé ou le contremaître l’a.",
+      "zh": "卡斯托里诺的传家锤留在了水坝。某只被诅咒的河狸或监工拿着它。"
+    },
+    "O martelo do meu avô ficou na represa quando fugi.": {
+      "en": "My grandpa’s hammer stayed at the dam when I fled.",
+      "es": "El martillo de mi abuelo se quedó en la presa cuando huí.",
+      "fr": "Le marteau de mon grand-père est resté au barrage quand j’ai fui.",
+      "zh": "我逃跑时，爷爷的锤子留在了水坝。"
+    },
+    "Se trouxer de volta, forjo algo especial pra você.": {
+      "en": "If you bring it back, I’ll forge something special for you.",
+      "es": "Si lo traes de vuelta, te forjo algo especial.",
+      "fr": "Si tu le rapportes, je te forgerai quelque chose de spécial.",
+      "zh": "如果你能带回来，我就为你锻造件特别的东西。"
+    },
+    "Sem o martelo, minha forja fica triste.": {
+      "en": "Without the hammer, my forge is sad.",
+      "es": "Sin el martillo, mi forja está triste.",
+      "fr": "Sans le marteau, ma forge est triste.",
+      "zh": "没有那把锤子，我的铁炉都没精神。"
+    },
+    "O martelo do vovô! Olha só esse brilho.": {
+      "en": "Grandpa’s hammer! Look at that shine.",
+      "es": "¡El martillo del abuelo! Mira ese brillo.",
+      "fr": "Le marteau de papy ! Regarde comme il brille.",
+      "zh": "爷爷的锤子！看这光泽。"
+    },
+    "Como prometido: uma peça especial.": {
+      "en": "As promised: a special piece.",
+      "es": "Como prometí: una pieza especial.",
+      "fr": "Comme promis : une pièce spéciale.",
+      "zh": "说好的：一件特别的装备。"
+    },
+    "Ossos que Andam": {
+      "en": "Walking Bones",
+      "es": "Huesos que Andan",
+      "fr": "Os qui Marchent",
+      "zh": "行走的骨头"
+    },
+    "O cemitério a oeste está cheio de gatos-esqueleto. Destrua 15 para abrir caminho.": {
+      "en": "The graveyard to the west is full of skeleton cats. Destroy 15 to clear the way.",
+      "es": "El cementerio al oeste está lleno de gatos esqueleto. Destruye 15 para abrir camino.",
+      "fr": "Le cimetière à l’ouest est plein de chats squelettes. Détruis-en 15 pour ouvrir le chemin.",
+      "zh": "西边的墓地满是骷髅猫。摧毁 15 只以打开道路。"
+    },
+    "O cemitério virou fábrica de gato-esqueleto.": {
+      "en": "The graveyard became a skeleton cat factory.",
+      "es": "El cementerio se volvió una fábrica de gatos esqueleto.",
+      "fr": "Le cimetière est devenu une usine à chats squelettes.",
+      "zh": "墓地变成了骷髅猫工厂。"
+    },
+    "Quebre 15 deles e eu te mostro o caminho do Necromante.": {
+      "en": "Break 15 of them and I’ll show you the way to the Necromancer.",
+      "es": "Rompe 15 de ellos y te muestro el camino al Nigromante.",
+      "fr": "Brises-en 15 et je te montrerai le chemin du Nécromancien.",
+      "zh": "打碎 15 只，我就告诉你通往死灵法师的路。"
+    },
+    "Martelo e fogo funcionam bem em ossos!": {
+      "en": "Hammers and fire work well on bones!",
+      "es": "¡Martillo y fuego funcionan bien con huesos!",
+      "fr": "Le marteau et le feu marchent bien sur les os !",
+      "zh": "锤子和火对骨头很有效！"
+    },
+    "Ouvi daqui o barulho de osso quebrando. Lindo!": {
+      "en": "I heard the bones breaking from here. Beautiful!",
+      "es": "Oí desde aquí el ruido de huesos rompiéndose. ¡Precioso!",
+      "fr": "J’ai entendu les os craquer d’ici. Magnifique !",
+      "zh": "我在这儿都听到骨头碎裂的声音了。真动听！"
+    },
+    "O Necromante Felino": {
+      "en": "The Feline Necromancer",
+      "es": "El Nigromante Felino",
+      "fr": "Le Nécromancien Félin",
+      "zh": "猫族死灵法师"
+    },
+    "Mestre Bigode-Negro, aprendiz do Fazendeiro, levanta os gatos mortos. Ele guarda a chave do portão da Fazenda.": {
+      "en": "Master Blackwhisker, the Farmer’s apprentice, raises the dead cats. He keeps the key to the Farm’s gate.",
+      "es": "El Maestro Bigote Negro, aprendiz del Granjero, levanta a los gatos muertos. Guarda la llave del portón de la Granja.",
+      "fr": "Maître Moustache-Noire, apprenti du Fermier, relève les chats morts. Il garde la clé du portail de la Ferme.",
+      "zh": "农夫的学徒黑胡须大师复活死去的猫。他保管着农场大门的钥匙。"
+    },
+    "Quem levanta os gatos é o Mestre Bigode-Negro, o aprendiz do Fazendeiro.": {
+      "en": "The one raising the cats is Master Blackwhisker, the Farmer’s apprentice.",
+      "es": "Quien levanta a los gatos es el Maestro Bigote Negro, el aprendiz del Granjero.",
+      "fr": "Celui qui relève les chats, c’est Maître Moustache-Noire, l’apprenti du Fermier.",
+      "zh": "复活那些猫的是农夫的学徒黑胡须大师。"
+    },
+    "Ele carrega a chave do portão da Fazenda Sombria. Fica no sul do cemitério.": {
+      "en": "He carries the key to the Dark Farm’s gate. He’s in the south of the graveyard.",
+      "es": "Lleva la llave del portón de la Granja Sombría. Está al sur del cementerio.",
+      "fr": "Il porte la clé du portail de la Ferme Sombre. Il est au sud du cimetière.",
+      "zh": "他带着阴暗农场大门的钥匙，就在墓地南边。"
+    },
+    "Ele fica no sul do cemitério, entre as lápides.": {
+      "en": "He’s in the south of the graveyard, among the tombstones.",
+      "es": "Está al sur del cementerio, entre las lápidas.",
+      "fr": "Il est au sud du cimetière, parmi les tombes.",
+      "zh": "他在墓地南边的墓碑之间。"
+    },
+    "A chave! O portão da Fazenda vai abrir.": {
+      "en": "The key! The Farm’s gate will open.",
+      "es": "¡La llave! El portón de la Granja se abrirá.",
+      "fr": "La clé ! Le portail de la Ferme va s’ouvrir.",
+      "zh": "钥匙！农场大门要开了。"
+    },
+    "Agora só falta ele… o Fazendeiro.": {
+      "en": "Now only he remains… the Farmer.",
+      "es": "Ahora solo falta él… el Granjero.",
+      "fr": "Il ne reste plus que lui… le Fermier.",
+      "zh": "现在只剩他了……农夫。"
+    },
+    "O Fazendeiro Malaquias": {
+      "en": "Farmer Malachi",
+      "es": "El Granjero Malaquías",
+      "fr": "Le Fermier Malachie",
+      "zh": "农夫马拉基"
+    },
+    "O portão da Fazenda Sombria está aberto. Entre no celeiro e acabe com o Fazendeiro Malaquias e o livro proibido.": {
+      "en": "The Dark Farm’s gate is open. Enter the barn and finish Farmer Malachi and the forbidden book.",
+      "es": "El portón de la Granja Sombría está abierto. Entra al granero y acaba con el Granjero Malaquías y el libro prohibido.",
+      "fr": "Le portail de la Ferme Sombre est ouvert. Entre dans la grange et finis-en avec le Fermier Malachie et le livre interdit.",
+      "zh": "阴暗农场的大门已开。进入谷仓，消灭农夫马拉基和那本禁书。"
+    },
+    "O portão está aberto. Tudo começou naquela fazenda.": {
+      "en": "The gate is open. It all began at that farm.",
+      "es": "El portón está abierto. Todo empezó en esa granja.",
+      "fr": "Le portail est ouvert. Tout a commencé dans cette ferme.",
+      "zh": "大门开了。一切都始于那座农场。"
+    },
+    "Acabe com o Malaquias e queime aquele livro. Por Queijeira!": {
+      "en": "Finish Malachi and burn that book. For Cheesevale!",
+      "es": "Acaba con Malaquías y quema ese libro. ¡Por Quesera!",
+      "fr": "Finis-en avec Malachie et brûle ce livre. Pour Fromagère !",
+      "zh": "干掉马拉基，烧掉那本书。为了奶酪村！"
+    },
+    "A fazenda fica no noroeste, depois do cemitério.": {
+      "en": "The farm is to the northwest, past the graveyard.",
+      "es": "La granja está al noroeste, pasando el cementerio.",
+      "fr": "La ferme est au nord-ouest, après le cimetière.",
+      "zh": "农场在西北方，过了墓地就是。"
+    },
+    "Acabou… acabou mesmo!": {
+      "en": "It’s over… it’s really over!",
+      "es": "¡Se acabó… de verdad!",
+      "fr": "C’est fini… vraiment fini !",
+      "zh": "结束了……真的结束了！"
+    },
+    "Queijeira vai renascer, e todos vão contar a sua lenda.": {
+      "en": "Cheesevale will be reborn, and everyone will tell your legend.",
+      "es": "Quesera renacerá, y todos contarán tu leyenda.",
+      "fr": "Fromagère renaîtra, et tous raconteront ta légende.",
+      "zh": "奶酪村将会重生，所有人都会传颂你的传奇。"
+    },
+    "Por gerações, ratos, esquilos, sapos e castores viveram em paz no Vale de Ratudan. A Vila Queijeira tinha o melhor queijo do reino.": {
+      "en": "For generations, rats, squirrels, frogs and beavers lived in peace in Ratudan Valley. Cheesevale had the best cheese in the kingdom.",
+      "es": "Durante generaciones, ratas, ardillas, ranas y castores vivieron en paz en el Valle de Ratudan. La Villa Quesera tenía el mejor queso del reino.",
+      "fr": "Pendant des générations, rats, écureuils, grenouilles et castors ont vécu en paix dans la Vallée de Ratudan. Fromagère avait le meilleur fromage du royaume.",
+      "zh": "世世代代，老鼠、松鼠、青蛙和河狸在拉图丹山谷和平共处。奶酪村有王国里最好的奶酪。"
+    },
+    "O livro no espantalho": {
+      "en": "The book in the scarecrow",
+      "es": "El libro en el espantapájaros",
+      "fr": "Le livre dans l’épouvantail",
+      "zh": "稻草人里的书"
+    },
+    "Até que o Fazendeiro Malaquias, cansado dos roedores na plantação, achou um livro proibido costurado dentro de um velho espantalho.": {
+      "en": "Until Farmer Malachi, tired of rodents in his crops, found a forbidden book sewn inside an old scarecrow.",
+      "es": "Hasta que el Granjero Malaquías, harto de los roedores en su cosecha, encontró un libro prohibido cosido dentro de un viejo espantapájaros.",
+      "fr": "Jusqu’à ce que le Fermier Malachie, las des rongeurs dans ses cultures, trouve un livre interdit cousu dans un vieil épouvantail.",
+      "zh": "直到农夫马拉基受够了庄稼里的啮齿动物，在一个旧稻草人里发现了一本缝在里面的禁书。"
+    },
+    "A noite dos gatos": {
+      "en": "The night of the cats",
+      "es": "La noche de los gatos",
+      "fr": "La nuit des chats",
+      "zh": "群猫之夜"
+    },
+    "Com magias do livro ele juntou um exército de gatos. Numa só noite, Queijeira virou cinzas. Os gatos que caem em batalha… ele levanta como esqueletos.": {
+      "en": "With the book’s spells he gathered an army of cats. In a single night, Cheesevale turned to ashes. The cats that fall in battle… he raises as skeletons.",
+      "es": "Con los hechizos del libro reunió un ejército de gatos. En una sola noche, Quesera quedó en cenizas. Los gatos que caen en batalla… los levanta como esqueletos.",
+      "fr": "Avec les sorts du livre, il a levé une armée de chats. En une seule nuit, Fromagère est partie en cendres. Les chats tombés au combat… il les relève en squelettes.",
+      "zh": "他用书中的咒语召集了一支猫军。一夜之间，奶酪村化为灰烬。战死的猫……被他复活成骷髅。"
+    },
+    "Você": {
+      "en": "You",
+      "es": "Tú",
+      "fr": "Toi",
+      "zh": "你"
+    },
+    "Você voltou de viagem e encontrou a vila destruída. Os sobreviventes estão em volta da fogueira, na praça. Fale com o Rei Queijo III.": {
+      "en": "You came back from a journey and found the village destroyed. The survivors gather around the campfire in the square. Talk to King Cheese III.",
+      "es": "Volviste de viaje y encontraste la villa destruida. Los supervivientes están alrededor de la hoguera, en la plaza. Habla con el Rey Queso III.",
+      "fr": "De retour de voyage, tu trouves le village détruit. Les survivants sont autour du feu, sur la place. Parle au Roi Fromage III.",
+      "zh": "你旅行归来，发现村庄已被摧毁。幸存者们聚在广场的篝火旁。去和奶酪三世国王谈谈。"
+    },
+    "O livro queima": {
+      "en": "The book burns",
+      "es": "El libro arde",
+      "fr": "Le livre brûle",
+      "zh": "禁书焚毁"
+    },
+    "O Fazendeiro Malaquias caiu. O livro proibido virou cinzas, e os gatos-esqueleto viraram pó com ele.": {
+      "en": "Farmer Malachi has fallen. The forbidden book turned to ashes, and the skeleton cats crumbled to dust with it.",
+      "es": "El Granjero Malaquías cayó. El libro prohibido se hizo cenizas, y los gatos esqueleto se volvieron polvo con él.",
+      "fr": "Le Fermier Malachie est tombé. Le livre interdit est parti en cendres, et les chats squelettes sont tombés en poussière avec lui.",
+      "zh": "农夫马拉基倒下了。禁书化为灰烬，骷髅猫也随之化为尘土。"
+    },
+    "Queijeira renasce": {
+      "en": "Cheesevale is reborn",
+      "es": "Quesera renace",
+      "fr": "Fromagère renaît",
+      "zh": "奶酪村重生"
+    },
+    "Sapos, castores, esquilos e até alguns gatos ajudaram a reconstruir a vila. Bigodes virou o primeiro gato cidadão de Queijeira.": {
+      "en": "Frogs, beavers, squirrels and even some cats helped rebuild the village. Whiskers became Cheesevale’s first cat citizen.",
+      "es": "Ranas, castores, ardillas y hasta algunos gatos ayudaron a reconstruir la villa. Bigotes se convirtió en el primer gato ciudadano de Quesera.",
+      "fr": "Grenouilles, castors, écureuils et même quelques chats ont aidé à rebâtir le village. Moustaches est devenu le premier chat citoyen de Fromagère.",
+      "zh": "青蛙、河狸、松鼠，甚至一些猫都帮忙重建了村庄。胡须成了奶酪村第一位猫公民。"
+    },
+    "Continua…": {
+      "en": "To be continued…",
+      "es": "Continuará…",
+      "fr": "À suivre…",
+      "zh": "未完待续……"
+    },
+    "Mas o livro tinha uma página faltando. Dizem que ela foi parar numa cidade distante… Jogue de novo na dificuldade Pesadelo.": {
+      "en": "But the book was missing a page. They say it ended up in a distant city… Play again on Nightmare difficulty.",
+      "es": "Pero al libro le faltaba una página. Dicen que acabó en una ciudad lejana… Juega otra vez en dificultad Pesadilla.",
+      "fr": "Mais il manquait une page au livre. On dit qu’elle a fini dans une ville lointaine… Rejoue en difficulté Cauchemar.",
+      "zh": "但那本书缺了一页。据说它流落到了遥远的城市……以噩梦难度再玩一次吧。"
+    },
+    "Lenda de Ratudan": {
+      "en": "Legend of Ratudan",
+      "es": "Leyenda de Ratudan",
+      "fr": "Légende de Ratudan",
+      "zh": "拉图丹传奇"
+    },
+    "Você derrotou o Fazendeiro Malaquias com {n}, nível {l}.": {
+      "en": "You defeated Farmer Malachi with {n}, level {l}.",
+      "es": "Derrotaste al Granjero Malaquías con {n}, nivel {l}.",
+      "fr": "Tu as vaincu le Fermier Malachie avec {n}, niveau {l}.",
+      "zh": "你用 {n}（{l} 级）击败了农夫马拉基。"
+    },
+    "Começar {d}": {
+      "en": "Start {d}",
+      "es": "Empezar {d}",
+      "fr": "Commencer {d}",
+      "zh": "开始{d}"
+    },
+    "Continuar explorando": {
+      "en": "Keep exploring",
+      "es": "Seguir explorando",
+      "fr": "Continuer l’exploration",
+      "zh": "继续探索"
+    },
+    "Os monstros ficaram mais fortes… e os tesouros melhores.": {
+      "en": "The monsters got stronger… and the treasures better.",
+      "es": "Los monstruos se hicieron más fuertes… y los tesoros mejores.",
+      "fr": "Les monstres sont plus forts… et les trésors meilleurs.",
+      "zh": "怪物变得更强了……宝藏也更好了。"
+    },
+    "Primeiro arranhão": {
+      "en": "First scratch",
+      "es": "Primer arañazo",
+      "fr": "Première égratignure",
+      "zh": "第一道抓痕"
+    },
+    "Derrote seu primeiro monstro.": {
+      "en": "Defeat your first monster.",
+      "es": "Derrota a tu primer monstruo.",
+      "fr": "Bats ton premier monstre.",
+      "zh": "击败你的第一个怪物。"
+    },
+    "Caçador de gatos": {
+      "en": "Cat hunter",
+      "es": "Cazador de gatos",
+      "fr": "Chasseur de chats",
+      "zh": "猎猫者"
+    },
+    "Derrote 100 monstros.": {
+      "en": "Defeat 100 monsters.",
+      "es": "Derrota 100 monstruos.",
+      "fr": "Bats 100 monstres.",
+      "zh": "击败 100 个怪物。"
+    },
+    "Lenda do Vale": {
+      "en": "Legend of the Valley",
+      "es": "Leyenda del Valle",
+      "fr": "Légende de la Vallée",
+      "zh": "山谷传奇"
+    },
+    "Derrote 1000 monstros.": {
+      "en": "Defeat 1000 monsters.",
+      "es": "Derrota 1000 monstruos.",
+      "fr": "Bats 1000 monstres.",
+      "zh": "击败 1000 个怪物。"
+    },
+    "Aprendiz": {
+      "en": "Apprentice",
+      "es": "Aprendiz",
+      "fr": "Apprenti",
+      "zh": "学徒"
+    },
+    "Chegue ao nível 5.": {
+      "en": "Reach level 5.",
+      "es": "Llega al nivel 5.",
+      "fr": "Atteins le niveau 5.",
+      "zh": "达到 5 级。"
+    },
+    "Veterano": {
+      "en": "Veteran",
+      "es": "Veterano",
+      "fr": "Vétéran",
+      "zh": "老兵"
+    },
+    "Chegue ao nível 15.": {
+      "en": "Reach level 15.",
+      "es": "Llega al nivel 15.",
+      "fr": "Atteins le niveau 15.",
+      "zh": "达到 15 级。"
+    },
+    "Herói de Ratudan": {
+      "en": "Hero of Ratudan",
+      "es": "Héroe de Ratudan",
+      "fr": "Héros de Ratudan",
+      "zh": "拉图丹英雄"
+    },
+    "Chegue ao nível 30.": {
+      "en": "Reach level 30.",
+      "es": "Llega al nivel 30.",
+      "fr": "Atteins le niveau 30.",
+      "zh": "达到 30 级。"
+    },
+    "Feitiço quebrado": {
+      "en": "Spell broken",
+      "es": "Hechizo roto",
+      "fr": "Sort brisé",
+      "zh": "咒语破除"
+    },
+    "Derrote Rabo-Torto.": {
+      "en": "Defeat Crooktail.",
+      "es": "Derrota a Cola Torcida.",
+      "fr": "Bats Queue-Tordue.",
+      "zh": "击败歪尾巴。"
+    },
+    "Água limpa": {
+      "en": "Clean water",
+      "es": "Agua limpia",
+      "fr": "Eau propre",
+      "zh": "清水"
+    },
+    "Derrote o Lorde Sapo.": {
+      "en": "Defeat the Frog Lord.",
+      "es": "Derrota al Señor Rana.",
+      "fr": "Bats le Seigneur Grenouille.",
+      "zh": "击败青蛙领主。"
+    },
+    "Represa livre": {
+      "en": "Free dam",
+      "es": "Presa libre",
+      "fr": "Barrage libéré",
+      "zh": "水坝解放"
+    },
+    "Derrote o Capataz Garra-de-Ferro.": {
+      "en": "Defeat Overseer Ironclaw.",
+      "es": "Derrota al Capataz Garra de Hierro.",
+      "fr": "Bats le Contremaître Griffe-de-Fer.",
+      "zh": "击败铁爪监工。"
+    },
+    "Ossos ao pó": {
+      "en": "Bones to dust",
+      "es": "Huesos al polvo",
+      "fr": "Os en poussière",
+      "zh": "骨化为尘"
+    },
+    "Derrote o Mestre Bigode-Negro.": {
+      "en": "Defeat Master Blackwhisker.",
+      "es": "Derrota al Maestro Bigote Negro.",
+      "fr": "Bats Maître Moustache-Noire.",
+      "zh": "击败黑胡须大师。"
+    },
+    "O fim do Fazendeiro": {
+      "en": "The Farmer’s end",
+      "es": "El fin del Granjero",
+      "fr": "La fin du Fermier",
+      "zh": "农夫的末日"
+    },
+    "Derrote o Fazendeiro Malaquias.": {
+      "en": "Defeat Farmer Malachi.",
+      "es": "Derrota al Granjero Malaquías.",
+      "fr": "Bats le Fermier Malachie.",
+      "zh": "击败农夫马拉基。"
+    },
+    "Brilho laranja": {
+      "en": "Orange glow",
+      "es": "Brillo naranja",
+      "fr": "Lueur orange",
+      "zh": "橙色光芒"
+    },
+    "Encontre um item lendário.": {
+      "en": "Find a legendary item.",
+      "es": "Encuentra un objeto legendario.",
+      "fr": "Trouve un objet légendaire.",
+      "zh": "找到一件传奇物品。"
+    },
+    "Queijo de ouro": {
+      "en": "Golden cheese",
+      "es": "Queso de oro",
+      "fr": "Fromage en or",
+      "zh": "黄金奶酪"
+    },
+    "Junte 5000 de ouro.": {
+      "en": "Gather 5000 gold.",
+      "es": "Reúne 5000 de oro.",
+      "fr": "Amasse 5000 pièces d’or.",
+      "zh": "攒够 5000 金币。"
+    },
+    "Amigo do vale": {
+      "en": "Friend of the valley",
+      "es": "Amigo del valle",
+      "fr": "Ami de la vallée",
+      "zh": "山谷之友"
+    },
+    "Complete 10 missões.": {
+      "en": "Complete 10 quests.",
+      "es": "Completa 10 misiones.",
+      "fr": "Termine 10 quêtes.",
+      "zh": "完成 10 个任务。"
+    },
+    "Nem todo gato é mau": {
+      "en": "Not every cat is evil",
+      "es": "No todo gato es malo",
+      "fr": "Tous les chats ne sont pas méchants",
+      "zh": "不是所有猫都坏"
+    },
+    "Ganhe a confiança de Bigodes.": {
+      "en": "Earn Whiskers’ trust.",
+      "es": "Gánate la confianza de Bigotes.",
+      "fr": "Gagne la confiance de Moustaches.",
+      "zh": "赢得胡须的信任。"
+    },
+    "Versátil": {
+      "en": "Versatile",
+      "es": "Versátil",
+      "fr": "Polyvalent",
+      "zh": "多面手"
+    },
+    "Crie um herói de cada classe.": {
+      "en": "Create a hero of each class.",
+      "es": "Crea un héroe de cada clase.",
+      "fr": "Crée un héros de chaque classe.",
+      "zh": "每个职业各创建一名英雄。"
+    },
+    "RODENTS": {
+      "en": "RODENTS",
+      "es": "RODENTS",
+      "fr": "RODENTS",
+      "zh": "鼠鼠"
+    },
+    "LEGENDS": {
+      "en": "LEGENDS",
+      "es": "LEGENDS",
+      "fr": "LEGENDS",
+      "zh": "传奇"
+    },
+    "As Sombras do Fazendeiro": {
+      "en": "Shadows of the Farmer",
+      "es": "Las Sombras del Granjero",
+      "fr": "Les Ombres du Fermier",
+      "zh": "农夫的阴影"
+    },
+    "ENTRAR NO VALE": {
+      "en": "ENTER THE VALLEY",
+      "es": "ENTRAR AL VALLE",
+      "fr": "ENTRER DANS LA VALLÉE",
+      "zh": "进入山谷"
+    },
+    "Conquistas": {
+      "en": "Achievements",
+      "es": "Logros",
+      "fr": "Succès",
+      "zh": "成就"
+    },
+    "Configurações": {
+      "en": "Settings",
+      "es": "Ajustes",
+      "fr": "Paramètres",
+      "zh": "设置"
+    },
+    "Sair": {
+      "en": "Quit",
+      "es": "Salir",
+      "fr": "Quitter",
+      "zh": "退出"
+    },
+    "Clique para andar e atacar · botão direito: habilidade · 1-4: habilidades · Q/E: poções": {
+      "en": "Click to move and attack · right button: skill · 1-4: skills · Q/E: potions",
+      "es": "Clic para moverte y atacar · botón derecho: habilidad · 1-4: habilidades · Q/E: pociones",
+      "fr": "Clique pour marcher et attaquer · bouton droit : compétence · 1-4 : compétences · Q/E : potions",
+      "zh": "点击移动与攻击 · 右键：技能 · 1-4：技能 · Q/E：药水"
+    },
+    "PAUSA": {
+      "en": "PAUSED",
+      "es": "PAUSA",
+      "fr": "PAUSE",
+      "zh": "暂停"
+    },
+    "Pausa": {
+      "en": "Pause",
+      "es": "Pausa",
+      "fr": "Pause",
+      "zh": "暂停"
+    },
+    "Continuar": {
+      "en": "Continue",
+      "es": "Continuar",
+      "fr": "Continuer",
+      "zh": "继续"
+    },
+    "Salvar e sair": {
+      "en": "Save and quit",
+      "es": "Guardar y salir",
+      "fr": "Sauvegarder et quitter",
+      "zh": "保存并退出"
+    },
+    "Menu inicial": {
+      "en": "Main menu",
+      "es": "Menú principal",
+      "fr": "Menu principal",
+      "zh": "主菜单"
+    },
+    "Andar ←": {
+      "en": "Walk ←",
+      "es": "Andar ←",
+      "fr": "Marcher ←",
+      "zh": "移动 ←"
+    },
+    "Andar →": {
+      "en": "Walk →",
+      "es": "Andar →",
+      "fr": "Marcher →",
+      "zh": "移动 →"
+    },
+    "Andar ↑": {
+      "en": "Walk ↑",
+      "es": "Andar ↑",
+      "fr": "Marcher ↑",
+      "zh": "移动 ↑"
+    },
+    "Andar ↓": {
+      "en": "Walk ↓",
+      "es": "Andar ↓",
+      "fr": "Marcher ↓",
+      "zh": "移动 ↓"
+    },
+    "Habilidade 1": {
+      "en": "Skill 1",
+      "es": "Habilidad 1",
+      "fr": "Compétence 1",
+      "zh": "技能 1"
+    },
+    "Habilidade 2": {
+      "en": "Skill 2",
+      "es": "Habilidad 2",
+      "fr": "Compétence 2",
+      "zh": "技能 2"
+    },
+    "Habilidade 3": {
+      "en": "Skill 3",
+      "es": "Habilidad 3",
+      "fr": "Compétence 3",
+      "zh": "技能 3"
+    },
+    "Habilidade 4": {
+      "en": "Skill 4",
+      "es": "Habilidad 4",
+      "fr": "Compétence 4",
+      "zh": "技能 4"
+    },
+    "Correr / esquivar": {
+      "en": "Run / dodge",
+      "es": "Correr / esquivar",
+      "fr": "Courir / esquiver",
+      "zh": "奔跑 / 闪避"
+    },
+    "Ataque básico": {
+      "en": "Basic attack",
+      "es": "Ataque básico",
+      "fr": "Attaque de base",
+      "zh": "基础攻击"
+    },
+    "Falar / pegar / usar": {
+      "en": "Talk / pick up / use",
+      "es": "Hablar / recoger / usar",
+      "fr": "Parler / ramasser / utiliser",
+      "zh": "交谈 / 拾取 / 使用"
+    },
+    "Som liga/desliga": {
+      "en": "Sound on/off",
+      "es": "Sonido sí/no",
+      "fr": "Son on/off",
+      "zh": "声音开/关"
+    },
+    "Escolha seu herói": {
+      "en": "Choose your hero",
+      "es": "Elige tu héroe",
+      "fr": "Choisis ton héros",
+      "zh": "选择你的英雄"
+    },
+    "{n} missões": {
+      "en": "{n} quests",
+      "es": "{n} misiones",
+      "fr": "{n} quêtes",
+      "zh": "{n} 个任务"
+    },
+    "Jogar": {
+      "en": "Play",
+      "es": "Jugar",
+      "fr": "Jouer",
+      "zh": "开始游戏"
+    },
+    "Novo herói": {
+      "en": "New hero",
+      "es": "Nuevo héroe",
+      "fr": "Nouveau héros",
+      "zh": "新英雄"
+    },
+    "Apagar": {
+      "en": "Delete",
+      "es": "Borrar",
+      "fr": "Supprimer",
+      "zh": "删除"
+    },
+    "Clique de novo para apagar": {
+      "en": "Click again to delete",
+      "es": "Haz clic otra vez para borrar",
+      "fr": "Clique encore pour supprimer",
+      "zh": "再点一次删除"
+    },
+    "Nome": {
+      "en": "Name",
+      "es": "Nombre",
+      "fr": "Nom",
+      "zh": "名字"
+    },
+    "Criar e entrar no vale": {
+      "en": "Create and enter the valley",
+      "es": "Crear y entrar al valle",
+      "fr": "Créer et entrer dans la vallée",
+      "zh": "创建并进入山谷"
+    },
+    "Voltar": {
+      "en": "Back",
+      "es": "Volver",
+      "fr": "Retour",
+      "zh": "返回"
+    },
+    "Começar": {
+      "en": "Start",
+      "es": "Empezar",
+      "fr": "Commencer",
+      "zh": "开始"
+    },
+    "Pular": {
+      "en": "Skip",
+      "es": "Saltar",
+      "fr": "Passer",
+      "zh": "跳过"
+    },
+    "Você caiu": {
+      "en": "You have fallen",
+      "es": "Has caído",
+      "fr": "Tu es tombé",
+      "zh": "你倒下了"
+    },
+    "Os gatos do Fazendeiro venceram desta vez…": {
+      "en": "The Farmer’s cats won this time…",
+      "es": "Los gatos del Granjero ganaron esta vez…",
+      "fr": "Les chats du Fermier ont gagné cette fois…",
+      "zh": "这次是农夫的猫赢了……"
+    },
+    "Renascer na vila": {
+      "en": "Revive in the village",
+      "es": "Renacer en la villa",
+      "fr": "Renaître au village",
+      "zh": "在村庄复活"
+    },
+    "Fale com quem tem ! em cima da cabeça": {
+      "en": "Talk to anyone with ! above their head",
+      "es": "Habla con quien tenga ! sobre la cabeza",
+      "fr": "Parle à ceux qui ont un ! au-dessus de la tête",
+      "zh": "和头顶有 ! 的人交谈"
+    },
+    "Fale com {n}": {
+      "en": "Talk to {n}",
+      "es": "Habla con {n}",
+      "fr": "Parle à {n}",
+      "zh": "与{n}交谈"
+    },
+    "Volte para {n}": {
+      "en": "Return to {n}",
+      "es": "Vuelve con {n}",
+      "fr": "Retourne voir {n}",
+      "zh": "回去找{n}"
+    },
+    "Derrote {n}": {
+      "en": "Defeat {n}",
+      "es": "Derrota a {n}",
+      "fr": "Bats {n}",
+      "zh": "击败{n}"
+    },
+    "Chegue a {n}": {
+      "en": "Reach {n}",
+      "es": "Llega a {n}",
+      "fr": "Atteins {n}",
+      "zh": "到达{n}"
+    },
+    "Experiência": {
+      "en": "Experience",
+      "es": "Experiencia",
+      "fr": "Expérience",
+      "zh": "经验"
+    },
+    "{n} pontos para distribuir": {
+      "en": "{n} points to spend",
+      "es": "{n} puntos para repartir",
+      "fr": "{n} points à répartir",
+      "zh": "{n} 点可分配"
+    },
+    "Dano da arma": {
+      "en": "Weapon damage",
+      "es": "Daño del arma",
+      "fr": "Dégâts de l’arme",
+      "zh": "武器伤害"
+    },
+    "Bônus de dano": {
+      "en": "Damage bonus",
+      "es": "Bonificación de daño",
+      "fr": "Bonus de dégâts",
+      "zh": "伤害加成"
+    },
+    "Vida": {
+      "en": "Life",
+      "es": "Vida",
+      "fr": "Vie",
+      "zh": "生命"
+    },
+    "Crítico": {
+      "en": "Critical",
+      "es": "Crítico",
+      "fr": "Critique",
+      "zh": "暴击"
+    },
+    "Velocidade de ataque": {
+      "en": "Attack speed",
+      "es": "Velocidad de ataque",
+      "fr": "Vitesse d’attaque",
+      "zh": "攻击速度"
+    },
+    "Roubo de vida": {
+      "en": "Life steal",
+      "es": "Robo de vida",
+      "fr": "Vol de vie",
+      "zh": "生命偷取"
+    },
+    "Velocidade de corrida": {
+      "en": "Run speed",
+      "es": "Velocidad de carrera",
+      "fr": "Vitesse de course",
+      "zh": "移动速度"
+    },
+    "Ouro achado": {
+      "en": "Gold find",
+      "es": "Oro encontrado",
+      "fr": "Or trouvé",
+      "zh": "金币掉落"
+    },
+    "Ouro": {
+      "en": "Gold",
+      "es": "Oro",
+      "fr": "Or",
+      "zh": "金币"
+    },
+    "ouro": {
+      "en": "gold",
+      "es": "oro",
+      "fr": "or",
+      "zh": "金币"
+    },
+    "Monstros derrotados": {
+      "en": "Monsters defeated",
+      "es": "Monstruos derrotados",
+      "fr": "Monstres vaincus",
+      "zh": "击败的怪物"
+    },
+    "Quedas": {
+      "en": "Deaths",
+      "es": "Caídas",
+      "fr": "Chutes",
+      "zh": "倒下次数"
+    },
+    "Tempo de jogo": {
+      "en": "Play time",
+      "es": "Tiempo de juego",
+      "fr": "Temps de jeu",
+      "zh": "游戏时间"
+    },
+    "Habilidades": {
+      "en": "Skills",
+      "es": "Habilidades",
+      "fr": "Compétences",
+      "zh": "技能"
+    },
+    "Dano": {
+      "en": "Damage",
+      "es": "Daño",
+      "fr": "Dégâts",
+      "zh": "伤害"
+    },
+    "da arma": {
+      "en": "of weapon",
+      "es": "del arma",
+      "fr": "de l’arme",
+      "zh": "武器伤害"
+    },
+    "Libera no nível {n}": {
+      "en": "Unlocks at level {n}",
+      "es": "Se desbloquea en el nivel {n}",
+      "fr": "Débloqué au niveau {n}",
+      "zh": "{n} 级解锁"
+    },
+    "Custo": {
+      "en": "Cost",
+      "es": "Coste",
+      "fr": "Coût",
+      "zh": "消耗"
+    },
+    "Recarga": {
+      "en": "Cooldown",
+      "es": "Recarga",
+      "fr": "Recharge",
+      "zh": "冷却"
+    },
+    "Usar no botão direito": {
+      "en": "Use on right button",
+      "es": "Usar en el botón derecho",
+      "fr": "Mettre sur le bouton droit",
+      "zh": "设为右键技能"
+    },
+    "{n} pontos de habilidade": {
+      "en": "{n} skill points",
+      "es": "{n} puntos de habilidad",
+      "fr": "{n} points de compétence",
+      "zh": "{n} 技能点"
+    },
+    "Ganhe pontos subindo de nível": {
+      "en": "Earn points by leveling up",
+      "es": "Gana puntos subiendo de nivel",
+      "fr": "Gagne des points en montant de niveau",
+      "zh": "升级以获得技能点"
+    },
+    "Teclas 1–4 usam as habilidades · clique direito num espaço da barra para pôr no botão direito do mouse": {
+      "en": "Keys 1–4 use skills · right-click a bar slot to put it on the right mouse button",
+      "es": "Teclas 1–4 usan las habilidades · clic derecho en un espacio de la barra para ponerla en el botón derecho",
+      "fr": "Touches 1–4 : compétences · clic droit sur une case de la barre pour la mettre sur le bouton droit",
+      "zh": "1–4 键使用技能 · 右键点击技能栏格子可设为鼠标右键"
+    },
+    "Ato {n}": {
+      "en": "Act {n}",
+      "es": "Acto {n}",
+      "fr": "Acte {n}",
+      "zh": "第 {n} 幕"
+    },
+    "Missões": {
+      "en": "Quests",
+      "es": "Misiones",
+      "fr": "Quêtes",
+      "zh": "任务"
+    },
+    "Nenhuma missão ainda.": {
+      "en": "No quests yet.",
+      "es": "Aún no hay misiones.",
+      "fr": "Pas encore de quête.",
+      "zh": "还没有任务。"
+    },
+    "Inventário": {
+      "en": "Inventory",
+      "es": "Inventario",
+      "fr": "Inventaire",
+      "zh": "背包"
+    },
+    "Clique num item seu para vender": {
+      "en": "Click one of your items to sell",
+      "es": "Haz clic en un objeto tuyo para vender",
+      "fr": "Clique sur un de tes objets pour le vendre",
+      "zh": "点击你的物品出售"
+    },
+    "Clique para guardar no baú": {
+      "en": "Click to store in the chest",
+      "es": "Haz clic para guardar en el baúl",
+      "fr": "Clique pour ranger dans le coffre",
+      "zh": "点击存入宝箱"
+    },
+    "Clique: equipar/usar · botão direito: jogar no chão": {
+      "en": "Click: equip/use · right button: drop",
+      "es": "Clic: equipar/usar · botón derecho: tirar al suelo",
+      "fr": "Clic : équiper/utiliser · bouton droit : jeter",
+      "zh": "点击：装备/使用 · 右键：丢弃"
+    },
+    "Mochila cheia!": {
+      "en": "Backpack full!",
+      "es": "¡Mochila llena!",
+      "fr": "Sac plein !",
+      "zh": "背包已满！"
+    },
+    "Clique de novo para vender {i}": {
+      "en": "Click again to sell {i}",
+      "es": "Haz clic otra vez para vender {i}",
+      "fr": "Clique encore pour vendre {i}",
+      "zh": "再点一次出售{i}"
+    },
+    "Vendido por {n} de ouro": {
+      "en": "Sold for {n} gold",
+      "es": "Vendido por {n} de oro",
+      "fr": "Vendu pour {n} pièces d’or",
+      "zh": "以 {n} 金币售出"
+    },
+    "Baú cheio!": {
+      "en": "Chest full!",
+      "es": "¡Baúl lleno!",
+      "fr": "Coffre plein !",
+      "zh": "宝箱已满！"
+    },
+    "Sua classe não usa este item": {
+      "en": "Your class can’t use this item",
+      "es": "Tu clase no usa este objeto",
+      "fr": "Ta classe n’utilise pas cet objet",
+      "zh": "你的职业无法使用该物品"
+    },
+    "Precisa do nível {n}": {
+      "en": "Requires level {n}",
+      "es": "Necesita nivel {n}",
+      "fr": "Niveau {n} requis",
+      "zh": "需要 {n} 级"
+    },
+    "em andamento": {
+      "en": "in progress",
+      "es": "en curso",
+      "fr": "en cours",
+      "zh": "进行中"
+    },
+    "Comprar e vender": {
+      "en": "Buy and sell",
+      "es": "Comprar y vender",
+      "fr": "Acheter et vendre",
+      "zh": "买卖"
+    },
+    "Armas e armaduras": {
+      "en": "Weapons and armor",
+      "es": "Armas y armaduras",
+      "fr": "Armes et armures",
+      "zh": "武器与护甲"
+    },
+    "Curar": {
+      "en": "Heal",
+      "es": "Curar",
+      "fr": "Soigner",
+      "zh": "治疗"
+    },
+    "Comprar poções": {
+      "en": "Buy potions",
+      "es": "Comprar pociones",
+      "fr": "Acheter des potions",
+      "zh": "购买药水"
+    },
+    "Baú": {
+      "en": "Chest",
+      "es": "Baúl",
+      "fr": "Coffre",
+      "zh": "宝箱"
+    },
+    "Conversar": {
+      "en": "Chat",
+      "es": "Conversar",
+      "fr": "Discuter",
+      "zh": "聊天"
+    },
+    "Tchau": {
+      "en": "Goodbye",
+      "es": "Adiós",
+      "fr": "Au revoir",
+      "zh": "再见"
+    },
+    "Aceitar": {
+      "en": "Accept",
+      "es": "Aceptar",
+      "fr": "Accepter",
+      "zh": "接受"
+    },
+    "Agora não": {
+      "en": "Not now",
+      "es": "Ahora no",
+      "fr": "Pas maintenant",
+      "zh": "现在不行"
+    },
+    "Seu ouro": {
+      "en": "Your gold",
+      "es": "Tu oro",
+      "fr": "Ton or",
+      "zh": "你的金币"
+    },
+    "Forja do Castorino": {
+      "en": "Castorino’s Forge",
+      "es": "Forja de Castorino",
+      "fr": "Forge de Castorino",
+      "zh": "卡斯托里诺的铁匠铺"
+    },
+    "Loja": {
+      "en": "Shop",
+      "es": "Tienda",
+      "fr": "Boutique",
+      "zh": "商店"
+    },
+    "Ouro insuficiente": {
+      "en": "Not enough gold",
+      "es": "Oro insuficiente",
+      "fr": "Pas assez d’or",
+      "zh": "金币不足"
+    },
+    "Baú real": {
+      "en": "Royal chest",
+      "es": "Baúl real",
+      "fr": "Coffre royal",
+      "zh": "皇家宝箱"
+    },
+    "Clique para pegar de volta": {
+      "en": "Click to take it back",
+      "es": "Haz clic para recuperarlo",
+      "fr": "Clique pour le reprendre",
+      "zh": "点击取回"
+    },
+    "Ranque {n}": {
+      "en": "Rank {n}",
+      "es": "Rango {n}",
+      "fr": "Rang {n}",
+      "zh": "等级 {n}"
+    },
+    "Enche batendo e apanhando; esvazia parado": {
+      "en": "Fills by hitting and getting hit; drains when idle",
+      "es": "Se llena al golpear y recibir golpes; se vacía quieto",
+      "fr": "Se remplit en frappant et en étant frappé ; se vide au repos",
+      "zh": "攻击与受击时充满；静止时流失"
+    },
+    "Recupera com o tempo": {
+      "en": "Regenerates over time",
+      "es": "Se recupera con el tiempo",
+      "fr": "Se régénère avec le temps",
+      "zh": "随时间恢复"
+    },
+    "Vende por": {
+      "en": "Sells for",
+      "es": "Se vende por",
+      "fr": "Se vend",
+      "zh": "售价"
+    },
+    "Preço": {
+      "en": "Price",
+      "es": "Precio",
+      "fr": "Prix",
+      "zh": "价格"
+    },
+    "Equipado": {
+      "en": "Equipped",
+      "es": "Equipado",
+      "fr": "Équipé",
+      "zh": "已装备"
+    },
+    "Aprenda {s} na tela de habilidades (H)": {
+      "en": "Learn {s} on the skills screen (H)",
+      "es": "Aprende {s} en la pantalla de habilidades (H)",
+      "fr": "Apprends {s} dans l’écran des compétences (H)",
+      "zh": "在技能界面（H）学习{s}"
+    },
+    "Nova habilidade disponível: {s}": {
+      "en": "New skill available: {s}",
+      "es": "Nueva habilidad disponible: {s}",
+      "fr": "Nouvelle compétence disponible : {s}",
+      "zh": "新技能可用：{s}"
+    },
+    "Nova missão: {q}": {
+      "en": "New quest: {q}",
+      "es": "Nueva misión: {q}",
+      "fr": "Nouvelle quête : {q}",
+      "zh": "新任务：{q}"
+    },
+    "Missão cumprida: volte a falar com {n}": {
+      "en": "Quest done: go back and talk to {n}",
+      "es": "Misión cumplida: vuelve a hablar con {n}",
+      "fr": "Quête accomplie : retourne parler à {n}",
+      "zh": "任务完成：回去和{n}交谈"
+    },
+    "Missão concluída": {
+      "en": "Quest complete",
+      "es": "Misión completada",
+      "fr": "Quête terminée",
+      "zh": "任务完成"
+    },
+    "Recompensa: {i}": {
+      "en": "Reward: {i}",
+      "es": "Recompensa: {i}",
+      "fr": "Récompense : {i}",
+      "zh": "奖励：{i}"
+    },
+    "Um portão se abriu em algum lugar…": {
+      "en": "A gate opened somewhere…",
+      "es": "Un portón se abrió en algún lugar…",
+      "fr": "Un portail s’est ouvert quelque part…",
+      "zh": "某处的大门打开了……"
+    },
+    "Sem poções de vida": {
+      "en": "No health potions",
+      "es": "Sin pociones de vida",
+      "fr": "Plus de potions de vie",
+      "zh": "没有生命药水了"
+    },
+    "Sem poções de energia": {
+      "en": "No energy potions",
+      "es": "Sin pociones de energía",
+      "fr": "Plus de potions d’énergie",
+      "zh": "没有能量药水了"
+    },
+    "Você já está na vila": {
+      "en": "You’re already in the village",
+      "es": "Ya estás en la villa",
+      "fr": "Tu es déjà au village",
+      "zh": "你已经在村庄里了"
+    },
+    "Sem pergaminhos de portal (compre com a Dona Avelã)": {
+      "en": "No portal scrolls (buy some from Madame Hazel)",
+      "es": "Sin pergaminos de portal (cómpralos a Doña Avellana)",
+      "fr": "Plus de parchemins de portail (achète-en à Madame Noisette)",
+      "zh": "没有传送卷轴了（去找榛子太太买）"
+    },
+    "Você perdeu {n} de ouro": {
+      "en": "You lost {n} gold",
+      "es": "Perdiste {n} de oro",
+      "fr": "Tu as perdu {n} pièces d’or",
+      "zh": "你损失了 {n} 金币"
+    },
+    "Sim": {
+      "en": "Yes",
+      "es": "Sí",
+      "fr": "Oui",
+      "zh": "是"
+    },
+    "Não": {
+      "en": "No",
+      "es": "No",
+      "fr": "Non",
+      "zh": "否"
+    },
+    "Jogo": {
+      "en": "Game",
+      "es": "Juego",
+      "fr": "Jeu",
+      "zh": "游戏"
+    },
+    "Números de dano": {
+      "en": "Damage numbers",
+      "es": "Números de daño",
+      "fr": "Chiffres de dégâts",
+      "zh": "伤害数字"
+    },
+    "Barra de vida dos monstros": {
+      "en": "Monster health bars",
+      "es": "Barra de vida de los monstruos",
+      "fr": "Barres de vie des monstres",
+      "zh": "怪物血条"
+    },
+    "Sempre": {
+      "en": "Always",
+      "es": "Siempre",
+      "fr": "Toujours",
+      "zh": "总是"
+    },
+    "Só feridos": {
+      "en": "Wounded only",
+      "es": "Solo heridos",
+      "fr": "Blessés seulement",
+      "zh": "仅受伤时"
+    },
+    "Nunca": {
+      "en": "Never",
+      "es": "Nunca",
+      "fr": "Jamais",
+      "zh": "从不"
+    },
+    "Nomes dos itens no chão": {
+      "en": "Item names on the ground",
+      "es": "Nombres de objetos en el suelo",
+      "fr": "Noms des objets au sol",
+      "zh": "地上物品名称"
+    },
+    "Todos": {
+      "en": "All",
+      "es": "Todos",
+      "fr": "Tous",
+      "zh": "全部"
+    },
+    "Só mágicos ou melhores": {
+      "en": "Magic or better only",
+      "es": "Solo mágicos o mejores",
+      "fr": "Magiques ou mieux seulement",
+      "zh": "仅魔法及以上"
+    },
+    "Pegar ouro ao passar": {
+      "en": "Pick up gold by walking over",
+      "es": "Recoger oro al pasar",
+      "fr": "Ramasser l’or en passant",
+      "zh": "经过时自动拾取金币"
+    },
+    "Mira das habilidades": {
+      "en": "Skill aiming",
+      "es": "Puntería de habilidades",
+      "fr": "Visée des compétences",
+      "zh": "技能瞄准"
+    },
+    "Mouse": {
+      "en": "Mouse",
+      "es": "Ratón",
+      "fr": "Souris",
+      "zh": "鼠标"
+    },
+    "Monstro mais perto": {
+      "en": "Nearest monster",
+      "es": "Monstruo más cercano",
+      "fr": "Monstre le plus proche",
+      "zh": "最近的怪物"
+    },
+    "Minimapa": {
+      "en": "Minimap",
+      "es": "Minimapa",
+      "fr": "Mini-carte",
+      "zh": "小地图"
+    },
+    "Tremer a tela": {
+      "en": "Screen shake",
+      "es": "Temblor de pantalla",
+      "fr": "Tremblement de l’écran",
+      "zh": "屏幕震动"
+    },
+    "Dicas na tela": {
+      "en": "On-screen tips",
+      "es": "Consejos en pantalla",
+      "fr": "Astuces à l’écran",
+      "zh": "屏幕提示"
+    },
+    "Treino": {
+      "en": "Training",
+      "es": "Entrenamiento",
+      "fr": "Entraînement",
+      "zh": "训练"
+    },
+    "Campo de Treino": {
+      "en": "Training Grounds",
+      "es": "Campo de Entrenamiento",
+      "fr": "Terrain d’Entraînement",
+      "zh": "训练场"
+    },
+    "Boneco de Treino": {
+      "en": "Training Dummy",
+      "es": "Muñeco de Entrenamiento",
+      "fr": "Mannequin d’Entraînement",
+      "zh": "训练假人"
+    },
+    "Gato de Treino": {
+      "en": "Sparring Cat",
+      "es": "Gato de Entrenamiento",
+      "fr": "Chat d’Entraînement",
+      "zh": "陪练猫"
+    },
+    "Classe": {
+      "en": "Class",
+      "es": "Clase",
+      "fr": "Classe",
+      "zh": "职业"
+    },
+    "Nível": {
+      "en": "Level",
+      "es": "Nivel",
+      "fr": "Niveau",
+      "zh": "等级"
+    },
+    "Ranque das habilidades": {
+      "en": "Skill rank",
+      "es": "Rango de habilidades",
+      "fr": "Rang des compétences",
+      "zh": "技能等级"
+    },
+    "Encher": {
+      "en": "Refill",
+      "es": "Llenar",
+      "fr": "Remplir",
+      "zh": "回满"
+    },
+    "Levar dano": {
+      "en": "Take damage",
+      "es": "Recibir daño",
+      "fr": "Subir des dégâts",
+      "zh": "承受伤害"
+    },
+    "Zerar recurso": {
+      "en": "Empty resource",
+      "es": "Vaciar recurso",
+      "fr": "Vider la ressource",
+      "zh": "清空资源"
+    },
+    "Imortal": {
+      "en": "Immortal",
+      "es": "Inmortal",
+      "fr": "Immortel",
+      "zh": "无敌"
+    },
+    "Sem recarga": {
+      "en": "No cooldown",
+      "es": "Sin recarga",
+      "fr": "Sans recharge",
+      "zh": "无冷却"
+    },
+    "Chamar inimigos": {
+      "en": "Spawn enemies",
+      "es": "Llamar enemigos",
+      "fr": "Appeler des ennemis",
+      "zh": "召唤敌人"
+    },
+    "Limpar": {
+      "en": "Clear",
+      "es": "Limpiar",
+      "fr": "Nettoyer",
+      "zh": "清除"
+    },
+    "Bonecos": {
+      "en": "Dummies",
+      "es": "Muñecos",
+      "fr": "Mannequins",
+      "zh": "假人"
+    },
+    "Itens": {
+      "en": "Items",
+      "es": "Objetos",
+      "fr": "Objets",
+      "zh": "物品"
+    },
+    "Total": {
+      "en": "Total",
+      "es": "Total",
+      "fr": "Total",
+      "zh": "总计"
+    },
+    "Nada aqui é salvo. Bonecos não morrem; o Gato de Treino bate em você para testar cura e poções.": {
+      "en": "Nothing here is saved. Dummies don’t die; the Sparring Cat hits you so you can test healing and potions.",
+      "es": "Nada aquí se guarda. Los muñecos no mueren; el Gato de Entrenamiento te golpea para probar curación y pociones.",
+      "fr": "Rien n’est sauvegardé ici. Les mannequins ne meurent pas ; le Chat d’Entraînement te frappe pour tester soins et potions.",
+      "zh": "这里的一切都不会保存。假人不会死；陪练猫会打你，方便测试治疗和药水。"
+    },
+    "Ataque automático": {
+      "en": "Auto-attack",
+      "es": "Ataque automático",
+      "fr": "Attaque automatique",
+      "zh": "自动攻击"
+    },
+    "Segurar o botão": {
+      "en": "Hold the button",
+      "es": "Mantener el botón",
+      "fr": "Maintenir le bouton",
+      "zh": "按住按键"
+    },
+    "Até o alvo cair": {
+      "en": "Until the target falls",
+      "es": "Hasta que caiga el objetivo",
+      "fr": "Jusqu’à la chute de la cible",
+      "zh": "直到目标倒下"
+    },
+    "Alvo e o próximo": {
+      "en": "Target, then the next",
+      "es": "Objetivo y el siguiente",
+      "fr": "Cible puis la suivante",
+      "zh": "目标及下一个"
+    },
+    "As Minas da Toupeira ficam a sudeste, depois da ponte. Traga 4 minérios.": {
+      "en": "The Mole Mines are to the southeast, past the bridge. Bring 4 ores.",
+      "es": "Las Minas del Topo están al sureste, pasando el puente. Trae 4 minerales.",
+      "fr": "Les Mines de la Taupe sont au sud-est, après le pont. Rapporte 4 minerais.",
+      "zh": "鼹鼠矿坑在东南方，过了桥就是。带 4 块矿石来。"
+    },
+    "As macieiras ficam por todo o pomar. Clique nelas para colher.": {
+      "en": "The apple trees are all over the orchard. Click them to pick.",
+      "es": "Los manzanos están por todo el huerto. Haz clic para recoger.",
+      "fr": "Les pommiers sont partout dans le verger. Clique dessus pour cueillir.",
+      "zh": "苹果树遍布果园。点击即可采摘。"
+    },
+    "As minas ficam a sudeste, depois do rio.": {
+      "en": "The mines are to the southeast, across the river.",
+      "es": "Las minas están al sureste, cruzando el río.",
+      "fr": "Les mines sont au sud-est, après la rivière.",
+      "zh": "矿坑在东南方，过了河就是。"
+    },
+    "As toupeiras das minas foram enfeitiçadas pelo Fazendeiro. Derrote 10 delas.": {
+      "en": "The mine moles were bewitched by the Farmer. Defeat 10 of them.",
+      "es": "Los topos de las minas fueron hechizados por el Granjero. Derrota a 10.",
+      "fr": "Les taupes des mines ont été ensorcelées par le Fermier. Bats-en 10.",
+      "zh": "矿坑的鼹鼠被农夫诅咒了。击败其中 10 只。"
+    },
+    "Banana": {
+      "en": "Banana",
+      "es": "Plátano",
+      "fr": "Banane",
+      "zh": "香蕉"
+    },
+    "Baú da masmorra": {
+      "en": "Dungeon chest",
+      "es": "Cofre de la mazmorra",
+      "fr": "Coffre du donjon",
+      "zh": "地牢宝箱"
+    },
+    "Bem-vindo ao Pomar dos Esquilos!": {
+      "en": "Welcome to the Squirrel Orchard!",
+      "es": "¡Bienvenido al Huerto de las Ardillas!",
+      "fr": "Bienvenue au Verger des Écureuils !",
+      "zh": "欢迎来到松鼠果园！"
+    },
+    "Botões 1–4: escolha que habilidade vai em cada tecla · 🖱R: botão direito do mouse": {
+      "en": "Buttons 1–4: pick which skill goes on each key · 🖱R: right mouse button",
+      "es": "Botones 1–4: elige qué habilidad va en cada tecla · 🖱R: botón derecho",
+      "fr": "Boutons 1–4 : choisis la compétence de chaque touche · 🖱R : bouton droit",
+      "zh": "1–4 按钮：选择每个按键的技能 · 🖱R：鼠标右键"
+    },
+    "Castorino precisa de 4 minérios de ferro das Minas da Toupeira, ao sudeste, depois do rio.": {
+      "en": "Castorino needs 4 iron ores from the Mole Mines, southeast across the river.",
+      "es": "Castorino necesita 4 minerales de hierro de las Minas del Topo, al sureste cruzando el río.",
+      "fr": "Castorino a besoin de 4 minerais de fer des Mines de la Taupe, au sud-est après la rivière.",
+      "zh": "卡斯托里诺需要 4 块来自鼹鼠矿坑的铁矿石，在东南方河对岸。"
+    },
+    "Colha 6 maçãs nas macieiras e me traga, por favor.": {
+      "en": "Pick 6 apples from the trees and bring them to me, please.",
+      "es": "Recoge 6 manzanas de los manzanos y tráemelas, por favor.",
+      "fr": "Cueille 6 pommes et rapporte-les-moi, s’il te plaît.",
+      "zh": "请从苹果树上摘 6 个苹果带给我。"
+    },
+    "Completa · entrar de novo": {
+      "en": "Complete · enter again",
+      "es": "Completa · entrar de nuevo",
+      "fr": "Terminé · entrer à nouveau",
+      "zh": "已完成 · 再次进入"
+    },
+    "Comprar comida": {
+      "en": "Buy food",
+      "es": "Comprar comida",
+      "fr": "Acheter à manger",
+      "zh": "购买食物"
+    },
+    "Cripta dos Bigodes": {
+      "en": "Whisker Crypt",
+      "es": "Cripta de los Bigotes",
+      "fr": "Crypte des Moustaches",
+      "zh": "胡须地穴"
+    },
+    "Derrote 10 delas; quando acordarem do feitiço, vão agradecer.": {
+      "en": "Defeat 10 of them; when they wake from the spell, they’ll thank you.",
+      "es": "Derrota a 10; cuando despierten del hechizo, te lo agradecerán.",
+      "fr": "Bats-en 10 ; quand elles sortiront du sort, elles te remercieront.",
+      "zh": "击败其中 10 只；等她们从咒语中醒来，会感谢你的。"
+    },
+    "Do Pomar dos Esquilos. Recupera um pouco de vida.": {
+      "en": "From the Squirrel Orchard. Restores a little life.",
+      "es": "Del Huerto de las Ardillas. Recupera un poco de vida.",
+      "fr": "Du Verger des Écureuils. Rend un peu de vie.",
+      "zh": "来自松鼠果园。恢复少量生命。"
+    },
+    "Dona Castanha": {
+      "en": "Madame Chestnut",
+      "es": "Doña Castaña",
+      "fr": "Madame Châtaigne",
+      "zh": "栗子太太"
+    },
+    "Dona Castanha precisa de 6 maçãs das macieiras do pomar para o estoque de inverno.": {
+      "en": "Madame Chestnut needs 6 apples from the orchard trees for the winter stock.",
+      "es": "Doña Castaña necesita 6 manzanas del huerto para la reserva de invierno.",
+      "fr": "Madame Châtaigne a besoin de 6 pommes du verger pour les réserves d’hiver.",
+      "zh": "栗子太太需要果园的 6 个苹果作为过冬储备。"
+    },
+    "Embaixo do cemitério, um sacerdote de ossos reza para o livro do Fazendeiro. Cale-o.": {
+      "en": "Beneath the graveyard, a bone priest prays to the Farmer’s book. Silence him.",
+      "es": "Bajo el cementerio, un sacerdote de huesos reza al libro del Granjero. Hazlo callar.",
+      "fr": "Sous le cimetière, un prêtre d’os prie le livre du Fermier. Fais-le taire.",
+      "zh": "墓地下方，一个骨头祭司在向农夫的书祈祷。让他闭嘴。"
+    },
+    "Erguer Mortos": {
+      "en": "Raise Dead",
+      "es": "Alzar a los Muertos",
+      "fr": "Relever les Morts",
+      "zh": "复活死者"
+    },
+    "Ferro do bom! Vou forjar algo à sua altura.": {
+      "en": "Good iron! I’ll forge something worthy of you.",
+      "es": "¡Buen hierro! Forjaré algo a tu altura.",
+      "fr": "Du bon fer ! Je vais forger quelque chose digne de toi.",
+      "zh": "好铁！我要锻造一件配得上你的东西。"
+    },
+    "Fome? Tenho pão, queijo e o macarrão da Vovó.": {
+      "en": "Hungry? I have bread, cheese and Granny’s pasta.",
+      "es": "¿Hambre? Tengo pan, queso y los fideos de la Abuela.",
+      "fr": "Faim ? J’ai du pain, du fromage et les pâtes de Mamie.",
+      "zh": "饿了吗？我有面包、奶酪和奶奶的意面。"
+    },
+    "Frutas para o Inverno": {
+      "en": "Fruit for Winter",
+      "es": "Fruta para el Invierno",
+      "fr": "Des Fruits pour l’Hiver",
+      "zh": "过冬的水果"
+    },
+    "Isto é material: guarde para uma missão": {
+      "en": "This is a material: keep it for a quest",
+      "es": "Esto es material: guárdalo para una misión",
+      "fr": "C’est un matériau : garde-le pour une quête",
+      "zh": "这是材料：留着做任务用"
+    },
+    "Junte 5 porções e o moinho volta a girar.": {
+      "en": "Gather 5 portions and the mill will turn again.",
+      "es": "Junta 5 porciones y el molino volverá a girar.",
+      "fr": "Rassemble 5 portions et le moulin tournera de nouveau.",
+      "zh": "凑齐 5 份，磨坊就能重新转起来。"
+    },
+    "Já ouço elas cavando de novo, felizes!": {
+      "en": "I can already hear them digging again, happy!",
+      "es": "¡Ya las oigo cavar de nuevo, felices!",
+      "fr": "Je les entends déjà creuser à nouveau, heureuses !",
+      "zh": "我已经听到她们又开心地挖起来了！"
+    },
+    "Levanta um inimigo morto como zumbi aliado (Necromante). Chefes não. Mais ranques = mais zumbis e mais fortes.": {
+      "en": "Raises a dead enemy as an allied zombie (Necromancer). Not bosses. More ranks = more and stronger zombies.",
+      "es": "Levanta a un enemigo muerto como zombi aliado (Nigromante). Jefes no. Más rangos = más zombis y más fuertes.",
+      "fr": "Relève un ennemi mort en zombie allié (Nécromancien). Pas les boss. Plus de rangs = plus de zombies, plus forts.",
+      "zh": "将死去的敌人复活为友方僵尸（死灵法师）。首领除外。等级越高，僵尸越多越强。"
+    },
+    "Leve umas poções, são de casca de maçã.": {
+      "en": "Take some potions, they’re made of apple peel.",
+      "es": "Llévate unas pociones, son de cáscara de manzana.",
+      "fr": "Prends des potions, elles sont à la peau de pomme.",
+      "zh": "拿些药水吧，是用苹果皮做的。"
+    },
+    "Limpe a Toca da Peste": {
+      "en": "Clear the Plague Burrow",
+      "es": "Limpia la Madriguera de la Peste",
+      "fr": "Nettoie le Terrier de la Peste",
+      "zh": "清理瘟疫鼠洞"
+    },
+    "Macarrão da Vovó": {
+      "en": "Granny’s Pasta",
+      "es": "Fideos de la Abuela",
+      "fr": "Pâtes de Mamie",
+      "zh": "奶奶的意面"
+    },
+    "Masmorra completa ✔ · os monstros voltaram": {
+      "en": "Dungeon complete ✔ · the monsters are back",
+      "es": "Mazmorra completa ✔ · los monstruos volvieron",
+      "fr": "Donjon terminé ✔ · les monstres sont revenus",
+      "zh": "地牢已完成 ✔ · 怪物又回来了"
+    },
+    "Masmorra completa!": {
+      "en": "Dungeon complete!",
+      "es": "¡Mazmorra completa!",
+      "fr": "Donjon terminé !",
+      "zh": "地牢完成！"
+    },
+    "Masmorra · nível {n}": {
+      "en": "Dungeon · level {n}",
+      "es": "Mazmorra · nivel {n}",
+      "fr": "Donjon · niveau {n}",
+      "zh": "地牢 · {n} 级"
+    },
+    "Maçã": {
+      "en": "Apple",
+      "es": "Manzana",
+      "fr": "Pomme",
+      "zh": "苹果"
+    },
+    "Minas da Toupeira": {
+      "en": "Mole Mines",
+      "es": "Minas del Topo",
+      "fr": "Mines de la Taupe",
+      "zh": "鼹鼠矿坑"
+    },
+    "Minha forja está sem ferro.": {
+      "en": "My forge is out of iron.",
+      "es": "Mi forja no tiene hierro.",
+      "fr": "Ma forge n’a plus de fer.",
+      "zh": "我的铁匠铺没铁了。"
+    },
+    "Minhas primas das minas ficaram com olhos vermelhos.": {
+      "en": "My cousins in the mines got red eyes.",
+      "es": "Mis primas de las minas tienen ojos rojos.",
+      "fr": "Mes cousines des mines ont les yeux rouges.",
+      "zh": "我在矿坑的表亲们眼睛都变红了。"
+    },
+    "Minério de Ferro": {
+      "en": "Iron Ore",
+      "es": "Mineral de Hierro",
+      "fr": "Minerai de Fer",
+      "zh": "铁矿石"
+    },
+    "Minério para a Forja": {
+      "en": "Ore for the Forge",
+      "es": "Mineral para la Forja",
+      "fr": "Du Minerai pour la Forge",
+      "zh": "铁匠铺的矿石"
+    },
+    "Moinho do Vale": {
+      "en": "Valley Mill",
+      "es": "Molino del Valle",
+      "fr": "Moulin de la Vallée",
+      "zh": "山谷磨坊"
+    },
+    "Na masmorra, use a saída (portal azul)": {
+      "en": "In the dungeon, use the exit (blue portal)",
+      "es": "En la mazmorra, usa la salida (portal azul)",
+      "fr": "Dans le donjon, utilise la sortie (portail bleu)",
+      "zh": "在地牢里请使用出口（蓝色传送门）"
+    },
+    "Nenhum corpo por perto para erguer": {
+      "en": "No corpse nearby to raise",
+      "es": "No hay cuerpos cerca para alzar",
+      "fr": "Aucun cadavre à relever à proximité",
+      "zh": "附近没有可以复活的尸体"
+    },
+    "Nos túneis mais fundos, a Rainha Toupeira enfeitiçada comanda a escavação. Derrote-a.": {
+      "en": "In the deepest tunnels, the bewitched Mole Queen rules the digging. Defeat her.",
+      "es": "En los túneles más hondos, la Reina Topo hechizada dirige la excavación. Derrótala.",
+      "fr": "Dans les tunnels les plus profonds, la Reine Taupe ensorcelée dirige les fouilles. Bats-la.",
+      "zh": "在最深的隧道里，被诅咒的鼹鼠女王指挥着挖掘。击败她。"
+    },
+    "O Coração da Mina": {
+      "en": "The Heart of the Mine",
+      "es": "El Corazón de la Mina",
+      "fr": "Le Cœur de la Mine",
+      "zh": "矿坑之心"
+    },
+    "O Sacerdote da Cripta": {
+      "en": "The Crypt Priest",
+      "es": "El Sacerdote de la Cripta",
+      "fr": "Le Prêtre de la Crypte",
+      "zh": "地穴祭司"
+    },
+    "O baú da masmorra foi destrancado": {
+      "en": "The dungeon chest has been unlocked",
+      "es": "El cofre de la mazmorra se ha desbloqueado",
+      "fr": "Le coffre du donjon est déverrouillé",
+      "zh": "地牢宝箱已解锁"
+    },
+    "O baú está vazio": {
+      "en": "The chest is empty",
+      "es": "El cofre está vacío",
+      "fr": "Le coffre est vide",
+      "zh": "宝箱是空的"
+    },
+    "O moinho ainda gira, graças ao vento do vale.": {
+      "en": "The mill still turns, thanks to the valley wind.",
+      "es": "El molino aún gira, gracias al viento del valle.",
+      "fr": "Le moulin tourne encore, grâce au vent de la vallée.",
+      "zh": "多亏了山谷的风，磨坊还在转。"
+    },
+    "O moinho já está cantando!": {
+      "en": "The mill is singing already!",
+      "es": "¡El molino ya está cantando!",
+      "fr": "Le moulin chante déjà !",
+      "zh": "磨坊已经唱起歌来了！"
+    },
+    "O moleiro Seu Farelo precisa de 5 porções de sementes dos sacos espalhados pelos campos de trigo.": {
+      "en": "Old Bran the miller needs 5 portions of seeds from the sacks scattered in the wheat fields.",
+      "es": "El molinero Don Salvado necesita 5 porciones de semillas de los sacos esparcidos por los trigales.",
+      "fr": "Le meunier Père Son a besoin de 5 portions de graines des sacs éparpillés dans les blés.",
+      "zh": "磨坊主麸皮老爹需要散落在麦田里的袋子中的 5 份种子。"
+    },
+    "Os gatos derrubam as frutas antes de amadurecer. Que desperdício!": {
+      "en": "The cats knock the fruit down before it ripens. What a waste!",
+      "es": "Los gatos tiran la fruta antes de madurar. ¡Qué desperdicio!",
+      "fr": "Les chats font tomber les fruits avant qu’ils mûrissent. Quel gâchis !",
+      "zh": "猫在果子成熟前就把它们打下来。太浪费了！"
+    },
+    "Os gatos estragaram metade da colheita.": {
+      "en": "The cats ruined half the harvest.",
+      "es": "Los gatos arruinaron la mitad de la cosecha.",
+      "fr": "Les chats ont gâché la moitié de la récolte.",
+      "zh": "猫毁了一半的收成。"
+    },
+    "Os ratos da peste rasgaram meus sacos de sementes pelo campo.": {
+      "en": "The plague rats tore my seed sacks all over the field.",
+      "es": "Las ratas de la peste rompieron mis sacos de semillas por el campo.",
+      "fr": "Les rats de la peste ont déchiré mes sacs de graines dans le champ.",
+      "zh": "瘟疫鼠把我的种子袋撕得满地都是。"
+    },
+    "Os sacos ficam no meio do trigo.": {
+      "en": "The sacks are in the middle of the wheat.",
+      "es": "Los sacos están en medio del trigo.",
+      "fr": "Les sacs sont au milieu du blé.",
+      "zh": "袋子在麦田中间。"
+    },
+    "Padaria do Moinho": {
+      "en": "Mill Bakery",
+      "es": "Panadería del Molino",
+      "fr": "Boulangerie du Moulin",
+      "zh": "磨坊面包房"
+    },
+    "Pedra com veios de ferro das Minas da Toupeira. O ferreiro precisa.": {
+      "en": "Stone with iron veins from the Mole Mines. The smith needs it.",
+      "es": "Piedra con vetas de hierro de las Minas del Topo. El herrero la necesita.",
+      "fr": "Pierre veinée de fer des Mines de la Taupe. Le forgeron en a besoin.",
+      "zh": "来自鼹鼠矿坑、带铁矿脉的石头。铁匠需要。"
+    },
+    "Petisco de roedor: recupera o recurso.": {
+      "en": "Rodent snack: restores your resource.",
+      "es": "Bocadillo de roedor: recupera el recurso.",
+      "fr": "Encas de rongeur : rend la ressource.",
+      "zh": "啮齿动物零食：恢复资源。"
+    },
+    "Pode colher o que estiver maduro, só não pise nas mudas.": {
+      "en": "You can pick what’s ripe, just don’t step on the seedlings.",
+      "es": "Puedes recoger lo maduro, pero no pises los brotes.",
+      "fr": "Tu peux cueillir ce qui est mûr, mais ne marche pas sur les pousses.",
+      "zh": "成熟的可以摘，只是别踩到幼苗。"
+    },
+    "Pomar dos Esquilos": {
+      "en": "Squirrel Orchard",
+      "es": "Huerto de las Ardillas",
+      "fr": "Verger des Écureuils",
+      "zh": "松鼠果园"
+    },
+    "Prato caprichado: muita vida e recurso.": {
+      "en": "A hearty dish: lots of life and resource.",
+      "es": "Plato contundente: mucha vida y recurso.",
+      "fr": "Plat copieux : beaucoup de vie et de ressource.",
+      "zh": "丰盛的一餐：大量生命和资源。"
+    },
+    "Procure as pedras com veios laranja dentro das minas.": {
+      "en": "Look for the stones with orange veins inside the mines.",
+      "es": "Busca las piedras con vetas naranjas dentro de las minas.",
+      "fr": "Cherche les pierres aux veines orange dans les mines.",
+      "zh": "在矿坑里找带橙色矿脉的石头。"
+    },
+    "Pôr na tecla {n}": {
+      "en": "Put on key {n}",
+      "es": "Poner en la tecla {n}",
+      "fr": "Mettre sur la touche {n}",
+      "zh": "放到 {n} 键"
+    },
+    "Que maçãs bonitas! O inverno vai ser doce.": {
+      "en": "What lovely apples! Winter will be sweet.",
+      "es": "¡Qué manzanas tan bonitas! El invierno será dulce.",
+      "fr": "Quelles belles pommes ! L’hiver sera doux.",
+      "zh": "多漂亮的苹果！这个冬天会很甜。"
+    },
+    "Rainha Toupeira": {
+      "en": "Mole Queen",
+      "es": "Reina Topo",
+      "fr": "Reine Taupe",
+      "zh": "鼹鼠女王"
+    },
+    "Raio em Cadeia": {
+      "en": "Chain Lightning",
+      "es": "Rayo en Cadena",
+      "fr": "Éclair en Chaîne",
+      "zh": "连锁闪电"
+    },
+    "Recupera vida e um pouco do recurso.": {
+      "en": "Restores life and a bit of resource.",
+      "es": "Recupera vida y algo de recurso.",
+      "fr": "Rend de la vie et un peu de ressource.",
+      "zh": "恢复生命和少量资源。"
+    },
+    "Rei da Peste": {
+      "en": "Plague King",
+      "es": "Rey de la Peste",
+      "fr": "Roi de la Peste",
+      "zh": "瘟疫之王"
+    },
+    "Sacerdote Ossudo": {
+      "en": "Bony Priest",
+      "es": "Sacerdote Huesudo",
+      "fr": "Prêtre Osseux",
+      "zh": "骨头祭司"
+    },
+    "Saída": {
+      "en": "Exit",
+      "es": "Salida",
+      "fr": "Sortie",
+      "zh": "出口"
+    },
+    "Sem sementes não tem farinha, e sem farinha não tem pão.": {
+      "en": "No seeds, no flour; no flour, no bread.",
+      "es": "Sin semillas no hay harina, y sin harina no hay pan.",
+      "fr": "Pas de graines, pas de farine ; pas de farine, pas de pain.",
+      "zh": "没有种子就没有面粉，没有面粉就没有面包。"
+    },
+    "Sementes": {
+      "en": "Seeds",
+      "es": "Semillas",
+      "fr": "Graines",
+      "zh": "种子"
+    },
+    "Sementes do Moinho": {
+      "en": "Seeds for the Mill",
+      "es": "Semillas del Molino",
+      "fr": "Des Graines pour le Moulin",
+      "zh": "磨坊的种子"
+    },
+    "Seu Farelo, o Moleiro": {
+      "en": "Old Bran, the Miller",
+      "es": "Don Salvado, el Molinero",
+      "fr": "Père Son, le Meunier",
+      "zh": "磨坊主麸皮老爹"
+    },
+    "Toca da Peste": {
+      "en": "Plague Burrow",
+      "es": "Madriguera de la Peste",
+      "fr": "Terrier de la Peste",
+      "zh": "瘟疫鼠洞"
+    },
+    "Tome, uma coisinha que achei no fundo do celeiro.": {
+      "en": "Here, a little something I found at the back of the barn.",
+      "es": "Toma, algo que encontré al fondo del granero.",
+      "fr": "Tiens, un petit truc trouvé au fond de la grange.",
+      "zh": "拿着，这是我在谷仓角落找到的小东西。"
+    },
+    "Trancado: derrote o chefe da masmorra": {
+      "en": "Locked: defeat the dungeon boss",
+      "es": "Cerrado: derrota al jefe de la mazmorra",
+      "fr": "Verrouillé : bats le boss du donjon",
+      "zh": "已上锁：击败地牢首领"
+    },
+    "Túneis Infestados": {
+      "en": "Infested Tunnels",
+      "es": "Túneles Infestados",
+      "fr": "Tunnels Infestés",
+      "zh": "被侵占的隧道"
+    },
+    "Túneis da Toupeira": {
+      "en": "Mole Tunnels",
+      "es": "Túneles del Topo",
+      "fr": "Tunnels de la Taupe",
+      "zh": "鼹鼠隧道"
+    },
+    "Um raio que pula de inimigo em inimigo (Feiticeira). Mais ranques = mais pulos.": {
+      "en": "Lightning that jumps from enemy to enemy (Sorceress). More ranks = more jumps.",
+      "es": "Un rayo que salta de enemigo en enemigo (Hechicera). Más rangos = más saltos.",
+      "fr": "Un éclair qui saute d’ennemi en ennemi (Ensorceleuse). Plus de rangs = plus de sauts.",
+      "zh": "在敌人之间跳跃的闪电（女巫）。等级越高，跳跃越多。"
+    },
+    "Uma toca cheia de ratos doentes embaixo dos Campos Queimados. Derrote o Rei da Peste no fundo dela.": {
+      "en": "A burrow full of sick rats beneath the Burnt Fields. Defeat the Plague King at the bottom.",
+      "es": "Una madriguera llena de ratas enfermas bajo los Campos Quemados. Derrota al Rey de la Peste en el fondo.",
+      "fr": "Un terrier plein de rats malades sous les Champs Brûlés. Bats le Roi de la Peste tout au fond.",
+      "zh": "焦土田野下满是病鼠的洞穴。在最深处击败瘟疫之王。"
+    },
+    "Arraste para mover · duplo clique volta ao lugar": {
+      "en": "Drag to move · double-click to reset",
+      "es": "Arrastra para mover · doble clic para volver",
+      "fr": "Glisse pour déplacer · double-clic pour replacer",
+      "zh": "拖动以移动 · 双击复位"
+    }
+  }
+}

@@ -1,0 +1,7038 @@
+{
+ "id": "masmorra_toca",
+ "name": "Toca da Peste",
+ "killY": -40,
+ "start": {
+  "pos": [
+   7,
+   1,
+   7
+  ],
+  "view": 0
+ },
+ "requiredCrystals": [],
+ "components": [
+  {
+   "type": "cameraIso",
+   "height": 12,
+   "elevation": 50,
+   "yaw": 45,
+   "rotate": false
+  },
+  {
+   "type": "rpg",
+   "zoom": 12
+  },
+  {
+   "type": "environment",
+   "sky": "color",
+   "skyColor": "#07050a",
+   "fogColor": "#07050a",
+   "fogNear": 58,
+   "fogFar": 90,
+   "light": 0.8,
+   "shadows": false,
+   "particles": "none"
+  }
+ ],
+ "music": "music_rpg_vale",
+ "decor": {
+  "auto": false,
+  "seed": 5,
+  "density": 0,
+  "trees": false,
+  "underside": false
+ },
+ "blocks": [
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    23
+   ],
+   "to": [
+    23,
+    0,
+    23
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    30,
+    0,
+    23
+   ],
+   "to": [
+    33,
+    0,
+    23
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    40,
+    0,
+    23
+   ],
+   "to": [
+    50,
+    0,
+    23
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    5,
+    0,
+    17
+   ],
+   "to": [
+    8,
+    0,
+    17
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    16,
+    0,
+    17
+   ],
+   "to": [
+    23,
+    0,
+    17
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    17
+   ],
+   "to": [
+    35,
+    0,
+    17
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    40,
+    0,
+    17
+   ],
+   "to": [
+    50,
+    0,
+    17
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    30
+   ],
+   "to": [
+    22,
+    0,
+    30
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    30
+   ],
+   "to": [
+    36,
+    0,
+    30
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    41,
+    0,
+    30
+   ],
+   "to": [
+    48,
+    0,
+    30
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    26
+   ],
+   "to": [
+    12,
+    0,
+    26
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    14,
+    0,
+    26
+   ],
+   "to": [
+    22,
+    0,
+    26
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    30,
+    0,
+    26
+   ],
+   "to": [
+    33,
+    0,
+    26
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    43,
+    0,
+    26
+   ],
+   "to": [
+    47,
+    0,
+    26
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    2,
+    0,
+    4
+   ],
+   "to": [
+    13,
+    0,
+    4
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    15,
+    0,
+    4
+   ],
+   "to": [
+    49,
+    0,
+    4
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    4,
+    0,
+    35
+   ],
+   "to": [
+    7,
+    0,
+    35
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    14,
+    0,
+    35
+   ],
+   "to": [
+    22,
+    0,
+    35
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    35
+   ],
+   "to": [
+    36,
+    0,
+    35
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    41,
+    0,
+    35
+   ],
+   "to": [
+    48,
+    0,
+    35
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    2,
+    0,
+    2
+   ],
+   "to": [
+    13,
+    0,
+    2
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    15,
+    0,
+    2
+   ],
+   "to": [
+    34,
+    0,
+    2
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    39,
+    0,
+    2
+   ],
+   "to": [
+    49,
+    0,
+    2
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    32
+   ],
+   "to": [
+    22,
+    0,
+    32
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    32
+   ],
+   "to": [
+    36,
+    0,
+    32
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    41,
+    0,
+    32
+   ],
+   "to": [
+    48,
+    0,
+    32
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    2,
+    0,
+    9
+   ],
+   "to": [
+    13,
+    0,
+    9
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    29,
+    0,
+    9
+   ],
+   "to": [
+    32,
+    0,
+    9
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    39,
+    0,
+    9
+   ],
+   "to": [
+    49,
+    0,
+    9
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    45
+   ],
+   "to": [
+    10,
+    0,
+    45
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    17,
+    0,
+    45
+   ],
+   "to": [
+    52,
+    0,
+    45
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    5,
+    0,
+    18
+   ],
+   "to": [
+    8,
+    0,
+    18
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    16,
+    0,
+    18
+   ],
+   "to": [
+    23,
+    0,
+    18
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    18
+   ],
+   "to": [
+    50,
+    0,
+    18
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    48
+   ],
+   "to": [
+    25,
+    0,
+    48
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    31,
+    0,
+    48
+   ],
+   "to": [
+    39,
+    0,
+    48
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    41,
+    0,
+    48
+   ],
+   "to": [
+    52,
+    0,
+    48
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    46
+   ],
+   "to": [
+    52,
+    0,
+    46
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    20
+   ],
+   "to": [
+    12,
+    0,
+    20
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    16,
+    0,
+    20
+   ],
+   "to": [
+    23,
+    0,
+    20
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    20
+   ],
+   "to": [
+    50,
+    0,
+    20
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    29
+   ],
+   "to": [
+    9,
+    0,
+    29
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    14,
+    0,
+    29
+   ],
+   "to": [
+    22,
+    0,
+    29
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    30,
+    0,
+    29
+   ],
+   "to": [
+    33,
+    0,
+    29
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    43,
+    0,
+    29
+   ],
+   "to": [
+    47,
+    0,
+    29
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    4,
+    0,
+    38
+   ],
+   "to": [
+    7,
+    0,
+    38
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    38
+   ],
+   "to": [
+    36,
+    0,
+    38
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    41,
+    0,
+    38
+   ],
+   "to": [
+    48,
+    0,
+    38
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    2,
+    0,
+    3
+   ],
+   "to": [
+    13,
+    0,
+    3
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    15,
+    0,
+    3
+   ],
+   "to": [
+    49,
+    0,
+    3
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    51
+   ],
+   "to": [
+    10,
+    0,
+    51
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    17,
+    0,
+    51
+   ],
+   "to": [
+    25,
+    0,
+    51
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    41,
+    0,
+    51
+   ],
+   "to": [
+    52,
+    0,
+    51
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    47
+   ],
+   "to": [
+    39,
+    0,
+    47
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    41,
+    0,
+    47
+   ],
+   "to": [
+    52,
+    0,
+    47
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    5,
+    0,
+    12
+   ],
+   "to": [
+    8,
+    0,
+    12
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    29,
+    0,
+    12
+   ],
+   "to": [
+    32,
+    0,
+    12
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    44,
+    0,
+    12
+   ],
+   "to": [
+    47,
+    0,
+    12
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    21
+   ],
+   "to": [
+    23,
+    0,
+    21
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    21
+   ],
+   "to": [
+    50,
+    0,
+    21
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    50
+   ],
+   "to": [
+    10,
+    0,
+    50
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    17,
+    0,
+    50
+   ],
+   "to": [
+    25,
+    0,
+    50
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    41,
+    0,
+    50
+   ],
+   "to": [
+    52,
+    0,
+    50
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    28
+   ],
+   "to": [
+    9,
+    0,
+    28
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    14,
+    0,
+    28
+   ],
+   "to": [
+    22,
+    0,
+    28
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    30,
+    0,
+    28
+   ],
+   "to": [
+    33,
+    0,
+    28
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    43,
+    0,
+    28
+   ],
+   "to": [
+    47,
+    0,
+    28
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    24
+   ],
+   "to": [
+    20,
+    0,
+    24
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    30,
+    0,
+    24
+   ],
+   "to": [
+    33,
+    0,
+    24
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    43,
+    0,
+    24
+   ],
+   "to": [
+    47,
+    0,
+    24
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    33
+   ],
+   "to": [
+    22,
+    0,
+    33
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    33
+   ],
+   "to": [
+    36,
+    0,
+    33
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    41,
+    0,
+    33
+   ],
+   "to": [
+    48,
+    0,
+    33
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    5,
+    0,
+    13
+   ],
+   "to": [
+    8,
+    0,
+    13
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    29,
+    0,
+    13
+   ],
+   "to": [
+    32,
+    0,
+    13
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    44,
+    0,
+    13
+   ],
+   "to": [
+    47,
+    0,
+    13
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    2,
+    0,
+    7
+   ],
+   "to": [
+    13,
+    0,
+    7
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    15,
+    0,
+    7
+   ],
+   "to": [
+    34,
+    0,
+    7
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    39,
+    0,
+    7
+   ],
+   "to": [
+    49,
+    0,
+    7
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    22
+   ],
+   "to": [
+    23,
+    0,
+    22
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    22
+   ],
+   "to": [
+    35,
+    0,
+    22
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    40,
+    0,
+    22
+   ],
+   "to": [
+    50,
+    0,
+    22
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    49
+   ],
+   "to": [
+    25,
+    0,
+    49
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    41,
+    0,
+    49
+   ],
+   "to": [
+    52,
+    0,
+    49
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    4,
+    0,
+    40
+   ],
+   "to": [
+    7,
+    0,
+    40
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    17,
+    0,
+    40
+   ],
+   "to": [
+    25,
+    0,
+    40
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    31,
+    0,
+    40
+   ],
+   "to": [
+    39,
+    0,
+    40
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    43,
+    0,
+    40
+   ],
+   "to": [
+    48,
+    0,
+    40
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    43
+   ],
+   "to": [
+    10,
+    0,
+    43
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    17,
+    0,
+    43
+   ],
+   "to": [
+    25,
+    0,
+    43
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    31,
+    0,
+    43
+   ],
+   "to": [
+    48,
+    0,
+    43
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    4,
+    0,
+    41
+   ],
+   "to": [
+    7,
+    0,
+    41
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    17,
+    0,
+    41
+   ],
+   "to": [
+    25,
+    0,
+    41
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    31,
+    0,
+    41
+   ],
+   "to": [
+    39,
+    0,
+    41
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    43,
+    0,
+    41
+   ],
+   "to": [
+    48,
+    0,
+    41
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    19
+   ],
+   "to": [
+    12,
+    0,
+    19
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    16,
+    0,
+    19
+   ],
+   "to": [
+    23,
+    0,
+    19
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    19
+   ],
+   "to": [
+    50,
+    0,
+    19
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    5,
+    0,
+    15
+   ],
+   "to": [
+    8,
+    0,
+    15
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    16,
+    0,
+    15
+   ],
+   "to": [
+    23,
+    0,
+    15
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    15
+   ],
+   "to": [
+    35,
+    0,
+    15
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    40,
+    0,
+    15
+   ],
+   "to": [
+    50,
+    0,
+    15
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    4,
+    0,
+    37
+   ],
+   "to": [
+    7,
+    0,
+    37
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    37
+   ],
+   "to": [
+    36,
+    0,
+    37
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    41,
+    0,
+    37
+   ],
+   "to": [
+    48,
+    0,
+    37
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    31
+   ],
+   "to": [
+    22,
+    0,
+    31
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    31
+   ],
+   "to": [
+    36,
+    0,
+    31
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    41,
+    0,
+    31
+   ],
+   "to": [
+    48,
+    0,
+    31
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    27
+   ],
+   "to": [
+    9,
+    0,
+    27
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    14,
+    0,
+    27
+   ],
+   "to": [
+    22,
+    0,
+    27
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    30,
+    0,
+    27
+   ],
+   "to": [
+    33,
+    0,
+    27
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    43,
+    0,
+    27
+   ],
+   "to": [
+    47,
+    0,
+    27
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    42
+   ],
+   "to": [
+    10,
+    0,
+    42
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    17,
+    0,
+    42
+   ],
+   "to": [
+    25,
+    0,
+    42
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    31,
+    0,
+    42
+   ],
+   "to": [
+    39,
+    0,
+    42
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    43,
+    0,
+    42
+   ],
+   "to": [
+    48,
+    0,
+    42
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    2,
+    0,
+    5
+   ],
+   "to": [
+    13,
+    0,
+    5
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    15,
+    0,
+    5
+   ],
+   "to": [
+    49,
+    0,
+    5
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    5,
+    0,
+    16
+   ],
+   "to": [
+    8,
+    0,
+    16
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    16,
+    0,
+    16
+   ],
+   "to": [
+    23,
+    0,
+    16
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    16
+   ],
+   "to": [
+    35,
+    0,
+    16
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    40,
+    0,
+    16
+   ],
+   "to": [
+    50,
+    0,
+    16
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    2,
+    0,
+    10
+   ],
+   "to": [
+    13,
+    0,
+    10
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    29,
+    0,
+    10
+   ],
+   "to": [
+    32,
+    0,
+    10
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    39,
+    0,
+    10
+   ],
+   "to": [
+    49,
+    0,
+    10
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    25
+   ],
+   "to": [
+    12,
+    0,
+    25
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    17,
+    0,
+    25
+   ],
+   "to": [
+    20,
+    0,
+    25
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    30,
+    0,
+    25
+   ],
+   "to": [
+    33,
+    0,
+    25
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    43,
+    0,
+    25
+   ],
+   "to": [
+    47,
+    0,
+    25
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    4,
+    0,
+    34
+   ],
+   "to": [
+    7,
+    0,
+    34
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    14,
+    0,
+    34
+   ],
+   "to": [
+    22,
+    0,
+    34
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    34
+   ],
+   "to": [
+    36,
+    0,
+    34
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    41,
+    0,
+    34
+   ],
+   "to": [
+    48,
+    0,
+    34
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    4,
+    0,
+    39
+   ],
+   "to": [
+    7,
+    0,
+    39
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    39
+   ],
+   "to": [
+    36,
+    0,
+    39
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    41,
+    0,
+    39
+   ],
+   "to": [
+    48,
+    0,
+    39
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    44
+   ],
+   "to": [
+    10,
+    0,
+    44
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    17,
+    0,
+    44
+   ],
+   "to": [
+    52,
+    0,
+    44
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    4,
+    0,
+    36
+   ],
+   "to": [
+    7,
+    0,
+    36
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    14,
+    0,
+    36
+   ],
+   "to": [
+    22,
+    0,
+    36
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    36
+   ],
+   "to": [
+    36,
+    0,
+    36
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    41,
+    0,
+    36
+   ],
+   "to": [
+    48,
+    0,
+    36
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    2,
+    0,
+    8
+   ],
+   "to": [
+    13,
+    0,
+    8
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    15,
+    0,
+    8
+   ],
+   "to": [
+    34,
+    0,
+    8
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    39,
+    0,
+    8
+   ],
+   "to": [
+    49,
+    0,
+    8
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    2,
+    0,
+    6
+   ],
+   "to": [
+    13,
+    0,
+    6
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    15,
+    0,
+    6
+   ],
+   "to": [
+    49,
+    0,
+    6
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    2,
+    0,
+    11
+   ],
+   "to": [
+    13,
+    0,
+    11
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    29,
+    0,
+    11
+   ],
+   "to": [
+    32,
+    0,
+    11
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    39,
+    0,
+    11
+   ],
+   "to": [
+    49,
+    0,
+    11
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    15,
+    0,
+    1
+   ],
+   "to": [
+    34,
+    0,
+    1
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    5,
+    0,
+    14
+   ],
+   "to": [
+    8,
+    0,
+    14
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    27,
+    0,
+    14
+   ],
+   "to": [
+    35,
+    0,
+    14
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    44,
+    0,
+    14
+   ],
+   "to": [
+    47,
+    0,
+    14
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    1,
+    0,
+    52
+   ],
+   "to": [
+    10,
+    0,
+    52
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "grass",
+   "from": [
+    26,
+    0,
+    0
+   ],
+   "to": [
+    34,
+    0,
+    0
+   ],
+   "skin": "rpg_terra"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    23
+   ],
+   "to": [
+    1,
+    1,
+    23
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    20,
+    1,
+    23
+   ],
+   "to": [
+    23,
+    1,
+    23
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    30,
+    1,
+    23
+   ],
+   "to": [
+    30,
+    1,
+    23
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    33,
+    1,
+    23
+   ],
+   "to": [
+    33,
+    1,
+    23
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    40,
+    1,
+    23
+   ],
+   "to": [
+    43,
+    1,
+    23
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    47,
+    1,
+    23
+   ],
+   "to": [
+    50,
+    1,
+    23
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    21
+   ],
+   "to": [
+    1,
+    1,
+    21
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    12,
+    1,
+    21
+   ],
+   "to": [
+    16,
+    1,
+    21
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    23,
+    1,
+    21
+   ],
+   "to": [
+    23,
+    1,
+    21
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    21
+   ],
+   "to": [
+    27,
+    1,
+    21
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    35,
+    1,
+    21
+   ],
+   "to": [
+    40,
+    1,
+    21
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    50,
+    1,
+    21
+   ],
+   "to": [
+    50,
+    1,
+    21
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    26
+   ],
+   "to": [
+    12,
+    1,
+    26
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    14,
+    1,
+    26
+   ],
+   "to": [
+    17,
+    1,
+    26
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    20,
+    1,
+    26
+   ],
+   "to": [
+    22,
+    1,
+    26
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    30,
+    1,
+    26
+   ],
+   "to": [
+    30,
+    1,
+    26
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    33,
+    1,
+    26
+   ],
+   "to": [
+    33,
+    1,
+    26
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    43,
+    1,
+    26
+   ],
+   "to": [
+    43,
+    1,
+    26
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    47,
+    1,
+    26
+   ],
+   "to": [
+    47,
+    1,
+    26
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    4,
+    1,
+    35
+   ],
+   "to": [
+    4,
+    1,
+    35
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    7,
+    1,
+    35
+   ],
+   "to": [
+    7,
+    1,
+    35
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    14,
+    1,
+    35
+   ],
+   "to": [
+    14,
+    1,
+    35
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    22,
+    1,
+    35
+   ],
+   "to": [
+    22,
+    1,
+    35
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    35
+   ],
+   "to": [
+    27,
+    1,
+    35
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    36,
+    1,
+    35
+   ],
+   "to": [
+    36,
+    1,
+    35
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    41,
+    1,
+    35
+   ],
+   "to": [
+    41,
+    1,
+    35
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    48,
+    1,
+    35
+   ],
+   "to": [
+    48,
+    1,
+    35
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    4,
+    1,
+    36
+   ],
+   "to": [
+    4,
+    1,
+    36
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    7,
+    1,
+    36
+   ],
+   "to": [
+    7,
+    1,
+    36
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    14,
+    1,
+    36
+   ],
+   "to": [
+    22,
+    1,
+    36
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    36
+   ],
+   "to": [
+    27,
+    1,
+    36
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    36,
+    1,
+    36
+   ],
+   "to": [
+    36,
+    1,
+    36
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    41,
+    1,
+    36
+   ],
+   "to": [
+    41,
+    1,
+    36
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    48,
+    1,
+    36
+   ],
+   "to": [
+    48,
+    1,
+    36
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    2,
+    1,
+    2
+   ],
+   "to": [
+    13,
+    1,
+    2
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    15,
+    1,
+    2
+   ],
+   "to": [
+    15,
+    1,
+    2
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    26,
+    1,
+    2
+   ],
+   "to": [
+    26,
+    1,
+    2
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    34,
+    1,
+    2
+   ],
+   "to": [
+    34,
+    1,
+    2
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    39,
+    1,
+    2
+   ],
+   "to": [
+    49,
+    1,
+    2
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    26,
+    1,
+    0
+   ],
+   "to": [
+    34,
+    1,
+    0
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    2,
+    1,
+    11
+   ],
+   "to": [
+    5,
+    1,
+    11
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    8,
+    1,
+    11
+   ],
+   "to": [
+    13,
+    1,
+    11
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    29,
+    1,
+    11
+   ],
+   "to": [
+    29,
+    1,
+    11
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    32,
+    1,
+    11
+   ],
+   "to": [
+    32,
+    1,
+    11
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    39,
+    1,
+    11
+   ],
+   "to": [
+    44,
+    1,
+    11
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    47,
+    1,
+    11
+   ],
+   "to": [
+    49,
+    1,
+    11
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    5,
+    1,
+    18
+   ],
+   "to": [
+    5,
+    1,
+    18
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    8,
+    1,
+    18
+   ],
+   "to": [
+    8,
+    1,
+    18
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    16,
+    1,
+    18
+   ],
+   "to": [
+    16,
+    1,
+    18
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    23,
+    1,
+    18
+   ],
+   "to": [
+    23,
+    1,
+    18
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    18
+   ],
+   "to": [
+    27,
+    1,
+    18
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    35,
+    1,
+    18
+   ],
+   "to": [
+    40,
+    1,
+    18
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    50,
+    1,
+    18
+   ],
+   "to": [
+    50,
+    1,
+    18
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    5,
+    1,
+    15
+   ],
+   "to": [
+    5,
+    1,
+    15
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    8,
+    1,
+    15
+   ],
+   "to": [
+    8,
+    1,
+    15
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    16,
+    1,
+    15
+   ],
+   "to": [
+    23,
+    1,
+    15
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    15
+   ],
+   "to": [
+    27,
+    1,
+    15
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    35,
+    1,
+    15
+   ],
+   "to": [
+    35,
+    1,
+    15
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    40,
+    1,
+    15
+   ],
+   "to": [
+    44,
+    1,
+    15
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    47,
+    1,
+    15
+   ],
+   "to": [
+    50,
+    1,
+    15
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    33
+   ],
+   "to": [
+    4,
+    1,
+    33
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    7,
+    1,
+    33
+   ],
+   "to": [
+    14,
+    1,
+    33
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    22,
+    1,
+    33
+   ],
+   "to": [
+    22,
+    1,
+    33
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    33
+   ],
+   "to": [
+    27,
+    1,
+    33
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    36,
+    1,
+    33
+   ],
+   "to": [
+    36,
+    1,
+    33
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    41,
+    1,
+    33
+   ],
+   "to": [
+    41,
+    1,
+    33
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    48,
+    1,
+    33
+   ],
+   "to": [
+    48,
+    1,
+    33
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    29
+   ],
+   "to": [
+    1,
+    1,
+    29
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    9,
+    1,
+    29
+   ],
+   "to": [
+    9,
+    1,
+    29
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    14,
+    1,
+    29
+   ],
+   "to": [
+    14,
+    1,
+    29
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    22,
+    1,
+    29
+   ],
+   "to": [
+    22,
+    1,
+    29
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    30,
+    1,
+    29
+   ],
+   "to": [
+    30,
+    1,
+    29
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    33,
+    1,
+    29
+   ],
+   "to": [
+    33,
+    1,
+    29
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    43,
+    1,
+    29
+   ],
+   "to": [
+    43,
+    1,
+    29
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    47,
+    1,
+    29
+   ],
+   "to": [
+    47,
+    1,
+    29
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    2,
+    1,
+    3
+   ],
+   "to": [
+    2,
+    1,
+    3
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    13,
+    1,
+    3
+   ],
+   "to": [
+    13,
+    1,
+    3
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    15,
+    1,
+    3
+   ],
+   "to": [
+    15,
+    1,
+    3
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    26,
+    1,
+    3
+   ],
+   "to": [
+    26,
+    1,
+    3
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    34,
+    1,
+    3
+   ],
+   "to": [
+    39,
+    1,
+    3
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    49,
+    1,
+    3
+   ],
+   "to": [
+    49,
+    1,
+    3
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    51
+   ],
+   "to": [
+    1,
+    1,
+    51
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    10,
+    1,
+    51
+   ],
+   "to": [
+    10,
+    1,
+    51
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    17,
+    1,
+    51
+   ],
+   "to": [
+    25,
+    1,
+    51
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    41,
+    1,
+    51
+   ],
+   "to": [
+    52,
+    1,
+    51
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    45
+   ],
+   "to": [
+    1,
+    1,
+    45
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    10,
+    1,
+    45
+   ],
+   "to": [
+    10,
+    1,
+    45
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    17,
+    1,
+    45
+   ],
+   "to": [
+    17,
+    1,
+    45
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    52,
+    1,
+    45
+   ],
+   "to": [
+    52,
+    1,
+    45
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    43
+   ],
+   "to": [
+    1,
+    1,
+    43
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    10,
+    1,
+    43
+   ],
+   "to": [
+    10,
+    1,
+    43
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    17,
+    1,
+    43
+   ],
+   "to": [
+    17,
+    1,
+    43
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    25,
+    1,
+    43
+   ],
+   "to": [
+    25,
+    1,
+    43
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    31,
+    1,
+    43
+   ],
+   "to": [
+    31,
+    1,
+    43
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    39,
+    1,
+    43
+   ],
+   "to": [
+    43,
+    1,
+    43
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    48,
+    1,
+    43
+   ],
+   "to": [
+    48,
+    1,
+    43
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    28
+   ],
+   "to": [
+    1,
+    1,
+    28
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    9,
+    1,
+    28
+   ],
+   "to": [
+    9,
+    1,
+    28
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    14,
+    1,
+    28
+   ],
+   "to": [
+    14,
+    1,
+    28
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    22,
+    1,
+    28
+   ],
+   "to": [
+    22,
+    1,
+    28
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    30,
+    1,
+    28
+   ],
+   "to": [
+    30,
+    1,
+    28
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    33,
+    1,
+    28
+   ],
+   "to": [
+    33,
+    1,
+    28
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    43,
+    1,
+    28
+   ],
+   "to": [
+    43,
+    1,
+    28
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    47,
+    1,
+    28
+   ],
+   "to": [
+    47,
+    1,
+    28
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    30
+   ],
+   "to": [
+    1,
+    1,
+    30
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    9,
+    1,
+    30
+   ],
+   "to": [
+    14,
+    1,
+    30
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    22,
+    1,
+    30
+   ],
+   "to": [
+    22,
+    1,
+    30
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    30
+   ],
+   "to": [
+    30,
+    1,
+    30
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    33,
+    1,
+    30
+   ],
+   "to": [
+    36,
+    1,
+    30
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    41,
+    1,
+    30
+   ],
+   "to": [
+    43,
+    1,
+    30
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    47,
+    1,
+    30
+   ],
+   "to": [
+    48,
+    1,
+    30
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    24
+   ],
+   "to": [
+    1,
+    1,
+    24
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    12,
+    1,
+    24
+   ],
+   "to": [
+    17,
+    1,
+    24
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    20,
+    1,
+    24
+   ],
+   "to": [
+    20,
+    1,
+    24
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    30,
+    1,
+    24
+   ],
+   "to": [
+    30,
+    1,
+    24
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    33,
+    1,
+    24
+   ],
+   "to": [
+    33,
+    1,
+    24
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    43,
+    1,
+    24
+   ],
+   "to": [
+    43,
+    1,
+    24
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    47,
+    1,
+    24
+   ],
+   "to": [
+    47,
+    1,
+    24
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    42
+   ],
+   "to": [
+    4,
+    1,
+    42
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    7,
+    1,
+    42
+   ],
+   "to": [
+    10,
+    1,
+    42
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    17,
+    1,
+    42
+   ],
+   "to": [
+    17,
+    1,
+    42
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    25,
+    1,
+    42
+   ],
+   "to": [
+    25,
+    1,
+    42
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    31,
+    1,
+    42
+   ],
+   "to": [
+    31,
+    1,
+    42
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    39,
+    1,
+    42
+   ],
+   "to": [
+    39,
+    1,
+    42
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    43,
+    1,
+    42
+   ],
+   "to": [
+    43,
+    1,
+    42
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    48,
+    1,
+    42
+   ],
+   "to": [
+    48,
+    1,
+    42
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    2,
+    1,
+    7
+   ],
+   "to": [
+    2,
+    1,
+    7
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    13,
+    1,
+    7
+   ],
+   "to": [
+    13,
+    1,
+    7
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    15,
+    1,
+    7
+   ],
+   "to": [
+    15,
+    1,
+    7
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    26,
+    1,
+    7
+   ],
+   "to": [
+    26,
+    1,
+    7
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    34,
+    1,
+    7
+   ],
+   "to": [
+    34,
+    1,
+    7
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    39,
+    1,
+    7
+   ],
+   "to": [
+    39,
+    1,
+    7
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    49,
+    1,
+    7
+   ],
+   "to": [
+    49,
+    1,
+    7
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    2,
+    1,
+    9
+   ],
+   "to": [
+    2,
+    1,
+    9
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    13,
+    1,
+    9
+   ],
+   "to": [
+    13,
+    1,
+    9
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    29,
+    1,
+    9
+   ],
+   "to": [
+    29,
+    1,
+    9
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    32,
+    1,
+    9
+   ],
+   "to": [
+    32,
+    1,
+    9
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    39,
+    1,
+    9
+   ],
+   "to": [
+    39,
+    1,
+    9
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    49,
+    1,
+    9
+   ],
+   "to": [
+    49,
+    1,
+    9
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    48
+   ],
+   "to": [
+    1,
+    1,
+    48
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    25,
+    1,
+    48
+   ],
+   "to": [
+    25,
+    1,
+    48
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    31,
+    1,
+    48
+   ],
+   "to": [
+    39,
+    1,
+    48
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    41,
+    1,
+    48
+   ],
+   "to": [
+    41,
+    1,
+    48
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    52,
+    1,
+    48
+   ],
+   "to": [
+    52,
+    1,
+    48
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    44
+   ],
+   "to": [
+    1,
+    1,
+    44
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    10,
+    1,
+    44
+   ],
+   "to": [
+    10,
+    1,
+    44
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    17,
+    1,
+    44
+   ],
+   "to": [
+    17,
+    1,
+    44
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    25,
+    1,
+    44
+   ],
+   "to": [
+    31,
+    1,
+    44
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    48,
+    1,
+    44
+   ],
+   "to": [
+    52,
+    1,
+    44
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    31
+   ],
+   "to": [
+    1,
+    1,
+    31
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    22,
+    1,
+    31
+   ],
+   "to": [
+    22,
+    1,
+    31
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    31
+   ],
+   "to": [
+    27,
+    1,
+    31
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    36,
+    1,
+    31
+   ],
+   "to": [
+    36,
+    1,
+    31
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    41,
+    1,
+    31
+   ],
+   "to": [
+    41,
+    1,
+    31
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    48,
+    1,
+    31
+   ],
+   "to": [
+    48,
+    1,
+    31
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    2,
+    1,
+    8
+   ],
+   "to": [
+    2,
+    1,
+    8
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    13,
+    1,
+    8
+   ],
+   "to": [
+    13,
+    1,
+    8
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    15,
+    1,
+    8
+   ],
+   "to": [
+    29,
+    1,
+    8
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    32,
+    1,
+    8
+   ],
+   "to": [
+    34,
+    1,
+    8
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    39,
+    1,
+    8
+   ],
+   "to": [
+    39,
+    1,
+    8
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    49,
+    1,
+    8
+   ],
+   "to": [
+    49,
+    1,
+    8
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    4,
+    1,
+    40
+   ],
+   "to": [
+    4,
+    1,
+    40
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    7,
+    1,
+    40
+   ],
+   "to": [
+    7,
+    1,
+    40
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    17,
+    1,
+    40
+   ],
+   "to": [
+    25,
+    1,
+    40
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    31,
+    1,
+    40
+   ],
+   "to": [
+    39,
+    1,
+    40
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    43,
+    1,
+    40
+   ],
+   "to": [
+    43,
+    1,
+    40
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    48,
+    1,
+    40
+   ],
+   "to": [
+    48,
+    1,
+    40
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    52
+   ],
+   "to": [
+    10,
+    1,
+    52
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    4,
+    1,
+    37
+   ],
+   "to": [
+    4,
+    1,
+    37
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    7,
+    1,
+    37
+   ],
+   "to": [
+    7,
+    1,
+    37
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    37
+   ],
+   "to": [
+    27,
+    1,
+    37
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    36,
+    1,
+    37
+   ],
+   "to": [
+    36,
+    1,
+    37
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    41,
+    1,
+    37
+   ],
+   "to": [
+    41,
+    1,
+    37
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    48,
+    1,
+    37
+   ],
+   "to": [
+    48,
+    1,
+    37
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    46
+   ],
+   "to": [
+    1,
+    1,
+    46
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    10,
+    1,
+    46
+   ],
+   "to": [
+    17,
+    1,
+    46
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    39,
+    1,
+    46
+   ],
+   "to": [
+    41,
+    1,
+    46
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    52,
+    1,
+    46
+   ],
+   "to": [
+    52,
+    1,
+    46
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    49
+   ],
+   "to": [
+    1,
+    1,
+    49
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    10,
+    1,
+    49
+   ],
+   "to": [
+    17,
+    1,
+    49
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    25,
+    1,
+    49
+   ],
+   "to": [
+    25,
+    1,
+    49
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    41,
+    1,
+    49
+   ],
+   "to": [
+    41,
+    1,
+    49
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    52,
+    1,
+    49
+   ],
+   "to": [
+    52,
+    1,
+    49
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    47
+   ],
+   "to": [
+    1,
+    1,
+    47
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    25,
+    1,
+    47
+   ],
+   "to": [
+    31,
+    1,
+    47
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    39,
+    1,
+    47
+   ],
+   "to": [
+    39,
+    1,
+    47
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    41,
+    1,
+    47
+   ],
+   "to": [
+    41,
+    1,
+    47
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    52,
+    1,
+    47
+   ],
+   "to": [
+    52,
+    1,
+    47
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    19
+   ],
+   "to": [
+    5,
+    1,
+    19
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    8,
+    1,
+    19
+   ],
+   "to": [
+    12,
+    1,
+    19
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    16,
+    1,
+    19
+   ],
+   "to": [
+    16,
+    1,
+    19
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    23,
+    1,
+    19
+   ],
+   "to": [
+    23,
+    1,
+    19
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    19
+   ],
+   "to": [
+    27,
+    1,
+    19
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    50,
+    1,
+    19
+   ],
+   "to": [
+    50,
+    1,
+    19
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    32
+   ],
+   "to": [
+    1,
+    1,
+    32
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    22,
+    1,
+    32
+   ],
+   "to": [
+    22,
+    1,
+    32
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    32
+   ],
+   "to": [
+    27,
+    1,
+    32
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    36,
+    1,
+    32
+   ],
+   "to": [
+    36,
+    1,
+    32
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    41,
+    1,
+    32
+   ],
+   "to": [
+    41,
+    1,
+    32
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    48,
+    1,
+    32
+   ],
+   "to": [
+    48,
+    1,
+    32
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    2,
+    1,
+    4
+   ],
+   "to": [
+    2,
+    1,
+    4
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    13,
+    1,
+    4
+   ],
+   "to": [
+    13,
+    1,
+    4
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    15,
+    1,
+    4
+   ],
+   "to": [
+    15,
+    1,
+    4
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    49,
+    1,
+    4
+   ],
+   "to": [
+    49,
+    1,
+    4
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    4,
+    1,
+    34
+   ],
+   "to": [
+    4,
+    1,
+    34
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    7,
+    1,
+    34
+   ],
+   "to": [
+    7,
+    1,
+    34
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    14,
+    1,
+    34
+   ],
+   "to": [
+    14,
+    1,
+    34
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    22,
+    1,
+    34
+   ],
+   "to": [
+    22,
+    1,
+    34
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    34
+   ],
+   "to": [
+    27,
+    1,
+    34
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    36,
+    1,
+    34
+   ],
+   "to": [
+    36,
+    1,
+    34
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    41,
+    1,
+    34
+   ],
+   "to": [
+    41,
+    1,
+    34
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    48,
+    1,
+    34
+   ],
+   "to": [
+    48,
+    1,
+    34
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    4,
+    1,
+    39
+   ],
+   "to": [
+    4,
+    1,
+    39
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    7,
+    1,
+    39
+   ],
+   "to": [
+    7,
+    1,
+    39
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    39
+   ],
+   "to": [
+    36,
+    1,
+    39
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    41,
+    1,
+    39
+   ],
+   "to": [
+    43,
+    1,
+    39
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    48,
+    1,
+    39
+   ],
+   "to": [
+    48,
+    1,
+    39
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    5,
+    1,
+    13
+   ],
+   "to": [
+    5,
+    1,
+    13
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    8,
+    1,
+    13
+   ],
+   "to": [
+    8,
+    1,
+    13
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    29,
+    1,
+    13
+   ],
+   "to": [
+    29,
+    1,
+    13
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    32,
+    1,
+    13
+   ],
+   "to": [
+    32,
+    1,
+    13
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    44,
+    1,
+    13
+   ],
+   "to": [
+    44,
+    1,
+    13
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    47,
+    1,
+    13
+   ],
+   "to": [
+    47,
+    1,
+    13
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    22
+   ],
+   "to": [
+    1,
+    1,
+    22
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    23,
+    1,
+    22
+   ],
+   "to": [
+    23,
+    1,
+    22
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    22
+   ],
+   "to": [
+    30,
+    1,
+    22
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    33,
+    1,
+    22
+   ],
+   "to": [
+    35,
+    1,
+    22
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    40,
+    1,
+    22
+   ],
+   "to": [
+    40,
+    1,
+    22
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    50,
+    1,
+    22
+   ],
+   "to": [
+    50,
+    1,
+    22
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    4,
+    1,
+    41
+   ],
+   "to": [
+    4,
+    1,
+    41
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    7,
+    1,
+    41
+   ],
+   "to": [
+    7,
+    1,
+    41
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    17,
+    1,
+    41
+   ],
+   "to": [
+    17,
+    1,
+    41
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    25,
+    1,
+    41
+   ],
+   "to": [
+    25,
+    1,
+    41
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    31,
+    1,
+    41
+   ],
+   "to": [
+    31,
+    1,
+    41
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    39,
+    1,
+    41
+   ],
+   "to": [
+    39,
+    1,
+    41
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    43,
+    1,
+    41
+   ],
+   "to": [
+    43,
+    1,
+    41
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    48,
+    1,
+    41
+   ],
+   "to": [
+    48,
+    1,
+    41
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    27
+   ],
+   "to": [
+    1,
+    1,
+    27
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    9,
+    1,
+    27
+   ],
+   "to": [
+    9,
+    1,
+    27
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    14,
+    1,
+    27
+   ],
+   "to": [
+    14,
+    1,
+    27
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    22,
+    1,
+    27
+   ],
+   "to": [
+    22,
+    1,
+    27
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    30,
+    1,
+    27
+   ],
+   "to": [
+    30,
+    1,
+    27
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    33,
+    1,
+    27
+   ],
+   "to": [
+    33,
+    1,
+    27
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    43,
+    1,
+    27
+   ],
+   "to": [
+    43,
+    1,
+    27
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    47,
+    1,
+    27
+   ],
+   "to": [
+    47,
+    1,
+    27
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    2,
+    1,
+    6
+   ],
+   "to": [
+    2,
+    1,
+    6
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    13,
+    1,
+    6
+   ],
+   "to": [
+    13,
+    1,
+    6
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    15,
+    1,
+    6
+   ],
+   "to": [
+    15,
+    1,
+    6
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    26,
+    1,
+    6
+   ],
+   "to": [
+    26,
+    1,
+    6
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    34,
+    1,
+    6
+   ],
+   "to": [
+    39,
+    1,
+    6
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    49,
+    1,
+    6
+   ],
+   "to": [
+    49,
+    1,
+    6
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    25
+   ],
+   "to": [
+    1,
+    1,
+    25
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    12,
+    1,
+    25
+   ],
+   "to": [
+    12,
+    1,
+    25
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    17,
+    1,
+    25
+   ],
+   "to": [
+    17,
+    1,
+    25
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    20,
+    1,
+    25
+   ],
+   "to": [
+    20,
+    1,
+    25
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    30,
+    1,
+    25
+   ],
+   "to": [
+    30,
+    1,
+    25
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    33,
+    1,
+    25
+   ],
+   "to": [
+    33,
+    1,
+    25
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    43,
+    1,
+    25
+   ],
+   "to": [
+    43,
+    1,
+    25
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    47,
+    1,
+    25
+   ],
+   "to": [
+    47,
+    1,
+    25
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    4,
+    1,
+    38
+   ],
+   "to": [
+    4,
+    1,
+    38
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    7,
+    1,
+    38
+   ],
+   "to": [
+    7,
+    1,
+    38
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    38
+   ],
+   "to": [
+    27,
+    1,
+    38
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    36,
+    1,
+    38
+   ],
+   "to": [
+    36,
+    1,
+    38
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    41,
+    1,
+    38
+   ],
+   "to": [
+    41,
+    1,
+    38
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    48,
+    1,
+    38
+   ],
+   "to": [
+    48,
+    1,
+    38
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    5,
+    1,
+    17
+   ],
+   "to": [
+    5,
+    1,
+    17
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    8,
+    1,
+    17
+   ],
+   "to": [
+    8,
+    1,
+    17
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    16,
+    1,
+    17
+   ],
+   "to": [
+    16,
+    1,
+    17
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    23,
+    1,
+    17
+   ],
+   "to": [
+    23,
+    1,
+    17
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    17
+   ],
+   "to": [
+    27,
+    1,
+    17
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    35,
+    1,
+    17
+   ],
+   "to": [
+    35,
+    1,
+    17
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    40,
+    1,
+    17
+   ],
+   "to": [
+    40,
+    1,
+    17
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    50,
+    1,
+    17
+   ],
+   "to": [
+    50,
+    1,
+    17
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    15,
+    1,
+    1
+   ],
+   "to": [
+    26,
+    1,
+    1
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    34,
+    1,
+    1
+   ],
+   "to": [
+    34,
+    1,
+    1
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    5,
+    1,
+    14
+   ],
+   "to": [
+    5,
+    1,
+    14
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    8,
+    1,
+    14
+   ],
+   "to": [
+    8,
+    1,
+    14
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    14
+   ],
+   "to": [
+    29,
+    1,
+    14
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    32,
+    1,
+    14
+   ],
+   "to": [
+    35,
+    1,
+    14
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    44,
+    1,
+    14
+   ],
+   "to": [
+    44,
+    1,
+    14
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    47,
+    1,
+    14
+   ],
+   "to": [
+    47,
+    1,
+    14
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    5,
+    1,
+    12
+   ],
+   "to": [
+    5,
+    1,
+    12
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    8,
+    1,
+    12
+   ],
+   "to": [
+    8,
+    1,
+    12
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    29,
+    1,
+    12
+   ],
+   "to": [
+    29,
+    1,
+    12
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    32,
+    1,
+    12
+   ],
+   "to": [
+    32,
+    1,
+    12
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    44,
+    1,
+    12
+   ],
+   "to": [
+    44,
+    1,
+    12
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    47,
+    1,
+    12
+   ],
+   "to": [
+    47,
+    1,
+    12
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    5,
+    1,
+    16
+   ],
+   "to": [
+    5,
+    1,
+    16
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    8,
+    1,
+    16
+   ],
+   "to": [
+    8,
+    1,
+    16
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    16,
+    1,
+    16
+   ],
+   "to": [
+    16,
+    1,
+    16
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    23,
+    1,
+    16
+   ],
+   "to": [
+    23,
+    1,
+    16
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    16
+   ],
+   "to": [
+    27,
+    1,
+    16
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    35,
+    1,
+    16
+   ],
+   "to": [
+    35,
+    1,
+    16
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    40,
+    1,
+    16
+   ],
+   "to": [
+    40,
+    1,
+    16
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    50,
+    1,
+    16
+   ],
+   "to": [
+    50,
+    1,
+    16
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    20
+   ],
+   "to": [
+    1,
+    1,
+    20
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    12,
+    1,
+    20
+   ],
+   "to": [
+    12,
+    1,
+    20
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    16,
+    1,
+    20
+   ],
+   "to": [
+    16,
+    1,
+    20
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    23,
+    1,
+    20
+   ],
+   "to": [
+    23,
+    1,
+    20
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    27,
+    1,
+    20
+   ],
+   "to": [
+    27,
+    1,
+    20
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    50,
+    1,
+    20
+   ],
+   "to": [
+    50,
+    1,
+    20
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    2,
+    1,
+    10
+   ],
+   "to": [
+    2,
+    1,
+    10
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    13,
+    1,
+    10
+   ],
+   "to": [
+    13,
+    1,
+    10
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    29,
+    1,
+    10
+   ],
+   "to": [
+    29,
+    1,
+    10
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    32,
+    1,
+    10
+   ],
+   "to": [
+    32,
+    1,
+    10
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    39,
+    1,
+    10
+   ],
+   "to": [
+    39,
+    1,
+    10
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    49,
+    1,
+    10
+   ],
+   "to": [
+    49,
+    1,
+    10
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    1,
+    1,
+    50
+   ],
+   "to": [
+    1,
+    1,
+    50
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    10,
+    1,
+    50
+   ],
+   "to": [
+    10,
+    1,
+    50
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    17,
+    1,
+    50
+   ],
+   "to": [
+    17,
+    1,
+    50
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    25,
+    1,
+    50
+   ],
+   "to": [
+    25,
+    1,
+    50
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    41,
+    1,
+    50
+   ],
+   "to": [
+    41,
+    1,
+    50
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    52,
+    1,
+    50
+   ],
+   "to": [
+    52,
+    1,
+    50
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    2,
+    1,
+    5
+   ],
+   "to": [
+    2,
+    1,
+    5
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    13,
+    1,
+    5
+   ],
+   "to": [
+    13,
+    1,
+    5
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    15,
+    1,
+    5
+   ],
+   "to": [
+    15,
+    1,
+    5
+   ],
+   "skin": "rpg_rocha"
+  },
+  {
+   "type": "stone",
+   "from": [
+    49,
+    1,
+    5
+   ],
+   "to": [
+    49,
+    1,
+    5
+   ],
+   "skin": "rpg_rocha"
+  }
+ ],
+ "entities": [
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_portal",
+   "pos": [
+    7,
+    1,
+    3
+   ],
+   "scale": 1.4,
+   "tag": "saida"
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_placa",
+   "pos": [
+    20,
+    1,
+    4
+   ],
+   "scale": 0.8,
+   "tag": "chefe:rei_peste"
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_caixote",
+   "pos": [
+    22,
+    1,
+    5
+   ],
+   "scale": 1.1,
+   "tag": "bau_masmorra"
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_tocha",
+   "pos": [
+    12,
+    1,
+    10
+   ],
+   "scale": 0.9
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_cogumelo",
+   "pos": [
+    10,
+    1,
+    22
+   ],
+   "scale": 0.7
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_tocha",
+   "pos": [
+    8,
+    1,
+    32
+   ],
+   "scale": 0.9
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_cogumelo",
+   "pos": [
+    8,
+    1,
+    29
+   ],
+   "scale": 0.7
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_ossos",
+   "pos": [
+    2,
+    1,
+    30
+   ],
+   "scale": 0.7
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_tocha",
+   "pos": [
+    2,
+    1,
+    43
+   ],
+   "scale": 0.9
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_tocha",
+   "pos": [
+    9,
+    1,
+    51
+   ],
+   "scale": 0.9
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_cogumelo",
+   "pos": [
+    4,
+    1,
+    48
+   ],
+   "scale": 0.7
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_tocha",
+   "pos": [
+    25,
+    1,
+    7
+   ],
+   "scale": 0.9
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_ossos",
+   "pos": [
+    21,
+    1,
+    4
+   ],
+   "scale": 0.7
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_cogumelo",
+   "pos": [
+    22,
+    1,
+    18
+   ],
+   "scale": 0.7
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_ossos",
+   "pos": [
+    18,
+    1,
+    21
+   ],
+   "scale": 0.7
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_tocha",
+   "pos": [
+    15,
+    1,
+    27
+   ],
+   "scale": 0.9
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_cogumelo",
+   "pos": [
+    15,
+    1,
+    30
+   ],
+   "scale": 0.7
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_tocha",
+   "pos": [
+    24,
+    1,
+    50
+   ],
+   "scale": 0.9
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_ossos",
+   "pos": [
+    19,
+    1,
+    41
+   ],
+   "scale": 0.7
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_tocha",
+   "pos": [
+    33,
+    1,
+    7
+   ],
+   "scale": 0.9
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_tocha",
+   "pos": [
+    28,
+    1,
+    15
+   ],
+   "scale": 0.9
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_tocha",
+   "pos": [
+    32,
+    1,
+    41
+   ],
+   "scale": 0.9
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_tocha",
+   "pos": [
+    38,
+    1,
+    47
+   ],
+   "scale": 0.9
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_tocha",
+   "pos": [
+    48,
+    1,
+    10
+   ],
+   "scale": 0.9
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_cogumelo",
+   "pos": [
+    42,
+    1,
+    10
+   ],
+   "scale": 0.7
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_tocha",
+   "pos": [
+    49,
+    1,
+    22
+   ],
+   "scale": 0.9
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_cogumelo",
+   "pos": [
+    45,
+    1,
+    19
+   ],
+   "scale": 0.7
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_tocha",
+   "pos": [
+    47,
+    1,
+    38
+   ],
+   "scale": 0.9
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_cogumelo",
+   "pos": [
+    43,
+    1,
+    38
+   ],
+   "scale": 0.7
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_cogumelo",
+   "pos": [
+    43,
+    1,
+    32
+   ],
+   "scale": 0.7
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_tocha",
+   "pos": [
+    42,
+    1,
+    45
+   ],
+   "scale": 0.9
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_cogumelo",
+   "pos": [
+    47,
+    1,
+    45
+   ],
+   "scale": 0.7
+  },
+  {
+   "type": "deco",
+   "kind": "sprite",
+   "key": "rpg_ossos",
+   "pos": [
+    51,
+    1,
+    50
+   ],
+   "scale": 0.7
+  }
+ ]
+}

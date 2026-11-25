@@ -1,0 +1,91 @@
+{
+  "pixel": {
+    "pixelsPerBlock": 32,
+    "blocksVisible": 12,
+    "saturation": 0.95,
+    "vignette": 0.75
+  },
+  "light": {
+    "sun": "#ffd9b0",
+    "sunIntensity": 2.2,
+    "hemiSky": "#d0c8e4",
+    "hemiGround": "#5a4a3a",
+    "hemiIntensity": 1.4,
+    "ambient": "#9a8ab4",
+    "ambientIntensity": 0.55
+  },
+  "sky": {
+    "fog": "#1b1620",
+    "fogNear": 80,
+    "fogFar": 250,
+    "sun": "#ffcf9a",
+    "showSun": false
+  },
+  "island": {
+    "grassLip": [
+      "#4a6e36",
+      "#40622e",
+      "#55783c"
+    ],
+    "grassLipEnabled": true,
+    "strata": [
+      "#6a5038",
+      "#5a4230",
+      "#4a3626",
+      "#3a2a1e",
+      "#2e2218",
+      "#241a12",
+      "#1a120c"
+    ],
+    "undersideDepth": 0
+  },
+  "trees": {
+    "leaf": [
+      "#2e4a2a",
+      "#365634",
+      "#40623a",
+      "#4a6e40",
+      "#5a7a44"
+    ],
+    "trunk": [
+      "#4a3424",
+      "#3a281a",
+      "#5a3e28"
+    ],
+    "sizeMin": 1.1,
+    "sizeMax": 1.7,
+    "autoChance": 0
+  },
+  "decor": {
+    "tuftChance": 0.55,
+    "flowerChance": 0.08,
+    "rockChance": 0.08,
+    "flowerColors": [
+      "#c84a4a",
+      "#d8c060",
+      "#9a7ad8"
+    ],
+    "grass": [
+      "#4f7a3a",
+      "#6a8a44"
+    ],
+    "rock": "#8a8490"
+  },
+  "background": {
+    "enabled": false,
+    "islandGrass": [
+      "#4a6e36"
+    ],
+    "islandStrata": [
+      "#5a4230"
+    ],
+    "pillarStone": [
+      "#8a8490"
+    ],
+    "cloud": [
+      "#3a3040"
+    ],
+    "cloudSea": false,
+    "islandsPerSide": 0
+  }
+}
