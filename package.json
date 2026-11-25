@@ -1,0 +1,14 @@
+{
+  "name": "agent-town-ratudan",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent Town - Ratudan: standalone 3D local-agent visualizer",
+  "license": "MIT",
+  "scripts": {
+    "start": "node agent-server.cjs",
+    "dev": "node agent-server.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
