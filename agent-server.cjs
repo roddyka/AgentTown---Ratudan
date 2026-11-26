@@ -174,7 +174,8 @@ function snapshot() {
 function serveStatic(reqPath, res) {
   const clean = reqPath === '/' ? '/index.html' : reqPath;
   const file = path.normalize(path.join(WEB_DIR, clean.replace(/^\/+/, '')));
-  if (!file.startsWith(WEB_DIR)) return send(res, 403, 'forbidden');
+  const webRoot = path.normalize(WEB_DIR + path.sep);
+  if (!(file === path.normalize(WEB_DIR) || file.startsWith(webRoot))) return send(res, 403, 'forbidden');
   if (fs.existsSync(file) && fs.statSync(file).isFile()) {
     const ext = path.extname(file).toLowerCase();
     const type = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.png': 'image/png', '.jpg': 'image/jpeg', '.svg': 'image/svg+xml', '.ico': 'image/x-icon', '.woff2': 'font/woff2' }[ext] || 'application/octet-stream';
